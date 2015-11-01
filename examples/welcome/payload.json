@@ -5,7 +5,6 @@
   "Email" : {
     "Properties": {
       "TemplateKey" : "templates/emails/welcome",
-      "Subject" : "Welcome to Example!",
       "Data" : {
         "name" : "David"
       }
