@@ -1,0 +1,23 @@
+{
+  "Configuration": {
+    "Bucket": "company.com-resources-bucket"
+  },
+  "Email" : {
+    "Properties": {
+      "TemplateKey" : "templates/emails/welcome",
+      "Subject" : "Welcome to Example!",
+      "Data" : {
+        "name" : "David"
+      }
+    },
+    "Payload": {
+      "Destination": {
+        "BccAddresses": [],
+        "CcAddresses": [],
+        "ToAddresses": ["my-new-user@gmail.com"]
+      },
+      "Source": "no-reply@company.com",
+      "ReplyToAddresses": ["no-reply@company.com"]
+    }
+  }
+}

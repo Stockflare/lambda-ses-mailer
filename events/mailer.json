@@ -1,0 +1,19 @@
+{
+  "Records": [
+    {
+      "eventID": "shardId-000000000000:49545115243490985018280067714973144582180062593244200961",
+      "eventVersion": "1.0",
+      "kinesis": {
+        "partitionKey": "partitionKey-3",
+        "data": "ew0KICAiQ29uZmlndXJhdGlvbiI6IHsNCiAgICAiQnVja2V0IjogImVudmlyb25tZW50LWVudmlyb25tZW50cmVzb3VyY2VidWNrZXQtMWJhNHY1b201N2IzNSINCiAgfSwNCiAgIkVtYWlsIiA6IHsNCiAgICAiUHJvcGVydGllcyI6IHsNCiAgICAgICJUZW1wbGF0ZUtleSIgOiAidGVtcGxhdGVzL3dlbGNvbWUiLA0KICAgICAgIlN1YmplY3QiIDogIldlbGNvbWUgdG8gRHJhZnRmaW4hIiwNCiAgICAgICJEYXRhIiA6IHsNCiAgICAgICAgIm5hbWUiIDogIkRhdmlkIg0KICAgICAgfQ0KICAgIH0sDQogICAgIlBheWxvYWQiOiB7DQogICAgICAiRGVzdGluYXRpb24iOiB7DQogICAgICAgICJCY2NBZGRyZXNzZXMiOiBbXSwNCiAgICAgICAgIkNjQWRkcmVzc2VzIjogW10sDQogICAgICAgICJUb0FkZHJlc3NlcyI6IFsiZGF2aWQuamFtZXMua2VsbGV5QGdtYWlsLmNvbSJdDQogICAgICB9LA0KICAgICAgIlNvdXJjZSI6ICJuby1yZXBseUBkcmFmdGZpbi5jb20iLA0KICAgICAgIlJlcGx5VG9BZGRyZXNzZXMiOiBbIm5vLXJlcGx5QGRyYWZ0ZmluLmNvbSJdDQogICAgfQ0KICB9DQp9DQo=",
+        "kinesisSchemaVersion": "1.0",
+        "sequenceNumber": "49545115243490985018280067714973144582180062593244200961"
+      },
+      "invokeIdentityArn": "arn:aws:iam::EXAMPLE",
+      "eventName": "aws:kinesis:record",
+      "eventSourceARN": "arn:aws:kinesis:EXAMPLE",
+      "eventSource": "aws:kinesis",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}

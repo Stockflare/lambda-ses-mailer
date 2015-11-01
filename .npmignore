@@ -1,0 +1,8 @@
+events
+examples
+Gruntfile.js
+dist
+.aws
+*.iml
+README.md
+package.json

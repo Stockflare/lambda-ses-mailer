@@ -1,0 +1,23 @@
+{
+  "Configuration": {
+    "Bucket": "environment-environmentresourcebucket-1ba4v5om57b35"
+  },
+  "Email" : {
+    "Properties": {
+      "TemplateKey" : "templates/welcome",
+      "Subject" : "Welcome to Example!",
+      "Data" : {
+        "name" : "David"
+      }
+    },
+    "Payload": {
+      "Destination": {
+        "BccAddresses": [],
+        "CcAddresses": [],
+        "ToAddresses": ["david.james.kelley@gmail.com"]
+      },
+      "Source": "no-reply@example.com",
+      "ReplyToAddresses": ["no-reply@example.com"]
+    }
+  }
+}
