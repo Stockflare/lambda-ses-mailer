@@ -3,15 +3,9 @@ exports.handler = function(event, context) {
   var When = require('when');
   var Aws = require("aws-sdk");
 
-  var auth = { accessKeyId: 'AKIAJ7T4V2A2LKZNE7SA', secretAccessKey: '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', region: 'us-east-1' };
-
-  // load SES and S3 objects for entire of record processing
-  var ses = new Aws.SES(auth);
-  var s3 = new Aws.S3(auth);
-
   // // load SES and S3 objects for entire of record processing
-  // var ses = new Aws.SES();
-  // var s3 = new Aws.S3();
+  var ses = new Aws.SES();
+  var s3 = new Aws.S3();
 
   // begin processing all the received records..
   var promises = event.Records.map(function(record) {
