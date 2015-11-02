@@ -1,4 +1,4 @@
-# AWS Simple Email Service Lambda
+# AWS SES Lambda
 
 The purpose of this lambda function is to receive structured payloads from an Amazon Kinesis stream, retrieve the corresponding templates from S3, render the template(s) using [Mustache.js](https://github.com/janl/mustache.js/) and then use [SES](https://aws.amazon.com/ses/) to send the email.
 
@@ -12,6 +12,7 @@ All templates and subject lines for emails are stored in an S3 bucket and the fu
   "Email" : {
     "Properties": {
       "TemplateKey" : "templates/en/welcome",
+      "Partials" : "partials/en",
       "Data" : {
         "name" : "Jeremy"
       }
@@ -30,7 +31,7 @@ All templates and subject lines for emails are stored in an S3 bucket and the fu
 
 ```
 
-### Templates
+### Templates & Partials
 
 The `TemplateKey` field determines where the function will attempt to retrieve the template files from inside the configured S3 bucket (`Configuration.Bucket`), in-order to construct the email's body and subject line.
 
@@ -42,11 +43,20 @@ s3://my-email-templates-bucket/templates/en/welcome.html
 s3://my-email-templates-bucket/templates/en/welcome.txt
 ```
 
+The `Partials` key indicates where partials are to be located. In the above example, let us assume that a partial of `footer` exists.
+
+```
+s3://my-email-templates-bucket/partials/en/footer.html
+s3://my-email-templates-bucket/partials/en/footer.txt
+```
+
 **Note:** The `.html` or `.txt` versions of emails are optional. However, the `.subj` is required.
 
 0. `welcome.subj` - Determines the subject line for the email.
 0. `welcome.html` - The HTML content of the email.
 0. `welcome.txt` - The plain text content of the email.
+0. `footer.html` - The `footer` partial in html format.
+0. `footer.txt` - The `footer` partial in txt format.
 
 All files retrieved from S3 are rendered using Mustache, with the `Email.Properties.Data` object passed into the renderer. Therefore, if `welcome.subj` contained the following content:
 
@@ -55,6 +65,40 @@ Welcome to my website, {{name}}
 ```
 
 Using the example above, it would be rendered as "Welcome to my website, Jeremy". If you need more help with what mustache templates are capable of doing, be sure to checkout the [documentation](https://github.com/janl/mustache.js).
+
+#### Partials
+
+These may help with your templates if you have lots of emails that all require common content. If a partial is defined, it is required to be present in `.html`, format if a `.html` template version is present, likewise for `.txt`.
+
+**Note:** All partials located under the path are loaded at runtime, although their use is optionally required.
+
+Given the example payload above, you can incorporate partials into your templates as follows:
+
+##### welcome.html
+```
+<html>
+<body>
+  <h1>Hello {{ name }}!</h1>
+  {{> footer}}
+</body>
+</html>
+```
+
+##### footer.html (partial)
+```
+<p>Goodbye {{ name }}</p>
+```
+
+##### Rendered email
+
+```
+<html>
+<body>
+  <h1>Hello Jeremy!</h1>
+  <p>Goodbye Jeremy</p>
+</body>
+</html>
+```
 
 ### `Payload`
 

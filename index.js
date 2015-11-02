@@ -30,35 +30,67 @@ exports.handler = function(event, context) {
         });
       };
 
+      var _partials = function(fnc) {
+        // ensure trailing slash added to key path
+        var prefix = payload.Email.Properties.Partials.replace(/\/?$/, '/');
+        var regex = new RegExp('^' + prefix + '(.+)\.(html|txt)$');
+        var partials = { html: {}, txt: {} };
+        if(prefix) {
+          s3.listObjects({ Bucket: payload.Configuration.Bucket, Prefix: payload.Email.Properties.Partials }, function(err, data) {
+            if (err) fnc(err); else {
+              var files = data.Contents.map(function(content) {
+                var match = content.Key.match(regex);
+                if(match) return When.promise(function(resolve, reject, notify) {
+                  _data({ Bucket: payload.Configuration.Bucket, Key: match[0] }, function(data) {
+                    partials[match[2]][match[1]] = data;
+                    resolve();
+                  });
+                });
+              });
+              When.all(files).done(function() {
+                fnc(null, partials);
+              }, function(reason) {
+                fnc("failed to load partials: " + reason, null);
+              });
+            }
+          });
+        } else {
+          fnc(null, partials)
+        }
+      };
+
       _data(_ext('subj'), function(subject) {
         if( ! subject) reject('missing .subj'); else {
-          _data(_ext('html'), function(html) {
-            _data(_ext('txt'), function(txt) {
-              payload.Email.Payload.Message = {
-                Body: {},
-                Subject: {
-                  // also set the configured subject
-                  Data: Mustache.render(subject, payload.Email.Properties.Data),
-                  Charset: 'UTF-8'
-                }
-              };
-              // if a html email exists inject it
-              if(html) payload.Email.Payload.Message.Body.Html = {
-                Data: Mustache.render(html, payload.Email.Properties.Data),
-                Charset: 'UTF-8'
-              };
-              // if a text email exists inject it
-              if(txt) payload.Email.Payload.Message.Body.Text = {
-                Data: Mustache.render(txt, payload.Email.Properties.Data),
-                Charset: 'UTF-8'
-              };
+          _partials(function(err, partials) {
+            if(err) reject(err); else {
+              _data(_ext('html'), function(html) {
+                _data(_ext('txt'), function(txt) {
+                  payload.Email.Payload.Message = {
+                    Body: {},
+                    Subject: {
+                      // also set the configured subject
+                      Data: Mustache.render(subject, payload.Email.Properties.Data),
+                      Charset: 'UTF-8'
+                    }
+                  };
+                  // if a html email exists inject it
+                  if(html) payload.Email.Payload.Message.Body.Html = {
+                    Data: Mustache.render(html, payload.Email.Properties.Data, partials.html),
+                    Charset: 'UTF-8'
+                  };
+                  // if a text email exists inject it
+                  if(txt) payload.Email.Payload.Message.Body.Text = {
+                    Data: Mustache.render(txt, payload.Email.Properties.Data, partials.txt),
+                    Charset: 'UTF-8'
+                  };
 
-              // send the email and resolve the promise. Or reject on error
-              console.log(payload.Email.Payload);
-              ses.sendEmail(payload.Email.Payload, function (err, data) {
-                if (err) reject(err); else resolve({});
+                  // send the email and resolve the promise. Or reject on error
+                  ses.sendEmail(payload.Email.Payload, function (err, data) {
+                    if (err) reject(err); else resolve({});
+                  });
+                });
               });
-            });
+            }
           });
         }
       });

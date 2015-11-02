@@ -1,10 +1,11 @@
 {
   "Configuration": {
-    "Bucket": "environment-environmentresourcebucket-1ba4v5om57b35"
+    "Bucket": "environment-environmentresourcebucket-xxxxx"
   },
   "Email" : {
     "Properties": {
       "TemplateKey" : "templates/welcome",
+      "Partials" : "templates/partials",
       "Data" : {
         "name" : "David"
       }
