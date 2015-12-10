@@ -22,7 +22,7 @@ exports.handler = function(event, context) {
 
       var _data = function(params, fnc) {
         s3.headObject(params, function(err, data) {
-          if (err && err.code === 'Not Found') fnc(null); else {
+          if (err && err.code === 'NotFound') fnc(null); else {
             s3.getObject(params, function(err, data) {
               if (err) reject(err); else fnc(data.Body.toString());
             });
@@ -31,11 +31,13 @@ exports.handler = function(event, context) {
       };
 
       var _partials = function(fnc) {
-        // ensure trailing slash added to key path
-        var prefix = payload.Email.Properties.Partials.replace(/\/?$/, '/');
-        var regex = new RegExp('^' + prefix + '(.+)\.(html|txt)$');
         var partials = { html: {}, txt: {} };
-        if(prefix) {
+        var key = payload.Email.Properties.Partials;
+        // ensure partials key exists before continuing
+        if(key) {
+          // ensure trailing slash added to key path
+          var prefix = key.replace(/\/?$/, '/');
+          var regex = new RegExp('^' + prefix + '(.+)\.(html|txt)$');
           s3.listObjects({ Bucket: payload.Configuration.Bucket, Prefix: payload.Email.Properties.Partials }, function(err, data) {
             if (err) fnc(err); else {
               var files = data.Contents.map(function(content) {
