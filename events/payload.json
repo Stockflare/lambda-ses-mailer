@@ -1,23 +1,48 @@
 {
   "Configuration": {
-    "Bucket": "environment-environmentresourcebucket-xxxxx"
+    "Bucket": "environment-environmentresourcebucket-1etecup943j3"
   },
-  "Email" : {
+  "Email": {
     "Properties": {
-      "TemplateKey" : "templates/welcome",
-      "Partials" : "templates/partials",
-      "Data" : {
-        "name" : "David"
+      "TemplateKey": "emails/templates/aggregate_alerts",
+      "Data": {
+        "count": "2",
+        "messages": [
+          {
+            "acknowledged": "false",
+            "language": "en",
+            "message": "AT&T Inc. current price of $39.86 is now higher than the target price of $39.85.",
+            "sent_at": "1465579702",
+            "tags": {
+              "region_code": "amer",
+              "sic": "619a3198-0c01-4af9-a897-a81759801218"
+            }
+          },
+          {
+            "acknowledged": "false",
+            "language": "en",
+            "message": "Kinross Gold Corporation has fallen to a 2 star rating. Here is a list of its peers that are 4+ star stocks: cg.",
+            "sent_at": "1465476845",
+            "tags": {
+              "region_code": "amer",
+              "sic": "4603b4b6-3a36-4660-b056-399816bd8b5c"
+            }
+          }
+        ]
       }
     },
     "Payload": {
       "Destination": {
         "BccAddresses": [],
         "CcAddresses": [],
-        "ToAddresses": ["example@gmail.com"]
+        "ToAddresses": [
+          "mark@stratmann.me.uk"
+        ]
       },
-      "Source": "no-reply@example.com",
-      "ReplyToAddresses": ["no-reply@example.com"]
+      "Source": "Stockflare <no-reply@stocktio.com>",
+      "ReplyToAddresses": [
+        "Stockflare <no-reply@stocktio.com>"
+      ]
     }
   }
 }

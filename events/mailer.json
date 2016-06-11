@@ -1,19 +1,20 @@
 {
   "Records": [
     {
-      "eventID": "shardId-000000000000:49545115243490985018280067714973144582180062593244200961",
-      "eventVersion": "1.0",
       "kinesis": {
-        "partitionKey": "partitionKey-3",
-        "data": "<base 64 encoded payload.json>",
         "kinesisSchemaVersion": "1.0",
-        "sequenceNumber": "49545115243490985018280067714973144582180062593244200961"
+        "partitionKey": "partitionKey-1",
+        "sequenceNumber": "49556130186340747281772021137887600175668081675626086402",
+        "data": "eyJDb25maWd1cmF0aW9uIjp7IkJ1Y2tldCI6ImVudmlyb25tZW50LWVudmlyb25tZW50cmVzb3VyY2VidWNrZXQtMWV0ZWN1cDk0M2ozIn0sIkVtYWlsIjp7IlByb3BlcnRpZXMiOnsiVGVtcGxhdGVLZXkiOiJlbWFpbHMvdGVtcGxhdGVzL2FnZ3JlZ2F0ZV9hbGVydHMiLCJEYXRhIjp7ImNvdW50IjoiMiIsIm1lc3NhZ2VzIjpbeyJhY2tub3dsZWRnZWQiOiJmYWxzZSIsImxhbmd1YWdlIjoiZW4iLCJtZXNzYWdlIjoiQVRcdTAwMjZUIEluYy4gY3VycmVudCBwcmljZSBvZiAkMzkuODYgaXMgbm93IGhpZ2hlciB0aGFuIHRoZSB0YXJnZXQgcHJpY2Ugb2YgJDM5Ljg1LiIsInNlbnRfYXQiOiIxNDY1NTc5NzAyIiwidGFncyI6eyJyZWdpb25fY29kZSI6ImFtZXIiLCJzaWMiOiI2MTlhMzE5OC0wYzAxLTRhZjktYTg5Ny1hODE3NTk4MDEyMTgifX0seyJhY2tub3dsZWRnZWQiOiJmYWxzZSIsImxhbmd1YWdlIjoiZW4iLCJtZXNzYWdlIjoiS2lucm9zcyBHb2xkIENvcnBvcmF0aW9uIGhhcyBmYWxsZW4gdG8gYSAyIHN0YXIgcmF0aW5nLiBIZXJlIGlzIGEgbGlzdCBvZiBpdHMgcGVlcnMgdGhhdCBhcmUgNCsgc3RhciBzdG9ja3M6IGNnLiIsInNlbnRfYXQiOiIxNDY1NDc2ODQ1IiwidGFncyI6eyJyZWdpb25fY29kZSI6ImFtZXIiLCJzaWMiOiI0NjAzYjRiNi0zYTM2LTQ2NjAtYjA1Ni0zOTk4MTZiZDhiNWMifX1dfX0sIlBheWxvYWQiOnsiRGVzdGluYXRpb24iOnsiQmNjQWRkcmVzc2VzIjpbXSwiQ2NBZGRyZXNzZXMiOltdLCJUb0FkZHJlc3NlcyI6WyJtYXJrQHN0cmF0bWFubi5tZS51ayJdfSwiU291cmNlIjoiU3RvY2tmbGFyZSBcdTAwM2Nuby1yZXBseUBzdG9ja3Rpby5jb21cdTAwM2UiLCJSZXBseVRvQWRkcmVzc2VzIjpbIlN0b2NrZmxhcmUgXHUwMDNjbm8tcmVwbHlAc3RvY2t0aW8uY29tXHUwMDNlIl19fX0=",
+        "approximateArrivalTimestamp": 1465640827.434
       },
-      "invokeIdentityArn": "arn:aws:iam::EXAMPLE",
-      "eventName": "aws:kinesis:record",
-      "eventSourceARN": "arn:aws:kinesis:EXAMPLE",
       "eventSource": "aws:kinesis",
-      "awsRegion": "us-east-1"
+      "eventVersion": "1.0",
+      "eventID": "shardId-000000000000:49556130186340747281772021137887600175668081675626086402",
+      "eventName": "aws:kinesis:record",
+      "invokeIdentityArn": "arn:aws:iam::318741577598:role/lambda-ses-mailer-LambdaFunctionRole-1TDCS5DB21JKD",
+      "awsRegion": "us-east-1",
+      "eventSourceARN": "arn:aws:kinesis:us-east-1:318741577598:stream/lambda-ses-mailer-KinesesSESStream-TJBMJ5N2HBS7"
     }
   ]
 }
