@@ -12,7 +12,7 @@ exports.handler = function(event, context) {
   // Mime Email builder
   var MimeBuilder = require('mailbuild');
 
-  // console.log(JSON.stringify(event.Records));
+  console.log(JSON.stringify(event.Records));
   // begin processing all the received records..
   var promises = event.Records.map(function(record) {
 
@@ -82,7 +82,7 @@ exports.handler = function(event, context) {
 
                   // Add in Mailer data
                   payload.Email.Properties.Data.mailer_current_year = new Date().getFullYear().toString();
-                  
+
                   // if a html email exists inject it
                   var html_node = new MimeBuilder("text/html");
                   if (html) {
