@@ -3,11 +3,9 @@ exports.handler = function(event, context) {
   var When = require('when');
   var Aws = require("aws-sdk");
 
-  var s3 = new Aws.S3();
-
-  var juice = require('juice');
-
   // // load SES and S3 objects for entire of record processing
+  var ses = new Aws.SES();
+  var s3 = new Aws.S3();
 
   // Mime Email builder
   var MimeBuilder = require('mailbuild');
@@ -15,21 +13,15 @@ exports.handler = function(event, context) {
   console.log(JSON.stringify(event.Records));
   // begin processing all the received records..
   var promises = event.Records.map(function(record) {
-
-    var ses = new Aws.SES({ region: record.awsRegion });
-
-    console.log(JSON.stringify(record));
-
     return When.promise(function(resolve, reject, notify) {
       // base64 decode, convert to ascii and JSON parse this kinesis record's payload
       var payload = JSON.parse(new Buffer(record.kinesis.data, 'base64').toString('ascii'));
-      console.log(JSON.stringify(payload));
 
       console.log('Loading template ' + payload.Email.Properties.TemplateKey + ' in ' + payload.Configuration.Bucket);
 
       // helper function to simplify params to retrieve html/txt/etc files using s3 bucket & key
       var _ext = function(ext) {
-        return { Bucket: payload.Configuration.Bucket, Key: payload.Email.Properties.TemplateKey + '.' + ext };
+        return { Bucket: payload.Configuration.Bucket, Key: payload.Email.Properties.TemplateKey + '.' + ext }
       };
 
       var _data = function(params, fnc) {
@@ -69,7 +61,7 @@ exports.handler = function(event, context) {
             }
           });
         } else {
-          fnc(null, partials);
+          fnc(null, partials)
         }
       };
 
@@ -79,65 +71,29 @@ exports.handler = function(event, context) {
             if(err) reject(err); else {
               _data(_ext('html'), function(html) {
                 _data(_ext('txt'), function(txt) {
-
-                  // Add in Mailer data
-                  payload.Email.Properties.Data.mailer_current_year = new Date().getFullYear().toString();
-
-                  // if a html email exists inject it
-                  var html_node = new MimeBuilder("text/html");
-                  if (html) {
-                    // Create an HTML Node
-                    html_node.setContent(
-                      juice(Mustache.render(html, payload.Email.Properties.Data, partials.html), { preserveImportant: true })
-                    );
-                  }
-                  // if a text email exists inject it
-                  var txt_node = new MimeBuilder("text/plain");
-                  if (txt) {
-                    txt_node.setContent(
-                      Mustache.render(txt, payload.Email.Properties.Data, partials.txt)
-                    );
-                  }
-
-                  var mail;
-                  if (txt && html) {
-                    mail = new MimeBuilder("multipart/alternative");
-                    mail.appendChild(txt_node);
-                    mail.appendChild(html_node);
-                  } else {
-                    if (txt) mail = txt_node;
-                    if (html) mail = html_node;
-                  }
-
-                  // Set Mail headers
-                  mail.setHeader('From', payload.Email.Payload.Source);
-                  mail.setHeader('Reply-To', payload.Email.Payload.ReplyToAddresses.join());
-                  mail.setHeader('To', payload.Email.Payload.Destination.ToAddresses.join());
-                  mail.setHeader('CC', payload.Email.Payload.Destination.CcAddresses.join());
-                  mail.setHeader('BCC', payload.Email.Payload.Destination.BccAddresses.join());
-                  mail.setHeader('Subject', Mustache.render(subject, payload.Email.Properties.Data));
-
-                  // send the email and resolve the promise. Or reject on error
-                  var mail_params = {
-                    RawMessage: {
-                      Data: mail.build()
+                  payload.Email.Payload.Message = {
+                    Body: {},
+                    Subject: {
+                      // also set the configured subject
+                      Data: Mustache.render(subject, payload.Email.Properties.Data),
+                      Charset: 'UTF-8'
                     }
                   };
+                  // if a html email exists inject it
+                  if(html) payload.Email.Payload.Message.Body.Html = {
+                    Data: Mustache.render(html, payload.Email.Properties.Data, partials.html),
+                    Charset: 'UTF-8'
+                  };
+                  // if a text email exists inject it
+                  if(txt) payload.Email.Payload.Message.Body.Text = {
+                    Data: Mustache.render(txt, payload.Email.Properties.Data, partials.txt),
+                    Charset: 'UTF-8'
+                  };
 
-                  ses.sendRawEmail(mail_params, function(err, data) {
-                    if (err) {
-                      console.log('mail send error');
-                      console.log(err, err.stack);
-                      reject(err);
-                    }
-                    else {
-                      console.log(data);
-                      resolve();
-                    }
+                  // send the email and resolve the promise. Or reject on error
+                  ses.sendEmail(payload.Email.Payload, function (err, data) {
+                    if (err) reject(err); else resolve({});
                   });
-                  // ses.sendEmail(payload.Email.Payload, function (err, data) {
-                  //   if (err) reject(err); else resolve({});
-                  // });
                 });
               });
             }
