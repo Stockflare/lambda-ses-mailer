@@ -5,6 +5,7 @@
   "private": "true",
   "dependencies": {
     "aws-sdk": "2.1.39",
+    "juice": "^2.0.0",
     "mustache": "2.2.0",
     "when": "3.7.4"
   },

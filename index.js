@@ -2,9 +2,9 @@ exports.handler = function(event, context) {
   var Mustache = require("mustache");
   var When = require('when');
   var Aws = require("aws-sdk");
+  var juice = require("juice");
 
   // // load SES and S3 objects for entire of record processing
-  var ses = new Aws.SES();
   var s3 = new Aws.S3();
 
   // Mime Email builder
@@ -13,15 +13,20 @@ exports.handler = function(event, context) {
   console.log(JSON.stringify(event.Records));
   // begin processing all the received records..
   var promises = event.Records.map(function(record) {
+
+    var ses = new Aws.SES({ region: record.awsRegion });
+
     return When.promise(function(resolve, reject, notify) {
       // base64 decode, convert to ascii and JSON parse this kinesis record's payload
       var payload = JSON.parse(new Buffer(record.kinesis.data, 'base64').toString('ascii'));
+
+      console.log(JSON.stringify(payload));
 
       console.log('Loading template ' + payload.Email.Properties.TemplateKey + ' in ' + payload.Configuration.Bucket);
 
       // helper function to simplify params to retrieve html/txt/etc files using s3 bucket & key
       var _ext = function(ext) {
-        return { Bucket: payload.Configuration.Bucket, Key: payload.Email.Properties.TemplateKey + '.' + ext }
+        return { Bucket: payload.Configuration.Bucket, Key: payload.Email.Properties.TemplateKey + '.' + ext };
       };
 
       var _data = function(params, fnc) {
@@ -61,7 +66,7 @@ exports.handler = function(event, context) {
             }
           });
         } else {
-          fnc(null, partials)
+          fnc(null, partials);
         }
       };
 
@@ -81,7 +86,7 @@ exports.handler = function(event, context) {
                   };
                   // if a html email exists inject it
                   if(html) payload.Email.Payload.Message.Body.Html = {
-                    Data: Mustache.render(html, payload.Email.Properties.Data, partials.html),
+                    Data: juice(Mustache.render(html, payload.Email.Properties.Data, partials.html), { preserveImportant: true }),
                     Charset: 'UTF-8'
                   };
                   // if a text email exists inject it
