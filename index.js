@@ -7,9 +7,6 @@ exports.handler = function(event, context) {
   // // load SES and S3 objects for entire of record processing
   var s3 = new Aws.S3();
 
-  // Mime Email builder
-  var MimeBuilder = require('mailbuild');
-
   console.log(JSON.stringify(event.Records));
   // begin processing all the received records..
   var promises = event.Records.map(function(record) {
