@@ -108,6 +108,7 @@ exports.handler = function(event, context) {
   When.all(promises).done(function(records) {
     context.succeed("Successfully processed " + event.Records.length + " records.");
   }, function(reason) {
-    context.fail("Failed to process records " + reason);
+    console.log("Failed to process records " + reason);
+    context.succeed("Failed to process records " + reason);
   });
 };
