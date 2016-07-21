@@ -13,7 +13,7 @@
           {
             "acknowledged": "false",
             "language": "en",
-            "message": "The recommendation for Pennantpark Floating Rate Capital Ltd has been downgraded to Buy.",
+            "message": "The target price for Kweichow Moutai Co., Ltd. of £315.67 is now above that latest price of £308.11.",
             "sent_at": "1466329654",
             "tags": {
               "attitude": "negative",
@@ -25,121 +25,13 @@
           {
             "acknowledged": "false",
             "language": "en",
-            "message": "The recommendation for MTS Systems Corporation has been downgraded to Buy.",
+            "message": "The target price for Randgold Resources Limited has increased to £80.71 from £75.38 in the last week.",
             "sent_at": "1466329454",
             "tags": {
               "attitude": "negative",
               "elevation": "free",
               "region_code": "amer",
               "sic": "a4c7c314-2c96-4d83-bc97-03ed65ae5f62"
-            }
-          },
-          {
-            "acknowledged": "false",
-            "language": "en",
-            "message": "The recommendation for LDR Holding Corp has been downgraded to Hold.",
-            "sent_at": "1466329442",
-            "tags": {
-              "attitude": "negative",
-              "elevation": "free",
-              "region_code": "amer",
-              "sic": "bb073777-9841-48aa-be3d-9f6afbfa49d2"
-            }
-          },
-          {
-            "acknowledged": "false",
-            "language": "en",
-            "message": "The recommendation for Smith & Wesson Holding Corp has been downgraded to Buy.",
-            "sent_at": "1466329295",
-            "tags": {
-              "attitude": "negative",
-              "elevation": "free",
-              "region_code": "amer",
-              "sic": "eee77963-c372-4047-b4ea-64933e12a4a4"
-            }
-          },
-          {
-            "acknowledged": "false",
-            "language": "en",
-            "message": "The recommendation for Enersis Americas SA (ADR) has been downgraded to Hold.",
-            "sent_at": "1466257771",
-            "tags": {
-              "attitude": "negative",
-              "elevation": "free",
-              "region_code": "amer",
-              "sic": "ac31f4a2-cae4-4f62-97c6-100d9e449dbb"
-            }
-          },
-          {
-            "acknowledged": "false",
-            "language": "en",
-            "message": "The recommendation for Sappi Limited (ADR) has been downgraded to Strong Buy.",
-            "sent_at": "1466257448",
-            "tags": {
-              "attitude": "negative",
-              "elevation": "free",
-              "region_code": "amer",
-              "sic": "aa029dbd-260c-4b7d-b823-80656b5a4a7d"
-            }
-          },
-          {
-            "acknowledged": "false",
-            "language": "en",
-            "message": "The recommendation for John Bean Technologies Corp has been downgraded to Strong Buy.",
-            "sent_at": "1466257169",
-            "tags": {
-              "attitude": "negative",
-              "elevation": "free",
-              "region_code": "amer",
-              "sic": "c02ad12b-731e-4161-8fd2-93aa9bd65cce"
-            }
-          },
-          {
-            "acknowledged": "false",
-            "language": "en",
-            "message": "The recommendation for Getty Realty Corp. has been downgraded to Hold.",
-            "sent_at": "1466257151",
-            "tags": {
-              "attitude": "negative",
-              "elevation": "free",
-              "region_code": "amer",
-              "sic": "9e36e8a2-d463-4cdd-a605-e8296b247584"
-            }
-          },
-          {
-            "acknowledged": "false",
-            "language": "en",
-            "message": "The recommendation for Fairmount Santrol Holdings Inc has been downgraded to Buy.",
-            "sent_at": "1466257136",
-            "tags": {
-              "attitude": "negative",
-              "elevation": "free",
-              "region_code": "amer",
-              "sic": "f93a6b64-b39d-42c9-b7fb-f2a598da5a3e"
-            }
-          },
-          {
-            "acknowledged": "false",
-            "language": "en",
-            "message": "The recommendation for Monogram Residential Trust Inc has been downgraded to Buy.",
-            "sent_at": "1466257131",
-            "tags": {
-              "attitude": "negative",
-              "elevation": "free",
-              "region_code": "amer",
-              "sic": "b6bb5794-efd9-427d-9816-51801f13d085"
-            }
-          },
-          {
-            "acknowledged": "false",
-            "language": "en",
-            "message": "The recommendation for LTC Properties Inc has been downgraded to Hold.",
-            "sent_at": "1466257119",
-            "tags": {
-              "attitude": "negative",
-              "elevation": "free",
-              "region_code": "amer",
-              "sic": "312a04b0-e3ff-44e2-bb90-fe682aee7ae9"
             }
           }
         ]
@@ -150,7 +42,7 @@
         "BccAddresses": [],
         "CcAddresses": [],
         "ToAddresses": [
-          "mark@stratmann.me.uk"
+          "david.james.kelley@gmail.com"
         ]
       },
       "Source": "Stockflare <no-reply@stocktio.com>",

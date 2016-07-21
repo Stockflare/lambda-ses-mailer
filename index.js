@@ -15,7 +15,7 @@ exports.handler = function(event, context) {
 
     return When.promise(function(resolve, reject, notify) {
       // base64 decode, convert to ascii and JSON parse this kinesis record's payload
-      var payload = JSON.parse(new Buffer(record.kinesis.data, 'base64').toString('ascii'));
+      var payload = JSON.parse(new Buffer(record.kinesis.data, 'base64').toString('utf-8'));
 
       console.log(JSON.stringify(payload));
 
@@ -84,12 +84,12 @@ exports.handler = function(event, context) {
                   // if a html email exists inject it
                   if(html) payload.Email.Payload.Message.Body.Html = {
                     Data: juice(Mustache.render(html, payload.Email.Properties.Data, partials.html), { preserveImportant: true }),
-                    Charset: 'ISO-8859-1'
+                    Charset: 'UTF-8'
                   };
                   // if a text email exists inject it
                   if(txt) payload.Email.Payload.Message.Body.Text = {
                     Data: Mustache.render(txt, payload.Email.Properties.Data, partials.txt),
-                    Charset: 'ISO-8859-1'
+                    Charset: 'UTF-8'
                   };
 
                   // send the email and resolve the promise. Or reject on error
