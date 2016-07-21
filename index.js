@@ -84,12 +84,12 @@ exports.handler = function(event, context) {
                   // if a html email exists inject it
                   if(html) payload.Email.Payload.Message.Body.Html = {
                     Data: juice(Mustache.render(html, payload.Email.Properties.Data, partials.html), { preserveImportant: true }),
-                    Charset: 'UTF-8'
+                    Charset: 'ISO-8859-1'
                   };
                   // if a text email exists inject it
                   if(txt) payload.Email.Payload.Message.Body.Text = {
                     Data: Mustache.render(txt, payload.Email.Properties.Data, partials.txt),
-                    Charset: 'UTF-8'
+                    Charset: 'ISO-8859-1'
                   };
 
                   // send the email and resolve the promise. Or reject on error
