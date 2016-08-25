@@ -4,37 +4,92 @@
   },
   "Email": {
     "Properties": {
-      "TemplateKey": "emails/templates/aggregate_alerts",
+      "TemplateKey": "emails/templates/aggregate_alerts_v4",
       "Data": {
-        "count": "11",
-        "has_hidden": "true",
-        "hidden": "66",
-        "messages": [
+        "count": "1333",
+        "hidden": "0",
+        "portfolios": [
           {
-            "acknowledged": "false",
-            "language": "en",
-            "message": "The target price for Kweichow Moutai Co., Ltd. of £315.67 is now above that latest price of £308.11.",
-            "sent_at": "1466329654",
-            "tags": {
-              "attitude": "negative",
-              "elevation": "free",
-              "region_code": "amer",
-              "sic": "da0775fe-6c17-4e36-aaa1-7ad9bc39b40a"
-            }
+            "portfolio_type": "Account",
+            "portfolio_name": "Mark's live account",
+            "messages": [
+              {
+                "acknowledged": "false",
+                "language": "en",
+                "message": "Sharkreach Inc rose 14.3% on Wednesday.",
+                "sent_at": "1470911122",
+                "tags": {
+                  "attitude": "positive",
+                  "display_ticker": "SHRK.PK",
+                  "elevation": "free",
+                  "positive": "true",
+                  "region_code": "amer",
+                  "ric": "shrk.pk",
+                  "sic": "6b8d9ec2-339a-471c-9090-9d5386f2ce48",
+                  "ticker": "shrk"
+                }
+              },
+              {
+                "acknowledged": "false",
+                "language": "en",
+                "message": "A similar business to XsunX Inc, First Solar, Inc. was down -7.2% on Wednesday.",
+                "sent_at": "1470911111",
+                "tags": {
+                  "attitude": "negative",
+                  "display_ticker": "XSNX.PK",
+                  "elevation": "silver",
+                  "negative": "true",
+                  "region_code": "amer",
+                  "ric": "xsnx.pk",
+                  "sic": "87bc1e80-ec5f-47f8-b8d5-7dcebcbc9d58",
+                  "silver": "true",
+                  "ticker": "xsnx"
+                }
+              }
+            ]
           },
           {
-            "acknowledged": "false",
-            "language": "en",
-            "message": "The target price for Randgold Resources Limited has increased to £80.71 from £75.38 in the last week.",
-            "sent_at": "1466329454",
-            "tags": {
-              "attitude": "negative",
-              "elevation": "free",
-              "region_code": "amer",
-              "sic": "a4c7c314-2c96-4d83-bc97-03ed65ae5f62"
-            }
+            "portfolio_type": "Account",
+            "portfolio_name": "Mark's test account",
+            "messages": [
+              {
+                "acknowledged": "false",
+                "language": "en",
+                "message": "Sharkreach Inc rose 14.3% on Wednesday.",
+                "sent_at": "1470911122",
+                "tags": {
+                  "attitude": "positive",
+                  "display_ticker": "SHRK.PK",
+                  "elevation": "free",
+                  "positive": "true",
+                  "region_code": "amer",
+                  "ric": "shrk.pk",
+                  "sic": "6b8d9ec2-339a-471c-9090-9d5386f2ce48",
+                  "ticker": "shrk"
+                }
+              },
+              {
+                "acknowledged": "false",
+                "language": "en",
+                "message": "A similar business to XsunX Inc, First Solar, Inc. was down -7.2% on Wednesday.",
+                "sent_at": "1470911111",
+                "tags": {
+                  "attitude": "negative",
+                  "display_ticker": "XSNX.PK",
+                  "elevation": "silver",
+                  "negative": "true",
+                  "region_code": "amer",
+                  "ric": "xsnx.pk",
+                  "sic": "87bc1e80-ec5f-47f8-b8d5-7dcebcbc9d58",
+                  "silver": "true",
+                  "ticker": "xsnx"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "tickers": "SHRK.PK XSNX.PK PTCO.PK ZSTN.PK INBI.PK",
+        "unsubscribe_token": "5d409cf5-9bf5-4348-962d-053e5803533c"
       }
     },
     "Payload": {
