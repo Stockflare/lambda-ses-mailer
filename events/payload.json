@@ -1,95 +1,729 @@
 {
   "Configuration": {
-    "Bucket": "environment-environmentresourcebucket-1etecup943j3"
+    "Bucket": "stockflare.com-production-resources"
   },
   "Email": {
     "Properties": {
-      "TemplateKey": "emails/templates/aggregate_alerts_v4",
+      "TemplateKey": "emails/templates/aggregate_alerts_v7",
       "Data": {
-        "count": "1333",
-        "hidden": "0",
         "portfolios": [
           {
+            "portfolio_name": "DR5318",
             "portfolio_type": "Account",
-            "portfolio_name": "Mark's live account",
             "messages": [
               {
-                "acknowledged": "false",
-                "language": "en",
-                "message": "Sharkreach Inc rose 14.3% on Wednesday.",
-                "sent_at": "1470911122",
+                "identity": null,
+                "message": "Triveni Engineering & Industries Ltd. current price of ₹78.4 is now higher than the target price of ₹73.0.",
+                "sent_at": 1486331932,
                 "tags": {
-                  "attitude": "positive",
-                  "display_ticker": "SHRK.PK",
                   "elevation": "free",
-                  "positive": "true",
-                  "region_code": "amer",
-                  "ric": "shrk.pk",
-                  "sic": "6b8d9ec2-339a-471c-9090-9d5386f2ce48",
-                  "ticker": "shrk"
-                }
+                  "summary": {
+                    "price_change": "0.3841",
+                    "price": "78.4",
+                    "rating": "2"
+                  },
+                  "cta": {
+                    "negative": "alternative",
+                    "positive": null
+                  },
+                  "ticker": "triveni",
+                  "channels": [
+                    "daily_email",
+                    "weekly_email",
+                    "twitter",
+                    "stocktwits"
+                  ],
+                  "logo": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+                  "short_name": "Triveni Engineering & Industries Ltd.",
+                  "sic": "17e00d6a-fcc2-11e3-9db8-7b100fc48d18",
+                  "ric": "trei.ns",
+                  "attitude": "negative",
+                  "region_code": "apac",
+                  "negative": "true",
+                  "display_ticker": "TREI.NS",
+                  "cta_button": "Find Alternatives?",
+                  "cta_url": "https://stockflare.com/$/stocks/trei.ns/breakdown/peers"
+                },
+                "acknowledged": false,
+                "language": "en"
               },
               {
-                "acknowledged": "false",
-                "language": "en",
-                "message": "A similar business to XsunX Inc, First Solar, Inc. was down -7.2% on Wednesday.",
-                "sent_at": "1470911111",
+                "identity": null,
+                "message": "Petronet LNG Ltd. current price of ₹386.8 is now higher than the target price of ₹384.66.",
+                "sent_at": 1486331759,
                 "tags": {
+                  "elevation": "free",
+                  "summary": {
+                    "price_change": "0.1813",
+                    "price": "386.8",
+                    "rating": "3"
+                  },
+                  "cta": {
+                    "negative": "alternative",
+                    "positive": null
+                  },
+                  "ticker": "petronet",
+                  "channels": [
+                    "daily_email",
+                    "weekly_email",
+                    "twitter",
+                    "stocktwits"
+                  ],
+                  "logo": "https://logos.stockflare.com/cc9a8b00-fcc1-11e3-8610-499b91136636",
+                  "short_name": "Petronet LNG Ltd.",
+                  "sic": "cc9a8b00-fcc1-11e3-8610-499b91136636",
+                  "ric": "plng.ns",
                   "attitude": "negative",
-                  "display_ticker": "XSNX.PK",
-                  "elevation": "silver",
+                  "region_code": "apac",
                   "negative": "true",
-                  "region_code": "amer",
-                  "ric": "xsnx.pk",
-                  "sic": "87bc1e80-ec5f-47f8-b8d5-7dcebcbc9d58",
-                  "silver": "true",
-                  "ticker": "xsnx"
-                }
+                  "display_ticker": "PLNG.NS",
+                  "cta_button": "Find Alternatives?",
+                  "cta_url": "https://stockflare.com/$/stocks/plng.ns/breakdown/peers"
+                },
+                "acknowledged": false,
+                "language": "en"
               }
+            ],
+            "sics": [
+              "bfcd874c-684b-11e4-9db9-27a63526f7fb",
+              "fdb97cfa-fcc1-11e3-98e6-73ec1fc1d8d5",
+              "c6af59fa-fcc1-11e3-b830-053b98fd5643",
+              "db477f40-fcc2-11e3-a1f5-3f5d65e778c7",
+              "36b4267c-fcc2-11e3-a429-3549fe5bec92",
+              "17017fb4-fcc2-11e3-bbc2-6b31467e3cb2",
+              "f56861e0-b4b9-11e5-9bec-4b38ccf2199a",
+              "9227442c-684b-11e4-adda-755cdb3350d7",
+              "80287c04-fcc2-11e3-a6b6-43c355b4cc62",
+              "609cd59c-fcc2-11e3-a6c1-63b1ae0b04ad",
+              "ad44d2be-fcc2-11e3-896a-69af43dde8fd",
+              "3cc917ca-fcc2-11e3-8677-7353cd710588",
+              "e795543c-e47c-11e4-b7f3-158ef45507b1",
+              "ba3745f6-fcc2-11e3-ba27-45fec985ff23",
+              "b92a4de4-684b-11e4-bf0a-7f72c611b707",
+              "e5b33e7a-fcc1-11e3-998d-453512b772a7",
+              "ca6c5a5c-fcc1-11e3-907b-7198e813aa95",
+              "13461c22-fcc2-11e3-9e86-03b00f0f1803",
+              "4dc71fc2-fcc2-11e3-9667-4b6a6bce7c6f",
+              "c7e749ee-fcc2-11e3-9f3f-2fe13eed29ae",
+              "5155a154-fcc2-11e3-a1d8-039b29b19f7a",
+              "94ebefbe-684b-11e4-9697-6d83461aa5aa",
+              "6c11ad1c-fcc2-11e3-87b7-0116a5cfba1c",
+              "ec5cb1d4-fcc1-11e3-bd7f-1d41997b5cc4",
+              "caddbe97-13fa-4b36-9445-f594abc481f2",
+              "7b96d348-684c-11e4-9af0-03f444f6831b",
+              "46d33b74-684c-11e4-af77-1dbac13aed9d",
+              "2d17666a-fcc2-11e3-b78e-69441cb43cbc",
+              "e2093248-fcc1-11e3-917a-4127de0a8cf6",
+              "9af12122-684b-11e4-beba-6177672c00bb",
+              "c40ed5b8-fcc1-11e3-af69-1ff84acd1fb5",
+              "f7164bd0-684b-11e4-b0e8-138d61dc9a30",
+              "367bbc14-21ca-11e5-b3f3-6d81fab47610",
+              "06762230-fcc2-11e3-bd56-7ba26d77e1a8",
+              "c0cfb9bc-684b-11e4-a74f-27e82b00e9fe",
+              "217d3ece-fcc2-11e3-81c7-356e5b776f4d",
+              "acd6f466-684b-11e4-9016-37110ec812e8",
+              "528b74ea-fcc2-11e3-8ccf-5bfccb75cef6",
+              "680f7e38-684c-11e4-9186-5b3c39971a25",
+              "d1b125cc-684b-11e4-8a9a-0f145e336c76",
+              "b995dce4-fcc1-11e3-b637-33c775cdb728",
+              "82836532-684b-11e4-b4a7-012fced8376e",
+              "28ad2af6-684c-11e4-abac-17fe86ee1a15",
+              "fae09b94-fcc1-11e3-966f-21e217665e60",
+              "8318ea94-684b-11e4-b323-53bd1efddd82",
+              "d259ae58-fcc2-11e3-8235-5332ec6c92b1",
+              "ae2bd476-684b-11e4-9b94-3ffbd1b68609",
+              "d6e36f32-fcc1-11e3-a23a-03f68b63fea0",
+              "a182e576-8a4a-11e5-aff4-0f80c9d74dfe",
+              "c275b992-fcc1-11e3-8023-196a98d39a75",
+              "af0a4a12-fcc1-11e3-856e-6765bf224664",
+              "75661052-defc-11e4-8a7d-2311f0cfbf00",
+              "14cb4ec8-fcc2-11e3-a208-731f8cc65c48",
+              "34d4e652-684c-11e4-a86e-217bf86010dd",
+              "4acbd182-fcc2-11e3-96bb-635115788ca0",
+              "606b4400-684c-11e4-80cc-1d18a3ef850d",
+              "975bad0c-684b-11e4-a0b9-5b5366e14264",
+              "e109c362-684b-11e4-931c-13fa590d4608",
+              "1056aff4-fcc2-11e3-a0b1-731dc85f85b8",
+              "d9027cb8-fcc1-11e3-ba22-01734d24bab5",
+              "d2f84c8e-fcc2-11e3-8413-7320e0062ed0",
+              "74ddc016-fcc2-11e3-959d-49f0112bbeba",
+              "a9c97d10-fcc2-11e3-b464-4bbba1060691",
+              "d02debb8-fcc1-11e3-a084-0d324e465594",
+              "df3dbe58-fcc1-11e3-9e70-2999fd204bb6",
+              "cc9a8b00-fcc1-11e3-8610-499b91136636",
+              "f0b71a58-fcc1-11e3-9d62-0bdc81606a85",
+              "b682db7e-684b-11e4-8cfe-0bb95ba78943",
+              "ddf9b042-fcc1-11e3-9587-55a58e41f404",
+              "fd53e732-684b-11e4-b669-7d28e930bdab",
+              "cd883a80-fcc1-11e3-9eca-15df1f9f8616",
+              "d35fb8de-684b-11e4-849f-0b8b9e638e26",
+              "7bab2992-fcc2-11e3-9830-63e7b986b151",
+              "d1b22d68-fcc2-11e3-b1af-3d16eba02952",
+              "be3893d6-684b-11e4-b13e-1ffbadbc4463",
+              "d6158802-86f9-11e4-a98f-39d0eb0053ed",
+              "781ee85e-fcc2-11e3-8799-3f7254f3d9e6",
+              "b1d6b7bc-fcc1-11e3-b74b-25ce811ec257",
+              "17e00d6a-fcc2-11e3-9db8-7b100fc48d18",
+              "92f0dad0-684b-11e4-a5b7-1bd12a3d3a5f",
+              "2ba799c6-fcc2-11e3-be83-35a2a9e4e669",
+              "90bdc07e-fcc2-11e3-9aed-191a88a07e09",
+              "1519dbf2-ef7d-11e4-8031-63743bcd30f2",
+              "c29cd2f2-684b-11e4-81c7-211190f69f9c",
+              "a5e11dda-684b-11e4-87b5-7b1ca0361430",
+              "3c94a46c-fcbe-11e3-9aea-13e8add30671"
             ]
           },
           {
-            "portfolio_type": "Account",
-            "portfolio_name": "Mark's test account",
+            "portfolio_name": "Fix Bug",
+            "portfolio_type": "Watchlist",
             "messages": [
               {
-                "acknowledged": "false",
-                "language": "en",
-                "message": "Sharkreach Inc rose 14.3% on Wednesday.",
-                "sent_at": "1470911122",
+                "identity": null,
+                "message": "A business in the same sector as Wockhardt Limited, Strides Shasun Ltd was up 10.2% on Friday.",
+                "sent_at": 1486331852,
                 "tags": {
+                  "elevation": "silver",
+                  "summary": {
+                    "price_change": "3.2176",
+                    "price": "686.5",
+                    "rating": "3"
+                  },
+                  "cta": {
+                    "negative": null,
+                    "positive": null
+                  },
+                  "ticker": "wockpharma",
+                  "channels": [
+                    "daily_email"
+                  ],
+                  "logo": "https://logos.stockflare.com/8cee17c4-684b-11e4-ac0a-571b0aa98b68",
+                  "short_name": "Wockhardt Limited",
+                  "sic": "8cee17c4-684b-11e4-ac0a-571b0aa98b68",
+                  "ric": "wckh.ns",
                   "attitude": "positive",
-                  "display_ticker": "SHRK.PK",
-                  "elevation": "free",
+                  "region_code": "apac",
+                  "silver": "true",
                   "positive": "true",
-                  "region_code": "amer",
-                  "ric": "shrk.pk",
-                  "sic": "6b8d9ec2-339a-471c-9090-9d5386f2ce48",
-                  "ticker": "shrk"
-                }
+                  "display_ticker": "WCKH.NS"
+                },
+                "acknowledged": false,
+                "language": "en"
               },
               {
-                "acknowledged": "false",
-                "language": "en",
-                "message": "A similar business to XsunX Inc, First Solar, Inc. was down -7.2% on Wednesday.",
-                "sent_at": "1470911111",
+                "identity": null,
+                "message": "A business in the same sector as Idea Cellular Ltd, Reliance Communications Ltd was up 8.8% on Friday.",
+                "sent_at": 1486331786,
                 "tags": {
-                  "attitude": "negative",
-                  "display_ticker": "XSNX.PK",
                   "elevation": "silver",
-                  "negative": "true",
-                  "region_code": "amer",
-                  "ric": "xsnx.pk",
-                  "sic": "87bc1e80-ec5f-47f8-b8d5-7dcebcbc9d58",
+                  "summary": {
+                    "price_change": "-0.3188",
+                    "price": "109.45",
+                    "rating": "2"
+                  },
+                  "cta": {
+                    "negative": null,
+                    "positive": null
+                  },
+                  "ticker": "idea",
+                  "channels": [
+                    "daily_email"
+                  ],
+                  "logo": "https://logos.stockflare.com/bafc5996-fcc1-11e3-85b4-3141e620340d",
+                  "short_name": "Idea Cellular Ltd",
+                  "sic": "bafc5996-fcc1-11e3-85b4-3141e620340d",
+                  "ric": "idea.ns",
+                  "attitude": "positive",
+                  "region_code": "apac",
                   "silver": "true",
-                  "ticker": "xsnx"
-                }
+                  "positive": "true",
+                  "display_ticker": "IDEA.NS"
+                },
+                "acknowledged": false,
+                "language": "en"
+              },
+              {
+                "identity": null,
+                "message": "Bharat Petroleum Corp Ltd current price of ₹698.6 is now higher than the target price of ₹687.64.",
+                "sent_at": 1486331780,
+                "tags": {
+                  "elevation": "free",
+                  "summary": {
+                    "price_change": "-0.4702",
+                    "price": "698.6",
+                    "rating": "3"
+                  },
+                  "cta": {
+                    "negative": "alternative",
+                    "positive": null
+                  },
+                  "ticker": "bpcl",
+                  "channels": [
+                    "daily_email",
+                    "weekly_email",
+                    "twitter",
+                    "stocktwits"
+                  ],
+                  "logo": "https://logos.stockflare.com/835a9408-684b-11e4-8c6a-333a05fbede7",
+                  "short_name": "Bharat Petroleum Corp Ltd",
+                  "sic": "835a9408-684b-11e4-8c6a-333a05fbede7",
+                  "ric": "bpcl.ns",
+                  "attitude": "negative",
+                  "region_code": "apac",
+                  "negative": "true",
+                  "display_ticker": "BPCL.NS",
+                  "cta_button": "Find Alternatives?",
+                  "cta_url": "https://stockflare.com/$/stocks/bpcl.ns/breakdown/peers"
+                },
+                "acknowledged": false,
+                "language": "en"
+              },
+              {
+                "identity": null,
+                "message": "A business in the same sector as Bank of Baroda, Union Bank of India was up 10.4% on Friday.",
+                "sent_at": 1486331772,
+                "tags": {
+                  "elevation": "silver",
+                  "summary": {
+                    "price_change": "4.9536",
+                    "price": "186.45",
+                    "rating": "3"
+                  },
+                  "cta": {
+                    "negative": null,
+                    "positive": null
+                  },
+                  "ticker": "bankbaroda",
+                  "channels": [
+                    "daily_email"
+                  ],
+                  "logo": "https://logos.stockflare.com/b94131bc-fcc1-11e3-b113-6f8d36ea1fa9",
+                  "short_name": "Bank of Baroda",
+                  "sic": "b94131bc-fcc1-11e3-b113-6f8d36ea1fa9",
+                  "ric": "bob.ns",
+                  "attitude": "positive",
+                  "region_code": "apac",
+                  "silver": "true",
+                  "positive": "true",
+                  "display_ticker": "BOB.NS"
+                },
+                "acknowledged": false,
+                "language": "en"
+              },
+              {
+                "identity": null,
+                "message": "A business in the same sector as Cipla Ltd, Strides Shasun Ltd was up 10.2% on Friday.",
+                "sent_at": 1486331753,
+                "tags": {
+                  "elevation": "silver",
+                  "summary": {
+                    "price_change": "4.0301",
+                    "price": "607.9",
+                    "rating": "2"
+                  },
+                  "cta": {
+                    "negative": null,
+                    "positive": null
+                  },
+                  "ticker": "cipla",
+                  "channels": [
+                    "daily_email"
+                  ],
+                  "logo": "https://logos.stockflare.com/c935e478-fcc1-11e3-8a78-67a5ce6dd180",
+                  "short_name": "Cipla Ltd",
+                  "sic": "c935e478-fcc1-11e3-8a78-67a5ce6dd180",
+                  "ric": "cipl.ns",
+                  "attitude": "positive",
+                  "region_code": "apac",
+                  "silver": "true",
+                  "positive": "true",
+                  "display_ticker": "CIPL.NS"
+                },
+                "acknowledged": false,
+                "language": "en"
+              },
+              {
+                "identity": null,
+                "message": "A business in the same sector as Yes Bank Limited, Union Bank of India was up 10.4% on Friday.",
+                "sent_at": 1486331727,
+                "tags": {
+                  "elevation": "silver",
+                  "summary": {
+                    "price_change": "0.7787",
+                    "price": "1397.8",
+                    "rating": "3"
+                  },
+                  "cta": {
+                    "negative": null,
+                    "positive": null
+                  },
+                  "ticker": "yesbank",
+                  "channels": [
+                    "daily_email"
+                  ],
+                  "logo": "https://logos.stockflare.com/b5bc7e84-fcc1-11e3-830d-4144294fd541",
+                  "short_name": "Yes Bank Limited",
+                  "sic": "b5bc7e84-fcc1-11e3-830d-4144294fd541",
+                  "ric": "yesb.ns",
+                  "attitude": "positive",
+                  "region_code": "apac",
+                  "silver": "true",
+                  "positive": "true",
+                  "display_ticker": "YESB.NS"
+                },
+                "acknowledged": false,
+                "language": "en"
+              },
+              {
+                "identity": null,
+                "message": "A business in the same sector as Bank of India, Union Bank of India was up 10.4% on Friday.",
+                "sent_at": 1486331722,
+                "tags": {
+                  "elevation": "silver",
+                  "summary": {
+                    "price_change": "6.1477",
+                    "price": "132.95",
+                    "rating": "0"
+                  },
+                  "cta": {
+                    "negative": null,
+                    "positive": null
+                  },
+                  "ticker": "bankindia",
+                  "channels": [
+                    "daily_email"
+                  ],
+                  "logo": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+                  "short_name": "Bank of India",
+                  "sic": "b8d9dbac-fcc1-11e3-913e-27e9003a16d3",
+                  "ric": "boi.ns",
+                  "attitude": "positive",
+                  "region_code": "apac",
+                  "silver": "true",
+                  "positive": "true",
+                  "display_ticker": "BOI.NS"
+                },
+                "acknowledged": false,
+                "language": "en"
+              },
+              {
+                "identity": null,
+                "message": "A business in the same sector as IDFC Bank Ltd, Union Bank of India was up 10.4% on Friday.",
+                "sent_at": 1486331652,
+                "tags": {
+                  "elevation": "silver",
+                  "summary": {
+                    "price_change": "2.2388",
+                    "price": "61.65",
+                    "rating": "4"
+                  },
+                  "cta": {
+                    "negative": null,
+                    "positive": null
+                  },
+                  "ticker": "idfcbank",
+                  "channels": [
+                    "daily_email"
+                  ],
+                  "logo": "https://logos.stockflare.com/8ba2d8a0-8983-11e5-b175-3972ea1033cb",
+                  "short_name": "IDFC Bank Ltd",
+                  "sic": "8ba2d8a0-8983-11e5-b175-3972ea1033cb",
+                  "ric": "idfb.ns",
+                  "attitude": "positive",
+                  "region_code": "apac",
+                  "silver": "true",
+                  "positive": "true",
+                  "display_ticker": "IDFB.NS"
+                },
+                "acknowledged": false,
+                "language": "en"
+              },
+              {
+                "identity": null,
+                "message": "A business in the same sector as IDBI Bank Ltd, Union Bank of India was up 10.4% on Friday.",
+                "sent_at": 1486331619,
+                "tags": {
+                  "elevation": "silver",
+                  "summary": {
+                    "price_change": "2.9003",
+                    "price": "85.15",
+                    "rating": "2"
+                  },
+                  "cta": {
+                    "negative": null,
+                    "positive": null
+                  },
+                  "ticker": "idbi",
+                  "channels": [
+                    "daily_email"
+                  ],
+                  "logo": "https://logos.stockflare.com/95bbb046-684b-11e4-b5a8-5570b83c6f2f",
+                  "short_name": "IDBI Bank Ltd",
+                  "sic": "95bbb046-684b-11e4-b5a8-5570b83c6f2f",
+                  "ric": "idbi.ns",
+                  "attitude": "positive",
+                  "region_code": "apac",
+                  "silver": "true",
+                  "positive": "true",
+                  "display_ticker": "IDBI.NS"
+                },
+                "acknowledged": false,
+                "language": "en"
+              },
+              {
+                "identity": null,
+                "message": "A business in the same sector as Zee Entertainment Enterprises Limited, Sun TV Network Ltd. was up 23.9% on Friday.",
+                "sent_at": 1486331612,
+                "tags": {
+                  "elevation": "silver",
+                  "summary": {
+                    "price_change": "-2.2763",
+                    "price": "495.85",
+                    "rating": "4"
+                  },
+                  "cta": {
+                    "negative": null,
+                    "positive": null
+                  },
+                  "ticker": "zeel",
+                  "channels": [
+                    "daily_email"
+                  ],
+                  "logo": "https://logos.stockflare.com/b96e3a7c-fcc1-11e3-9f0b-7158a649eca9",
+                  "short_name": "Zee Entertainment Enterprises Limited",
+                  "sic": "b96e3a7c-fcc1-11e3-9f0b-7158a649eca9",
+                  "ric": "zee.ns",
+                  "attitude": "positive",
+                  "region_code": "apac",
+                  "silver": "true",
+                  "positive": "true",
+                  "display_ticker": "ZEE.NS"
+                },
+                "acknowledged": false,
+                "language": "en"
+              },
+              {
+                "identity": null,
+                "message": "A business in the same sector as Glenmark Pharmaceuticals Ltd, Strides Shasun Ltd was up 10.2% on Friday.",
+                "sent_at": 1486331549,
+                "tags": {
+                  "elevation": "silver",
+                  "summary": {
+                    "price_change": "4.2077",
+                    "price": "947.3",
+                    "rating": "5"
+                  },
+                  "cta": {
+                    "negative": null,
+                    "positive": null
+                  },
+                  "ticker": "glenmark",
+                  "channels": [
+                    "daily_email"
+                  ],
+                  "logo": "https://logos.stockflare.com/89e1d32c-684b-11e4-8116-05e676ee33f4",
+                  "short_name": "Glenmark Pharmaceuticals Ltd",
+                  "sic": "89e1d32c-684b-11e4-8116-05e676ee33f4",
+                  "ric": "glen.ns",
+                  "attitude": "positive",
+                  "region_code": "apac",
+                  "silver": "true",
+                  "positive": "true",
+                  "display_ticker": "GLEN.NS"
+                },
+                "acknowledged": false,
+                "language": "en"
+              },
+              {
+                "identity": null,
+                "message": "A business in the same sector as Syndicate Bank Ltd., Union Bank of India was up 10.4% on Friday.",
+                "sent_at": 1486331525,
+                "tags": {
+                  "elevation": "silver",
+                  "summary": {
+                    "price_change": "3.4752",
+                    "price": "72.95",
+                    "rating": "3"
+                  },
+                  "cta": {
+                    "negative": null,
+                    "positive": null
+                  },
+                  "ticker": "syndibank",
+                  "channels": [
+                    "daily_email"
+                  ],
+                  "logo": "https://logos.stockflare.com/98e8e13a-684b-11e4-b2f6-0bde754c50c4",
+                  "short_name": "Syndicate Bank Ltd.",
+                  "sic": "98e8e13a-684b-11e4-b2f6-0bde754c50c4",
+                  "ric": "sbnk.ns",
+                  "attitude": "positive",
+                  "region_code": "apac",
+                  "silver": "true",
+                  "positive": "true",
+                  "display_ticker": "SBNK.NS"
+                },
+                "acknowledged": false,
+                "language": "en"
               }
+            ],
+            "sics": [
+              "c6af59fa-fcc1-11e3-b830-053b98fd5643",
+              "bc402620-fcc1-11e3-8b01-6f27ae28e225",
+              "14d64b66-fcc2-11e3-bde7-33c8d2358b4d",
+              "af0a4a12-fcc1-11e3-856e-6765bf224664",
+              "8cee17c4-684b-11e4-ac0a-571b0aa98b68",
+              "c7149ce8-fcc1-11e3-b06c-13a17afd417d",
+              "90a404b4-684b-11e4-9e3f-419e934b8a16",
+              "c52dfa6e-fcc1-11e3-8bdd-25e1e537582d",
+              "c0abfe64-fcc1-11e3-97e5-691eb23109cb",
+              "845fe876-684b-11e4-8af7-09b66f7f5cd4",
+              "ae5be79c-fcc1-11e3-bb71-4bee2d55d47f",
+              "bc718f62-fcc1-11e3-9269-7746d622a165",
+              "db8461a4-fcc1-11e3-8375-4f3dbc55af73",
+              "0f8680b8-fcc2-11e3-9228-15eb73fda370",
+              "b1ea1a96-fcc1-11e3-a863-2f092a4759bf",
+              "99bea7f2-684b-11e4-a4c0-49f3db527158",
+              "ed15aefa-fcc1-11e3-a7f8-67b0e09869e8",
+              "9af12122-684b-11e4-beba-6177672c00bb",
+              "ae2bd476-684b-11e4-9b94-3ffbd1b68609",
+              "b7c72fbc-fcc1-11e3-96d3-4d625a366a02",
+              "195196b4-fcc2-11e3-a09c-4d631c8518ad",
+              "81dab554-6855-11e4-a180-638deb9c6a7e",
+              "de6a1cce-fcc1-11e3-83a4-1fe6893fcb19",
+              "8ba2d8a0-8983-11e5-b175-3972ea1033cb",
+              "afc71a16-fcc1-11e3-9b05-239baea6328a",
+              "b43b355a-fcc1-11e3-abb1-6f08c6350a6f",
+              "b741bd00-fcc1-11e3-983b-658ba48ba4eb",
+              "98e8e13a-684b-11e4-b2f6-0bde754c50c4",
+              "9227442c-684b-11e4-adda-755cdb3350d7",
+              "89e1d32c-684b-11e4-8116-05e676ee33f4",
+              "c3625202-fcc1-11e3-b6b6-49bbf3579e84",
+              "c4dff936-fcc1-11e3-91cc-0b20ec318e40",
+              "bafc5996-fcc1-11e3-85b4-3141e620340d",
+              "b4d3dbfc-fcc1-11e3-ac19-6def729b5fe9",
+              "26ca2a18-fcc2-11e3-a9d0-433f332ff1f4",
+              "aed876e0-fcc1-11e3-9b82-054d1d0b22cf",
+              "b8d9dbac-fcc1-11e3-913e-27e9003a16d3",
+              "b5402924-684b-11e4-a1bd-1bc4bc9b84c1",
+              "c223b6f6-fcc1-11e3-b6e2-11c1f34a39e5",
+              "b96e3a7c-fcc1-11e3-9f0b-7158a649eca9",
+              "c3b2e12c-fcc1-11e3-b155-055a64f2577a",
+              "c7c38bb8-fcc1-11e3-9912-590b2e0963d9",
+              "b64d4644-fcc1-11e3-84da-39e522209539",
+              "b516674c-fcc1-11e3-b0ed-43aa55c80e5d",
+              "8c10db16-684b-11e4-b754-39e9f7d59457",
+              "e5546738-fcc1-11e3-9e91-7fb3593c2c0c",
+              "06d51858-fcc2-11e3-8b8a-330fee932727",
+              "b7592b1a-fdd0-11e3-9de8-5b53207d7e66",
+              "cfa4687a-fcc1-11e3-ad81-0f1b256d0e1f",
+              "b68cc346-fcc1-11e3-aa9d-47687c774ae5",
+              "da216e7e-fcc1-11e3-85b8-6ffe9d54bc01",
+              "b1d6b7bc-fcc1-11e3-b74b-25ce811ec257",
+              "c935e478-fcc1-11e3-8a78-67a5ce6dd180",
+              "cc1c079e-fcc1-11e3-bd5f-21600cc074b1",
+              "95bbb046-684b-11e4-b5a8-5570b83c6f2f",
+              "97ce5e24-684b-11e4-b51b-031e2e29ecb7",
+              "b94131bc-fcc1-11e3-b113-6f8d36ea1fa9",
+              "84936b92-684b-11e4-b88e-216b1682b832",
+              "d02debb8-fcc1-11e3-a084-0d324e465594",
+              "b2c51b1e-fcc1-11e3-ac8d-019227f36ca2",
+              "8318ea94-684b-11e4-b323-53bd1efddd82",
+              "e6c017b6-fcc1-11e3-baa7-63340f6a25f9",
+              "ca6c5a5c-fcc1-11e3-907b-7198e813aa95",
+              "a7272d74-684b-11e4-b4c6-1190325bb4c5",
+              "ba58a42c-fcc1-11e3-a597-6f0fc74e7672",
+              "cb1b8400-fcc1-11e3-ac7f-71e6098c8cad",
+              "bf6f31e2-fcc1-11e3-aa6b-032ebddba129",
+              "b5bc7e84-fcc1-11e3-830d-4144294fd541",
+              "dd9c3160-684b-11e4-8a12-57164f7e9915",
+              "fc8cd57a-fcc1-11e3-99bb-5b7597c7c6b6",
+              "cd235f7a-fcc1-11e3-b634-5d4163321b6c",
+              "c424f76c-fcc1-11e3-acd3-0be729ac4a1f",
+              "d227e18a-fcc1-11e3-bb26-15f44a667594",
+              "bf84d07e-fcc1-11e3-b866-05f54290008e",
+              "ca149ace-fcc1-11e3-a713-019ef1d0553a",
+              "bdfa9ac2-fcc1-11e3-86b5-09917657b9e8",
+              "ad6b0eea-f5c6-11e4-9a52-0dc58840145c",
+              "975bad0c-684b-11e4-a0b9-5b5366e14264",
+              "bdf5310e-fcc1-11e3-bbdd-376488a78ac7",
+              "839e510c-684b-11e4-9fc5-013cfaf32583",
+              "9ff02960-fdcb-11e3-a8ff-39a7b3abceb6",
+              "b503dc80-fcc1-11e3-9f8d-636f9530fb7b",
+              "8f8bb9d2-684b-11e4-8eaa-177743e1449e",
+              "c10439c6-fcc1-11e3-b5a0-7b5eebe735e8",
+              "b35ae41e-fcc1-11e3-8106-33496fcf1329",
+              "984f5b28-684b-11e4-9b72-5fe655854b5e",
+              "b5c89304-fcc1-11e3-abf3-4345bd37db91",
+              "82ddcdb0-6855-11e4-b033-711feb2b5ef1",
+              "b995dce4-fcc1-11e3-b637-33c775cdb728",
+              "8d336ef0-684b-11e4-a648-2d6ac22c0f10",
+              "aea8e36c-fcc1-11e3-a405-273c9a6c6f23",
+              "9492d924-684b-11e4-a22b-19940514d197",
+              "283e7584-fcc2-11e3-a674-45215d5752d0",
+              "d39f0034-fcc1-11e3-aeb9-55b5b79b3340",
+              "f7ee32ca-fcc1-11e3-882e-5bab94f4e36a",
+              "c5feed26-fdd0-11e3-8a94-332ab3640e39",
+              "8588ae90-684b-11e4-beb9-3dd1fbfe26cf",
+              "c1cdcb42-fcc1-11e3-bf5f-01d93aa4133e",
+              "fdb97cfa-fcc1-11e3-98e6-73ec1fc1d8d5",
+              "c10f8e5c-fcc1-11e3-8f46-7d72651b20fc",
+              "b9b358be-684b-11e4-bed0-3ff2785d3e49",
+              "c40ed5b8-fcc1-11e3-af69-1ff84acd1fb5",
+              "a56255e0-684b-11e4-9539-3b6c20833f31",
+              "e0886312-fcc1-11e3-8663-0de8adb7ab68",
+              "dcf83592-fcc1-11e3-86d5-2159ea5d2e9e",
+              "d579d3f2-684b-11e4-986b-178573bbcc2f",
+              "8684a2ea-684b-11e4-8b76-5fee05ea47bf",
+              "f4ef3d2e-c358-47e7-aec8-306eaf655c49",
+              "bab538c2-fcc1-11e3-8138-657629cb6b5c",
+              "b1bff040-fcc1-11e3-9a13-639c6ece1fa6",
+              "aac193de-684b-11e4-b357-0ffd2fa26674",
+              "10f56980-5e50-44ff-b5fd-df5ed4c068cd",
+              "9baa1eca-684b-11e4-a5b6-099cdc304bd8",
+              "bf775c28-fcc1-11e3-9cb0-23f57beb2e88",
+              "9637a91c-684b-11e4-a478-437705e43e11",
+              "c817efa0-6850-11e4-926b-6d062e636d0f",
+              "f83051a0-fcc1-11e3-acb9-1b410ec730e9",
+              "9295cde8-684b-11e4-8aa6-7f1963786bb7",
+              "8c38d382-684b-11e4-84ef-2b829f0229fe",
+              "b12e39ac-fcc1-11e3-9065-4bdf0811bbc4",
+              "bf627146-684b-11e4-9182-3bcc9b336535",
+              "be048348-fcc1-11e3-9794-07c81a9f1779",
+              "e2093248-fcc1-11e3-917a-4127de0a8cf6",
+              "1519dbf2-ef7d-11e4-8031-63743bcd30f2",
+              "8dc009a0-684b-11e4-a7fa-0b1ada79a83f",
+              "b39bf7c4-fcc1-11e3-b8d6-7f3f805a20cd",
+              "a182e576-8a4a-11e5-aff4-0f80c9d74dfe",
+              "835a9408-684b-11e4-8c6a-333a05fbede7",
+              "8b7ce3e8-684b-11e4-b514-3f854edf0fa6",
+              "b8e12dc6-fcc1-11e3-aadd-4517ace956ea",
+              "c57d18e2-fcc1-11e3-bab8-6ff5f797627e",
+              "cd2ee980-fcc1-11e3-ac5f-27ba8650b7dd"
             ]
           }
         ],
-        "tickers": "SHRK.PK XSNX.PK PTCO.PK ZSTN.PK INBI.PK",
-        "unsubscribe_token": "5d409cf5-9bf5-4348-962d-053e5803533c"
+        "count": 14,
+        "hidden": 0,
+        "tickers": "TREI.NS PLNG.NS WCKH.NS IDEA.NS BPCL.NS",
+        "language": "en",
+        "unsubscribe_token": "367cc3b3-fa22-425d-8f7d-3efefdf591ee",
+        "subscribed": true,
+        "subject": "14 alerts inc. TREI.NS PLNG.NS WCKH.NS IDEA.NS BPCL.NS",
+        "heading": "You have 14 unread alerts.",
+        "description": "We trigger alerts for stocks that you have in your watchlist and portfolio.",
+        "weekly": true,
+        "visit_alerts": "Visit Alerts",
+        "gift_text": "Gift a friend 14 days of free Stockflare Plus and get",
+        "gift_link": "1 month free",
+        "subscribed_message": "Thank you for subscribing to Stockflare Plus.",
+        "alert_settings": "Alert Settings",
+        "footer_more_details": "Stockflare Limited. For more details on Stockflare Plus visit",
+        "footer_here": "here",
+        "footer_contact": "Contact us at:",
+        "update_prefs": "Update your preferences at the",
+        "footer_settings": "settings page",
+        "footer_click": "or please click",
+        "footer_unsubscribe": "here to unsubscribe."
       }
     },
     "Payload": {
@@ -97,12 +731,12 @@
         "BccAddresses": [],
         "CcAddresses": [],
         "ToAddresses": [
-          "david.james.kelley@gmail.com"
+          "mark@stratmann.me.uk"
         ]
       },
-      "Source": "Stockflare <no-reply@stocktio.com>",
+      "Source": "Stockflare <info@stockflare.com>",
       "ReplyToAddresses": [
-        "Stockflare <no-reply@stocktio.com>"
+        "Stockflare <info@stockflare.com>"
       ]
     }
   }
