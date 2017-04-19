@@ -7,7 +7,7 @@ exports.handler = function(event, context) {
   // // load SES and S3 objects for entire of record processing
   var s3 = new Aws.S3();
 
-  console.log(JSON.stringify(event.Records));
+  // console.log(JSON.stringify(event.Records));
   // begin processing all the received records..
   var promises = event.Records.map(function(record) {
 
@@ -17,9 +17,9 @@ exports.handler = function(event, context) {
       // base64 decode, convert to ascii and JSON parse this kinesis record's payload
       var payload = JSON.parse(new Buffer(record.kinesis.data, 'base64').toString('utf-8'));
 
-      console.log(JSON.stringify(payload));
+      // console.log(JSON.stringify(payload));
 
-      console.log('Loading template ' + payload.Email.Properties.TemplateKey + ' in ' + payload.Configuration.Bucket);
+      // console.log('Loading template ' + payload.Email.Properties.TemplateKey + ' in ' + payload.Configuration.Bucket);
 
       // helper function to simplify params to retrieve html/txt/etc files using s3 bucket & key
       var _ext = function(ext) {
