@@ -4,726 +4,2518 @@
   },
   "Email": {
     "Properties": {
-      "TemplateKey": "emails/templates/aggregate_alerts_v7",
+      "TemplateKey": "emails/templates/explore_alert_v1",
       "Data": {
-        "portfolios": [
+        "identity": "us-east-1:f6baec8b-6246-4148-b6af-c3cd0739814c",
+        "identifier": "eyJleHBsb3JlX2NhdGVnb3J5X3V1aWQiOiJtb3ZlcnMtc2hha2VycyIsImNvdW50cnlfY29kZSI6InVzYSIsInVwZGF0ZWRfYXQiOjE0OTM4NTYwMDB9",
+        "explore_category_uuid": "movers-shakers",
+        "country_code": "usa",
+        "updated_at": 1493856000,
+        "expires": 1494414392,
+        "new_sics": [
+          "8607e06a-fdcb-11e3-86f9-1d6ad835e967",
+          "91e8284a-fdcb-11e3-abf8-15d5db2358a3",
+          "dfb024b9-e43d-4d66-a201-fb0a03c4c44f",
+          "da2d55f5-c99c-4f21-a8c8-a0c8a56a7753",
+          "8ecfcdfc-fdcb-11e3-8945-6f86300ca14e",
+          "9f83cede-6854-11e4-bcb5-276db51eff76",
+          "a94de6a2-6854-11e4-8a5d-2323d678b9a0",
+          "bb542cba-fdd0-11e3-a1ad-77ac644a20ea",
+          "6cc1db70-6855-11e4-bb65-2799534fd063",
+          "8c746ceb-ab51-4002-a094-ceb1571b44af",
+          "c42b46f8-fdcf-11e3-8a44-39b1c5399e64",
+          "5805b5a5-6b8b-4a9b-96ca-29645221f63d",
+          "ba4ae188-fdd0-11e3-ad2b-1df0a173b16d",
+          "c58b5708-fdd0-11e3-8fa5-5de49068aa45",
+          "acbc0d00-6854-11e4-b03f-3d1519bbf772",
+          "f6e4ddf6-fdd0-11e3-8592-15fa08a46529",
+          "8d5a6a4a-fdcb-11e3-8f8c-5313f03721dc",
+          "7be40826-5c56-11e5-a67d-018004a910ba",
+          "9c6097c6-fdcb-11e3-917b-07aa539c6657",
+          "8b33a304-6855-11e4-932c-613e1bc98d46",
+          "8bc0b05a-6855-11e4-abb5-23b713f2d847",
+          "dcfb3908-fdd0-11e3-afb4-13913439dad4",
+          "bcf26794-fdd0-11e3-8d30-1315bbb596d2",
+          "075a5ad9-c65a-44bd-a7f3-7ff35d29357b",
+          "78babb4a-6855-11e4-9638-310a49881485",
+          "7cf10b42-6855-11e4-98ed-0531e8e11e82",
+          "bb74d7a8-fdd0-11e3-9d96-7999a9ad6ba3",
+          "86aab976-6855-11e4-a04d-4773cc8e14ca",
+          "3832084c-f2a2-442a-bc4e-1ba994026925",
+          "97f5d5fc-fdcb-11e3-af63-4d0cef41df1c",
+          "deda88be-fdd0-11e3-8b8d-1d8bad951bed",
+          "d6c169bc-9b71-4f54-a47d-1c963504f4c4",
+          "a423f5ca-fdcb-11e3-bebc-4126d1f1583d",
+          "7ae3c36c-6855-11e4-89c9-39b7d8cba55b",
+          "acb70494-6855-11e4-b8dc-63cdc5a9acfc",
+          "bc599abe-fdcb-11e3-b073-7ded435774a8",
+          "d2029190-fdd0-11e3-b027-7b0cb55c164b",
+          "e2d50c1e-fdd0-11e3-a99b-0199a727cc53",
+          "8ed7f5cf-4d31-4e7a-ad63-13563c0b5308",
+          "fc29ff8a-fdd0-11e3-8df8-37b23e72496a",
+          "db63e892-fdd0-11e3-9a2a-5fd8a64e1d49",
+          "a499f2a4-6854-11e4-8520-0dced6b58c2b",
+          "525efc6a-b456-11e5-bf8e-1191e9f50327",
+          "69807878-9d60-11e4-86b0-37d88adf5f67",
+          "0cb063b2-fdd1-11e3-bc10-273a72162967",
+          "88751896-6855-11e4-8258-5d5523ca4d77",
+          "0b1b0a0c-fdd1-11e3-bac1-431cf44f0417",
+          "309561d8-fdd1-11e3-8316-49fdf0a562cb",
+          "a3e8b7ea-6855-11e4-b049-03d9137c618d",
+          "db8635dc-fdd0-11e3-a9b8-4bc066908998",
+          "61e9e569-8241-4237-88ae-fa2a94ef9e7a",
+          "a42ec65e-6855-11e4-87e6-3905e7920ff6",
+          "911639c4-fdd1-11e3-9ab6-252528b9dd62",
+          "16dec8d9-ada6-4fd8-a53c-fd905529678c",
+          "a1d5960c-fdcb-11e3-8de5-1159a3c7dbd3",
+          "c24800b4-fdd0-11e3-824c-71af6f5e1f17",
+          "0d711368-facf-4a5f-8c30-b417ff762d79",
+          "8918fff6-6855-11e4-a904-5b313bda9291",
+          "c96ee510-fdd0-11e3-8534-772ac8b363aa",
+          "41a56032-f7bc-11e4-8c88-4526b1d119fa",
+          "436433ea-6855-11e4-8d36-4fe4f6370170",
+          "ea075924-fdd0-11e3-b321-6dd38d4cf168",
+          "81a30cc6-6855-11e4-8eb6-031c0c4a7cfc",
+          "cd210030-fdd0-11e3-b2c2-13029d87dd86",
+          "ce7da1f0-fdcf-11e3-ba21-5f526b1ba990",
+          "211682c8-fdd1-11e3-9a23-4777d1830ccd",
+          "644d6e1a-9d60-11e4-8e00-4574fd37afea",
+          "68fb0852-8f66-11e5-85d9-3753e2bb5d76",
+          "e925c0aa-fdcf-11e3-8db6-677dc55fd055",
+          "d080cb2a-fdd0-11e3-b4c1-751cb933be8b",
+          "d7ee4748-fdd0-11e3-9bbf-03bb0d842150",
+          "ba9cd674-6855-11e4-94c5-4147c3a43b48",
+          "adc3c0d4-6855-11e4-998e-3774c0cd76c0",
+          "a82923b6-935e-4dad-ac60-aa5cc9908eaf",
+          "44d65a62-d918-11e4-8f8f-3d32831288d5",
+          "2e513a6e-fdd1-11e3-ba39-417dd3182833",
+          "c81d05d0-fdcf-11e3-aca3-315884741226",
+          "d3e8ca38-fdd0-11e3-a527-1f17ded823d5",
+          "c3c977ec-fdd0-11e3-b5b2-176cf6d14dfe",
+          "e0d95d80-fdcf-11e3-9b84-3b67b2d4a877",
+          "885ab33e-6855-11e4-b1cf-772b9737d7dc",
+          "547d21bc-fdd1-11e3-8757-1308a3d51b6c",
+          "fa136fb0-fdd0-11e3-98b6-11a8bd25f1fd",
+          "a654e03e-fdcb-11e3-a042-212f54e11386",
+          "7fa5a9be-fdd0-11e3-88c9-7b0c87cfd9e9",
+          "8b1b2bda-6855-11e4-b164-13440c860dbc",
+          "46e819d0-fdd1-11e3-828d-37707e904d5c",
+          "97242c14-fdcb-11e3-a01d-1d9d2637357e",
+          "63570152-6fc4-11e4-8c09-11f4bde63bd3",
+          "ab5761aa-9d81-11e4-ae1e-498df09d5789",
+          "d6c2cdc5-8bde-46e2-ac2e-c75a66f42b18",
+          "e471e6be-fdd0-11e3-911a-4958085fae85",
+          "cb4a89a8-6855-11e4-aaec-1d9dc0ad3f1e",
+          "6f05217e-fdd1-11e3-ab6a-7d0cbbcb7d8e",
+          "ab5a36be-9d81-11e4-8e86-335cd2f2a0d3",
+          "537f7ce4-7156-11e4-bd0b-2fd31c462566",
+          "8ddab91c-6855-11e4-ac29-214ca6866870",
+          "68026ba4-6855-11e4-9267-4b4937c1b9b4",
+          "51d02914-fdd1-11e3-8320-1d6564ab32b2",
+          "cb5f140e-6855-11e4-9fa5-715e2a020b0c",
+          "9cbc5a20-fdcb-11e3-8dd9-4308845aa9b1",
+          "81385ef8-6855-11e4-b840-3de48af7bd07",
+          "186a18a2-fdd0-11e3-a453-514d34943e20",
+          "3ccf192c-fdd0-11e3-af93-1504704c639b",
+          "d410076c-3ce3-11e5-8542-73741ee2788d",
+          "87272bfa-6855-11e4-b0a6-0ba42e34d70d",
+          "fde24594-fdd0-11e3-871f-39e6ba952a2f",
+          "ea99b558-fdd0-11e3-b821-1dd01dacbddd",
+          "10b4a08e-926d-42e8-b09c-0b88b83b63c6",
+          "e66b2034-fdd0-11e3-ab65-2be9d24b8a88",
+          "e3810c08-fdd0-11e3-8b89-57c42e58433d",
+          "f3bffe94-fdd0-11e3-b566-095756bb24d4",
+          "0396883e-fdd0-11e3-bb92-652d158f8090",
+          "4e8728e4-fdd0-11e3-b10e-1d4da874b919",
+          "d02a0d22-6855-11e4-9051-29933ff32c8a",
+          "142474a0-a2e3-11e4-87c2-1f3d978df127",
+          "1b6e4202-fdd1-11e3-a4f0-1fecbdd5174e",
+          "56ea5492-fdd1-11e3-8af0-6d0f20ea4554",
+          "d9a29da0-fdcb-11e3-bb89-5134f5619ee3",
+          "06ae216c-fdd0-11e3-bf35-67a0c0e4fa2d",
+          "67f68b68-6855-11e4-ad54-5927437305c6",
+          "da6c3b8e-6855-11e4-986f-7bc04762e00d",
+          "22903e92-fdd0-11e3-89ec-3b73cd221656",
+          "ec5ccf2a-fdcf-11e3-9ffa-5fb6e778f56c",
+          "93e2410e-6855-11e4-b042-4dbdb644daa3",
+          "03945e14-fdd1-11e3-a38c-257287873ad3",
+          "ddb0550a-fdcf-11e3-9989-7536514a8922",
+          "593e896c-fdd0-11e3-b671-5db9e67d5a7c",
+          "e2904176-a215-11e4-8216-35e9c3306c9d",
+          "48cef59a-6855-11e4-a148-230688e00af5",
+          "327b1d0e-fdd0-11e3-8e50-4d2108d9a2a2",
+          "42938708-1be3-11e5-8a3d-21c6013e8f0b",
+          "39c1abc6-1663-11e5-9d65-732a07253099",
+          "6afae44a-9d60-11e4-925b-199cd1b58a49",
+          "daac4b98-6855-11e4-b366-03f44e9566b9",
+          "2f2c5d2e-fdd1-11e3-83af-076024894a75",
+          "d84ec682-6855-11e4-8165-1df23cdc73c4",
+          "4d8645e2-fdd0-11e3-a87b-43443d3cdece",
+          "6dda494c-fdd0-11e3-9a5b-3516f4a2f7ad",
+          "0da8f10e-fdd0-11e3-9254-7bd43c363450",
+          "c1e1f061-5004-4f2d-a1b4-61e940ee1821",
+          "c7341b80-7afb-49cf-a46d-45ecc4dafcad",
+          "856bcca8-6855-11e4-8311-75e1bbf079cf",
+          "7518adde-fdd0-11e3-abcd-0f2854712c02",
+          "c0ae1d34-6855-11e4-9679-05a3e5293102",
+          "647a8d16-fdd1-11e3-b3b1-1960bb4833e5",
+          "ff0afda5-4174-4481-95a4-cbb8df57caf3",
+          "2f9225c4-fdd0-11e3-80a9-2f604b89a720",
+          "48834e6a-6855-11e4-beb7-43224fa0f7e7",
+          "66eda3bc-fdd1-11e3-b163-5971401a9395",
+          "82d6f32c-fdd0-11e3-a23e-7f8cd4ec2faf",
+          "e3c0969e-6855-11e4-a560-3f2af41e2593",
+          "bebd132c-6855-11e4-8bf0-79b6dd44cec2",
+          "e32c3714-fdd0-11e3-ba55-5becb8e4372b",
+          "6f17bf94-9d60-11e4-95a3-2bdcbf172403",
+          "64af25d5-42d0-40c9-a42c-80510e41a28d",
+          "862e5ae8-fdcf-11e3-a992-49a422a1c755",
+          "78718ae3-1b02-4a7e-bb7f-a1168173aa72"
+        ],
+        "lost_sics": [
+          "004c7e8d-c981-44fa-b7d9-976e28998378",
+          "0219369a-fdd1-11e3-b288-6fabf6f092b4",
+          "025ad5ba-fdd0-11e3-adad-7922846f6274",
+          "02e5cbc4-fdd1-11e3-b9fc-71c4cfeb1686",
+          "03078574-eec0-4c52-8cec-91d41f682f6b",
+          "04161071-a93a-45e6-b13a-1aac87f77cd7",
+          "0949cac4-fdd1-11e3-8eae-356d4c9f85ee",
+          "0c270e46-fdd1-11e3-be11-1f8cfe0449c3",
+          "118f1316-fdd0-11e3-b4fa-29a8289555a3",
+          "143b0bce-7ee8-4790-b569-f8d5d9447dd4",
+          "15cc0a1e-fdd1-11e3-9b6d-537667a04a30",
+          "1a4898a0-fdd1-11e3-88f2-77fc7f1e3373",
+          "1d3fbf3e-fdd1-11e3-9402-27814dbafecc",
+          "230fb84e-9d61-11e4-9a8d-759171affc6b",
+          "24fdbcbc-6730-41fa-94c8-4078656a80ce",
+          "259901ac-e4e1-11e4-a8a8-1bdbcbc752d2",
+          "2d0a60ea-fdd1-11e3-94de-395962980e00",
+          "2d5e57b0-fdcf-11e3-86a1-55cee129d488",
+          "30be95b2-fdd1-11e3-b1f0-07d4c4d856b9",
+          "314ea60d-fab2-452a-bc36-df0e3d40fb92",
+          "369814dc-fdd0-11e3-bc46-779c493c259d",
+          "3b7d5066-fdd0-11e3-9326-23f7279264c7",
+          "3c71963e-fdd1-11e3-a75b-47375bc0cb50",
+          "46ec4bba-6855-11e4-9fbc-37c5d65c2573",
+          "48f32665-6f59-4a17-86d0-0e7906f6a235",
+          "496e28c2-6855-11e4-8f90-75a584088024",
+          "4d2badbd-364d-4859-876a-e7e169259079",
+          "529096a6-6855-11e4-8241-1930538f5e9b",
+          "52fc934a-fdd1-11e3-9f28-6f1f0b80e6a8",
+          "545a690c-fdd0-11e3-87a1-49e173d7c3f7",
+          "584a7800-504f-11e4-a7e7-439ab0beb69d",
+          "59dbe8fc-66d4-11e4-a383-1354dcf2899a",
+          "6008395e-fdd1-11e3-b233-1d9d08d14a09",
+          "622e8d8c-fdd1-11e3-87fd-7fb8dc3dbc9d",
+          "702cc07c-6855-11e4-8ea1-6356e27a9c56",
+          "7066fd32-681d-11e5-892b-4be546e77d46",
+          "73ace6e7-1a66-4ac1-baf6-5687c217f0bf",
+          "78e2dd6c-fdd1-11e3-a2f2-05ceb8764561",
+          "7b524d92-3441-4336-a23c-d199e0fafb2f",
+          "7c86d826-6855-11e4-86af-1b6a9c6e1bdc",
+          "7f2f4ce8-6855-11e4-be04-19c506fc9a3f",
+          "82832c16-6855-11e4-ac50-3f959c65003e",
+          "832704ba-fdd1-11e3-bcf1-31e01a9cfc13",
+          "836c2c20-4f68-4250-aa1d-53280c7c1d53",
+          "84954c46-6855-11e4-8b5b-65a5b7919d33",
+          "85f71312-6855-11e4-877f-6313e8a17b34",
+          "864ba94e-fdcb-11e3-8b0b-4f3d76bd0392",
+          "89ec7480-6855-11e4-abd2-13b2a4d7ae0b",
+          "8c31a934-fdd1-11e3-a56c-35ac0f892996",
+          "8d643ba2-6855-11e4-b281-19caa2abc0cc",
+          "8d708096-fdcb-11e3-a4e5-69d35a823f05",
+          "8d8252b2-fdcb-11e3-a3ec-776d22dea9c9",
+          "8ff1a92a-fdd1-11e3-af41-575d4899ea0e",
+          "9076a960-6855-11e4-8b8e-2d2997e25dd5",
+          "919b8180-6855-11e4-935e-07889f07c204",
+          "9242495c-6855-11e4-a0ea-71b2efcdca75",
+          "93f60b26-6855-11e4-ad70-75322fa69230",
+          "94e96072-fdcb-11e3-ab30-458c3ef3f301",
+          "95d4d5d0-6855-11e4-be58-29b4a54cb205",
+          "96497675-a58e-4152-b1c7-39c7ddb6e28e",
+          "98ac9a62-fdcb-11e3-995c-7fd8490b79ad",
+          "9ba52734-fdcb-11e3-ac85-353a08fd88ae",
+          "9f6aa56a-fdcb-11e3-bc2d-61185f508b10",
+          "9ff5d8fa-fdd1-11e3-b0f9-116e0beb8228",
+          "a0e581f8-fdcb-11e3-917e-494c995753a8",
+          "a18eedc8-fdd1-11e3-9d75-15d252180426",
+          "a43f0966-6854-11e4-b887-49367cdb6256",
+          "a4776eb4-6854-11e4-9ce4-7dcf7e761938",
+          "a9459998-6854-11e4-80a9-3712a3cc7a84",
+          "b03eeff4-fdcb-11e3-bc8f-5d92fb65277b",
+          "b13d35b0-6855-11e4-a93f-59fcf889d8e2",
+          "b1d068e8-fdcb-11e3-bcef-6b5f73ee878f",
+          "b4786b30-fdd1-11e3-8bf3-2d88780e2109",
+          "b5d3fffe-fdd0-11e3-b00c-69d4f497d7f2",
+          "bf1e1a9a-fdd0-11e3-bcca-3bcaac61db4d",
+          "bff487b6-6855-11e4-aade-55cd9ba6605b",
+          "c3f90cb0-fdcf-11e3-833b-05b4146c8eea",
+          "c6814fd8-fdcf-11e3-888e-55af8be87803",
+          "c6fc2f8c-fdcf-11e3-9ad8-15c6c93e0564",
+          "c838d07a-06d5-4f6d-bc5b-4053b01f6f01",
+          "c8a385ec-fdcf-11e3-80ce-4deb4941ed64",
+          "c8e768fc-fdcf-11e3-b4e9-570d04a42b44",
+          "c9eefae4-fdcf-11e3-9a75-37f556d9bc0f",
+          "ca7e29c6-fdcf-11e3-88f6-791d964756ad",
+          "ca95e322-6855-11e4-be0c-275b989e9735",
+          "caeedb62-fdcf-11e3-9c4d-790f7904bfee",
+          "cb963848-fdd0-11e3-aa14-196508fdbb96",
+          "cbe1b4a8-fdd0-11e3-b912-450be7d845d1",
+          "ceef8a9a-fdcf-11e3-8d76-016fb0fb8a07",
+          "cffb3f92-6855-11e4-ab73-79cf00b856d3",
+          "d01cd0b2-fdcf-11e3-8ffb-1ddef7b3821d",
+          "d0314f4c-fdcf-11e3-bc28-052ac0e13449",
+          "d0a501a8-fdcf-11e3-9330-313311ad6a29",
+          "d10e3726-fdd0-11e3-8da0-15c1f100e10b",
+          "d2801648-fdcf-11e3-a1eb-713ecdc0b308",
+          "d3879560-fdd0-11e3-96c2-23167db09491",
+          "d4f55b3a-fdd0-11e3-9a9a-335951f7e55d",
+          "d5bc66f4-6855-11e4-bcb1-65ccf40de7b8",
+          "d901dad2-fdd0-11e3-b445-57726c144568",
+          "da76a7b8-fdcf-11e3-8d52-19decc7b26d3",
+          "dac779da-fdd0-11e3-bf7e-0307599ace5a",
+          "dece563e-fdd0-11e3-a0a7-55ddcb19f938",
+          "e0810719-c9d7-4e8d-ba35-4c5733bac7c9",
+          "e143bfcc-fdcf-11e3-8f92-49d39c9a309d",
+          "e2af11d6-6855-11e4-a6bb-4d51cfffe641",
+          "e9f6eed2-6855-11e4-8725-4b1dd743222d",
+          "eb0b1fa4-fdd0-11e3-8f7d-41754ff6d1e2",
+          "f02c1308-fdd0-11e3-b831-21b10c827962",
+          "f10c1a26-6855-11e4-81f7-657c55d6cbbc",
+          "f10d2d52-fdd0-11e3-9324-49323aacb2c9",
+          "f2495f66-fdcf-11e3-a98d-517bcd914c55",
+          "f373257e-fdd0-11e3-b3be-5f06e4bf5ae7",
+          "f43613b4-fdcf-11e3-a09b-61bd533a3451",
+          "f46cfc26-fdcf-11e3-b76a-693a92c287c2",
+          "f8a79abd-e61c-4c12-b7a3-dcbc3b4d2e4f",
+          "f8f5c1ac-fdce-11e3-91a7-01c40a531357",
+          "fbb31a5c-fdce-11e3-ba0e-137665688f35",
+          "fcf2ede2-fdcf-11e3-825d-2d086ad6f01a"
+        ],
+        "token": "0af0e4ee-7c56-406c-8099-1efc83b49d74",
+        "subject": "New stocks are now in Movers & Shakers inc. BUD, HSBC.K, LVMUY.PK, ITUB.K, BBD",
+        "new_instruments": [
           {
-            "portfolio_name": "DR5318",
-            "portfolio_type": "Account",
-            "messages": [
-              {
-                "identity": null,
-                "message": "Triveni Engineering & Industries Ltd. current price of ₹78.4 is now higher than the target price of ₹73.0.",
-                "sent_at": 1486331932,
-                "tags": {
-                  "elevation": "free",
-                  "summary": {
-                    "price_change": "0.3841",
-                    "price": "78.4",
-                    "rating": "2"
-                  },
-                  "cta": {
-                    "negative": "alternative",
-                    "positive": null
-                  },
-                  "ticker": "triveni",
-                  "channels": [
-                    "daily_email",
-                    "weekly_email",
-                    "twitter",
-                    "stocktwits"
-                  ],
-                  "logo": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
-                  "short_name": "Triveni Engineering & Industries Ltd.",
-                  "sic": "17e00d6a-fcc2-11e3-9db8-7b100fc48d18",
-                  "ric": "trei.ns",
-                  "attitude": "negative",
-                  "region_code": "apac",
-                  "negative": "true",
-                  "display_ticker": "TREI.NS",
-                  "cta_button": "Find Alternatives?",
-                  "cta_url": "https://stockflare.com/$/stocks/trei.ns/breakdown/peers"
-                },
-                "acknowledged": false,
-                "language": "en"
-              },
-              {
-                "identity": null,
-                "message": "Petronet LNG Ltd. current price of ₹386.8 is now higher than the target price of ₹384.66.",
-                "sent_at": 1486331759,
-                "tags": {
-                  "elevation": "free",
-                  "summary": {
-                    "price_change": "0.1813",
-                    "price": "386.8",
-                    "rating": "3"
-                  },
-                  "cta": {
-                    "negative": "alternative",
-                    "positive": null
-                  },
-                  "ticker": "petronet",
-                  "channels": [
-                    "daily_email",
-                    "weekly_email",
-                    "twitter",
-                    "stocktwits"
-                  ],
-                  "logo": "https://logos.stockflare.com/cc9a8b00-fcc1-11e3-8610-499b91136636",
-                  "short_name": "Petronet LNG Ltd.",
-                  "sic": "cc9a8b00-fcc1-11e3-8610-499b91136636",
-                  "ric": "plng.ns",
-                  "attitude": "negative",
-                  "region_code": "apac",
-                  "negative": "true",
-                  "display_ticker": "PLNG.NS",
-                  "cta_button": "Find Alternatives?",
-                  "cta_url": "https://stockflare.com/$/stocks/plng.ns/breakdown/peers"
-                },
-                "acknowledged": false,
-                "language": "en"
-              }
-            ],
-            "sics": [
-              "bfcd874c-684b-11e4-9db9-27a63526f7fb",
-              "fdb97cfa-fcc1-11e3-98e6-73ec1fc1d8d5",
-              "c6af59fa-fcc1-11e3-b830-053b98fd5643",
-              "db477f40-fcc2-11e3-a1f5-3f5d65e778c7",
-              "36b4267c-fcc2-11e3-a429-3549fe5bec92",
-              "17017fb4-fcc2-11e3-bbc2-6b31467e3cb2",
-              "f56861e0-b4b9-11e5-9bec-4b38ccf2199a",
-              "9227442c-684b-11e4-adda-755cdb3350d7",
-              "80287c04-fcc2-11e3-a6b6-43c355b4cc62",
-              "609cd59c-fcc2-11e3-a6c1-63b1ae0b04ad",
-              "ad44d2be-fcc2-11e3-896a-69af43dde8fd",
-              "3cc917ca-fcc2-11e3-8677-7353cd710588",
-              "e795543c-e47c-11e4-b7f3-158ef45507b1",
-              "ba3745f6-fcc2-11e3-ba27-45fec985ff23",
-              "b92a4de4-684b-11e4-bf0a-7f72c611b707",
-              "e5b33e7a-fcc1-11e3-998d-453512b772a7",
-              "ca6c5a5c-fcc1-11e3-907b-7198e813aa95",
-              "13461c22-fcc2-11e3-9e86-03b00f0f1803",
-              "4dc71fc2-fcc2-11e3-9667-4b6a6bce7c6f",
-              "c7e749ee-fcc2-11e3-9f3f-2fe13eed29ae",
-              "5155a154-fcc2-11e3-a1d8-039b29b19f7a",
-              "94ebefbe-684b-11e4-9697-6d83461aa5aa",
-              "6c11ad1c-fcc2-11e3-87b7-0116a5cfba1c",
-              "ec5cb1d4-fcc1-11e3-bd7f-1d41997b5cc4",
-              "caddbe97-13fa-4b36-9445-f594abc481f2",
-              "7b96d348-684c-11e4-9af0-03f444f6831b",
-              "46d33b74-684c-11e4-af77-1dbac13aed9d",
-              "2d17666a-fcc2-11e3-b78e-69441cb43cbc",
-              "e2093248-fcc1-11e3-917a-4127de0a8cf6",
-              "9af12122-684b-11e4-beba-6177672c00bb",
-              "c40ed5b8-fcc1-11e3-af69-1ff84acd1fb5",
-              "f7164bd0-684b-11e4-b0e8-138d61dc9a30",
-              "367bbc14-21ca-11e5-b3f3-6d81fab47610",
-              "06762230-fcc2-11e3-bd56-7ba26d77e1a8",
-              "c0cfb9bc-684b-11e4-a74f-27e82b00e9fe",
-              "217d3ece-fcc2-11e3-81c7-356e5b776f4d",
-              "acd6f466-684b-11e4-9016-37110ec812e8",
-              "528b74ea-fcc2-11e3-8ccf-5bfccb75cef6",
-              "680f7e38-684c-11e4-9186-5b3c39971a25",
-              "d1b125cc-684b-11e4-8a9a-0f145e336c76",
-              "b995dce4-fcc1-11e3-b637-33c775cdb728",
-              "82836532-684b-11e4-b4a7-012fced8376e",
-              "28ad2af6-684c-11e4-abac-17fe86ee1a15",
-              "fae09b94-fcc1-11e3-966f-21e217665e60",
-              "8318ea94-684b-11e4-b323-53bd1efddd82",
-              "d259ae58-fcc2-11e3-8235-5332ec6c92b1",
-              "ae2bd476-684b-11e4-9b94-3ffbd1b68609",
-              "d6e36f32-fcc1-11e3-a23a-03f68b63fea0",
-              "a182e576-8a4a-11e5-aff4-0f80c9d74dfe",
-              "c275b992-fcc1-11e3-8023-196a98d39a75",
-              "af0a4a12-fcc1-11e3-856e-6765bf224664",
-              "75661052-defc-11e4-8a7d-2311f0cfbf00",
-              "14cb4ec8-fcc2-11e3-a208-731f8cc65c48",
-              "34d4e652-684c-11e4-a86e-217bf86010dd",
-              "4acbd182-fcc2-11e3-96bb-635115788ca0",
-              "606b4400-684c-11e4-80cc-1d18a3ef850d",
-              "975bad0c-684b-11e4-a0b9-5b5366e14264",
-              "e109c362-684b-11e4-931c-13fa590d4608",
-              "1056aff4-fcc2-11e3-a0b1-731dc85f85b8",
-              "d9027cb8-fcc1-11e3-ba22-01734d24bab5",
-              "d2f84c8e-fcc2-11e3-8413-7320e0062ed0",
-              "74ddc016-fcc2-11e3-959d-49f0112bbeba",
-              "a9c97d10-fcc2-11e3-b464-4bbba1060691",
-              "d02debb8-fcc1-11e3-a084-0d324e465594",
-              "df3dbe58-fcc1-11e3-9e70-2999fd204bb6",
-              "cc9a8b00-fcc1-11e3-8610-499b91136636",
-              "f0b71a58-fcc1-11e3-9d62-0bdc81606a85",
-              "b682db7e-684b-11e4-8cfe-0bb95ba78943",
-              "ddf9b042-fcc1-11e3-9587-55a58e41f404",
-              "fd53e732-684b-11e4-b669-7d28e930bdab",
-              "cd883a80-fcc1-11e3-9eca-15df1f9f8616",
-              "d35fb8de-684b-11e4-849f-0b8b9e638e26",
-              "7bab2992-fcc2-11e3-9830-63e7b986b151",
-              "d1b22d68-fcc2-11e3-b1af-3d16eba02952",
-              "be3893d6-684b-11e4-b13e-1ffbadbc4463",
-              "d6158802-86f9-11e4-a98f-39d0eb0053ed",
-              "781ee85e-fcc2-11e3-8799-3f7254f3d9e6",
-              "b1d6b7bc-fcc1-11e3-b74b-25ce811ec257",
-              "17e00d6a-fcc2-11e3-9db8-7b100fc48d18",
-              "92f0dad0-684b-11e4-a5b7-1bd12a3d3a5f",
-              "2ba799c6-fcc2-11e3-be83-35a2a9e4e669",
-              "90bdc07e-fcc2-11e3-9aed-191a88a07e09",
-              "1519dbf2-ef7d-11e4-8031-63743bcd30f2",
-              "c29cd2f2-684b-11e4-81c7-211190f69f9c",
-              "a5e11dda-684b-11e4-87b5-7b1ca0361430",
-              "3c94a46c-fcbe-11e3-9aea-13e8add30671"
-            ]
+            "sic": "8607e06a-fdcb-11e3-86f9-1d6ad835e967",
+            "short_name": "Anheuser Busch Inbev NV (ADR)",
+            "logo_image": "https://logos.stockflare.com/8607e06a-fdcb-11e3-86f9-1d6ad835e967",
+            "ticker": "bud",
+            "ric": "bud",
+            "url": "https://stockflare.com/stock/bud"
           },
           {
-            "portfolio_name": "Fix Bug",
-            "portfolio_type": "Watchlist",
-            "messages": [
-              {
-                "identity": null,
-                "message": "A business in the same sector as Wockhardt Limited, Strides Shasun Ltd was up 10.2% on Friday.",
-                "sent_at": 1486331852,
-                "tags": {
-                  "elevation": "silver",
-                  "summary": {
-                    "price_change": "3.2176",
-                    "price": "686.5",
-                    "rating": "3"
-                  },
-                  "cta": {
-                    "negative": null,
-                    "positive": null
-                  },
-                  "ticker": "wockpharma",
-                  "channels": [
-                    "daily_email"
-                  ],
-                  "logo": "https://logos.stockflare.com/8cee17c4-684b-11e4-ac0a-571b0aa98b68",
-                  "short_name": "Wockhardt Limited",
-                  "sic": "8cee17c4-684b-11e4-ac0a-571b0aa98b68",
-                  "ric": "wckh.ns",
-                  "attitude": "positive",
-                  "region_code": "apac",
-                  "silver": "true",
-                  "positive": "true",
-                  "display_ticker": "WCKH.NS"
-                },
-                "acknowledged": false,
-                "language": "en"
-              },
-              {
-                "identity": null,
-                "message": "A business in the same sector as Idea Cellular Ltd, Reliance Communications Ltd was up 8.8% on Friday.",
-                "sent_at": 1486331786,
-                "tags": {
-                  "elevation": "silver",
-                  "summary": {
-                    "price_change": "-0.3188",
-                    "price": "109.45",
-                    "rating": "2"
-                  },
-                  "cta": {
-                    "negative": null,
-                    "positive": null
-                  },
-                  "ticker": "idea",
-                  "channels": [
-                    "daily_email"
-                  ],
-                  "logo": "https://logos.stockflare.com/bafc5996-fcc1-11e3-85b4-3141e620340d",
-                  "short_name": "Idea Cellular Ltd",
-                  "sic": "bafc5996-fcc1-11e3-85b4-3141e620340d",
-                  "ric": "idea.ns",
-                  "attitude": "positive",
-                  "region_code": "apac",
-                  "silver": "true",
-                  "positive": "true",
-                  "display_ticker": "IDEA.NS"
-                },
-                "acknowledged": false,
-                "language": "en"
-              },
-              {
-                "identity": null,
-                "message": "Bharat Petroleum Corp Ltd current price of ₹698.6 is now higher than the target price of ₹687.64.",
-                "sent_at": 1486331780,
-                "tags": {
-                  "elevation": "free",
-                  "summary": {
-                    "price_change": "-0.4702",
-                    "price": "698.6",
-                    "rating": "3"
-                  },
-                  "cta": {
-                    "negative": "alternative",
-                    "positive": null
-                  },
-                  "ticker": "bpcl",
-                  "channels": [
-                    "daily_email",
-                    "weekly_email",
-                    "twitter",
-                    "stocktwits"
-                  ],
-                  "logo": "https://logos.stockflare.com/835a9408-684b-11e4-8c6a-333a05fbede7",
-                  "short_name": "Bharat Petroleum Corp Ltd",
-                  "sic": "835a9408-684b-11e4-8c6a-333a05fbede7",
-                  "ric": "bpcl.ns",
-                  "attitude": "negative",
-                  "region_code": "apac",
-                  "negative": "true",
-                  "display_ticker": "BPCL.NS",
-                  "cta_button": "Find Alternatives?",
-                  "cta_url": "https://stockflare.com/$/stocks/bpcl.ns/breakdown/peers"
-                },
-                "acknowledged": false,
-                "language": "en"
-              },
-              {
-                "identity": null,
-                "message": "A business in the same sector as Bank of Baroda, Union Bank of India was up 10.4% on Friday.",
-                "sent_at": 1486331772,
-                "tags": {
-                  "elevation": "silver",
-                  "summary": {
-                    "price_change": "4.9536",
-                    "price": "186.45",
-                    "rating": "3"
-                  },
-                  "cta": {
-                    "negative": null,
-                    "positive": null
-                  },
-                  "ticker": "bankbaroda",
-                  "channels": [
-                    "daily_email"
-                  ],
-                  "logo": "https://logos.stockflare.com/b94131bc-fcc1-11e3-b113-6f8d36ea1fa9",
-                  "short_name": "Bank of Baroda",
-                  "sic": "b94131bc-fcc1-11e3-b113-6f8d36ea1fa9",
-                  "ric": "bob.ns",
-                  "attitude": "positive",
-                  "region_code": "apac",
-                  "silver": "true",
-                  "positive": "true",
-                  "display_ticker": "BOB.NS"
-                },
-                "acknowledged": false,
-                "language": "en"
-              },
-              {
-                "identity": null,
-                "message": "A business in the same sector as Cipla Ltd, Strides Shasun Ltd was up 10.2% on Friday.",
-                "sent_at": 1486331753,
-                "tags": {
-                  "elevation": "silver",
-                  "summary": {
-                    "price_change": "4.0301",
-                    "price": "607.9",
-                    "rating": "2"
-                  },
-                  "cta": {
-                    "negative": null,
-                    "positive": null
-                  },
-                  "ticker": "cipla",
-                  "channels": [
-                    "daily_email"
-                  ],
-                  "logo": "https://logos.stockflare.com/c935e478-fcc1-11e3-8a78-67a5ce6dd180",
-                  "short_name": "Cipla Ltd",
-                  "sic": "c935e478-fcc1-11e3-8a78-67a5ce6dd180",
-                  "ric": "cipl.ns",
-                  "attitude": "positive",
-                  "region_code": "apac",
-                  "silver": "true",
-                  "positive": "true",
-                  "display_ticker": "CIPL.NS"
-                },
-                "acknowledged": false,
-                "language": "en"
-              },
-              {
-                "identity": null,
-                "message": "A business in the same sector as Yes Bank Limited, Union Bank of India was up 10.4% on Friday.",
-                "sent_at": 1486331727,
-                "tags": {
-                  "elevation": "silver",
-                  "summary": {
-                    "price_change": "0.7787",
-                    "price": "1397.8",
-                    "rating": "3"
-                  },
-                  "cta": {
-                    "negative": null,
-                    "positive": null
-                  },
-                  "ticker": "yesbank",
-                  "channels": [
-                    "daily_email"
-                  ],
-                  "logo": "https://logos.stockflare.com/b5bc7e84-fcc1-11e3-830d-4144294fd541",
-                  "short_name": "Yes Bank Limited",
-                  "sic": "b5bc7e84-fcc1-11e3-830d-4144294fd541",
-                  "ric": "yesb.ns",
-                  "attitude": "positive",
-                  "region_code": "apac",
-                  "silver": "true",
-                  "positive": "true",
-                  "display_ticker": "YESB.NS"
-                },
-                "acknowledged": false,
-                "language": "en"
-              },
-              {
-                "identity": null,
-                "message": "A business in the same sector as Bank of India, Union Bank of India was up 10.4% on Friday.",
-                "sent_at": 1486331722,
-                "tags": {
-                  "elevation": "silver",
-                  "summary": {
-                    "price_change": "6.1477",
-                    "price": "132.95",
-                    "rating": "0"
-                  },
-                  "cta": {
-                    "negative": null,
-                    "positive": null
-                  },
-                  "ticker": "bankindia",
-                  "channels": [
-                    "daily_email"
-                  ],
-                  "logo": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
-                  "short_name": "Bank of India",
-                  "sic": "b8d9dbac-fcc1-11e3-913e-27e9003a16d3",
-                  "ric": "boi.ns",
-                  "attitude": "positive",
-                  "region_code": "apac",
-                  "silver": "true",
-                  "positive": "true",
-                  "display_ticker": "BOI.NS"
-                },
-                "acknowledged": false,
-                "language": "en"
-              },
-              {
-                "identity": null,
-                "message": "A business in the same sector as IDFC Bank Ltd, Union Bank of India was up 10.4% on Friday.",
-                "sent_at": 1486331652,
-                "tags": {
-                  "elevation": "silver",
-                  "summary": {
-                    "price_change": "2.2388",
-                    "price": "61.65",
-                    "rating": "4"
-                  },
-                  "cta": {
-                    "negative": null,
-                    "positive": null
-                  },
-                  "ticker": "idfcbank",
-                  "channels": [
-                    "daily_email"
-                  ],
-                  "logo": "https://logos.stockflare.com/8ba2d8a0-8983-11e5-b175-3972ea1033cb",
-                  "short_name": "IDFC Bank Ltd",
-                  "sic": "8ba2d8a0-8983-11e5-b175-3972ea1033cb",
-                  "ric": "idfb.ns",
-                  "attitude": "positive",
-                  "region_code": "apac",
-                  "silver": "true",
-                  "positive": "true",
-                  "display_ticker": "IDFB.NS"
-                },
-                "acknowledged": false,
-                "language": "en"
-              },
-              {
-                "identity": null,
-                "message": "A business in the same sector as IDBI Bank Ltd, Union Bank of India was up 10.4% on Friday.",
-                "sent_at": 1486331619,
-                "tags": {
-                  "elevation": "silver",
-                  "summary": {
-                    "price_change": "2.9003",
-                    "price": "85.15",
-                    "rating": "2"
-                  },
-                  "cta": {
-                    "negative": null,
-                    "positive": null
-                  },
-                  "ticker": "idbi",
-                  "channels": [
-                    "daily_email"
-                  ],
-                  "logo": "https://logos.stockflare.com/95bbb046-684b-11e4-b5a8-5570b83c6f2f",
-                  "short_name": "IDBI Bank Ltd",
-                  "sic": "95bbb046-684b-11e4-b5a8-5570b83c6f2f",
-                  "ric": "idbi.ns",
-                  "attitude": "positive",
-                  "region_code": "apac",
-                  "silver": "true",
-                  "positive": "true",
-                  "display_ticker": "IDBI.NS"
-                },
-                "acknowledged": false,
-                "language": "en"
-              },
-              {
-                "identity": null,
-                "message": "A business in the same sector as Zee Entertainment Enterprises Limited, Sun TV Network Ltd. was up 23.9% on Friday.",
-                "sent_at": 1486331612,
-                "tags": {
-                  "elevation": "silver",
-                  "summary": {
-                    "price_change": "-2.2763",
-                    "price": "495.85",
-                    "rating": "4"
-                  },
-                  "cta": {
-                    "negative": null,
-                    "positive": null
-                  },
-                  "ticker": "zeel",
-                  "channels": [
-                    "daily_email"
-                  ],
-                  "logo": "https://logos.stockflare.com/b96e3a7c-fcc1-11e3-9f0b-7158a649eca9",
-                  "short_name": "Zee Entertainment Enterprises Limited",
-                  "sic": "b96e3a7c-fcc1-11e3-9f0b-7158a649eca9",
-                  "ric": "zee.ns",
-                  "attitude": "positive",
-                  "region_code": "apac",
-                  "silver": "true",
-                  "positive": "true",
-                  "display_ticker": "ZEE.NS"
-                },
-                "acknowledged": false,
-                "language": "en"
-              },
-              {
-                "identity": null,
-                "message": "A business in the same sector as Glenmark Pharmaceuticals Ltd, Strides Shasun Ltd was up 10.2% on Friday.",
-                "sent_at": 1486331549,
-                "tags": {
-                  "elevation": "silver",
-                  "summary": {
-                    "price_change": "4.2077",
-                    "price": "947.3",
-                    "rating": "5"
-                  },
-                  "cta": {
-                    "negative": null,
-                    "positive": null
-                  },
-                  "ticker": "glenmark",
-                  "channels": [
-                    "daily_email"
-                  ],
-                  "logo": "https://logos.stockflare.com/89e1d32c-684b-11e4-8116-05e676ee33f4",
-                  "short_name": "Glenmark Pharmaceuticals Ltd",
-                  "sic": "89e1d32c-684b-11e4-8116-05e676ee33f4",
-                  "ric": "glen.ns",
-                  "attitude": "positive",
-                  "region_code": "apac",
-                  "silver": "true",
-                  "positive": "true",
-                  "display_ticker": "GLEN.NS"
-                },
-                "acknowledged": false,
-                "language": "en"
-              },
-              {
-                "identity": null,
-                "message": "A business in the same sector as Syndicate Bank Ltd., Union Bank of India was up 10.4% on Friday.",
-                "sent_at": 1486331525,
-                "tags": {
-                  "elevation": "silver",
-                  "summary": {
-                    "price_change": "3.4752",
-                    "price": "72.95",
-                    "rating": "3"
-                  },
-                  "cta": {
-                    "negative": null,
-                    "positive": null
-                  },
-                  "ticker": "syndibank",
-                  "channels": [
-                    "daily_email"
-                  ],
-                  "logo": "https://logos.stockflare.com/98e8e13a-684b-11e4-b2f6-0bde754c50c4",
-                  "short_name": "Syndicate Bank Ltd.",
-                  "sic": "98e8e13a-684b-11e4-b2f6-0bde754c50c4",
-                  "ric": "sbnk.ns",
-                  "attitude": "positive",
-                  "region_code": "apac",
-                  "silver": "true",
-                  "positive": "true",
-                  "display_ticker": "SBNK.NS"
-                },
-                "acknowledged": false,
-                "language": "en"
-              }
-            ],
-            "sics": [
-              "c6af59fa-fcc1-11e3-b830-053b98fd5643",
-              "bc402620-fcc1-11e3-8b01-6f27ae28e225",
-              "14d64b66-fcc2-11e3-bde7-33c8d2358b4d",
-              "af0a4a12-fcc1-11e3-856e-6765bf224664",
-              "8cee17c4-684b-11e4-ac0a-571b0aa98b68",
-              "c7149ce8-fcc1-11e3-b06c-13a17afd417d",
-              "90a404b4-684b-11e4-9e3f-419e934b8a16",
-              "c52dfa6e-fcc1-11e3-8bdd-25e1e537582d",
-              "c0abfe64-fcc1-11e3-97e5-691eb23109cb",
-              "845fe876-684b-11e4-8af7-09b66f7f5cd4",
-              "ae5be79c-fcc1-11e3-bb71-4bee2d55d47f",
-              "bc718f62-fcc1-11e3-9269-7746d622a165",
-              "db8461a4-fcc1-11e3-8375-4f3dbc55af73",
-              "0f8680b8-fcc2-11e3-9228-15eb73fda370",
-              "b1ea1a96-fcc1-11e3-a863-2f092a4759bf",
-              "99bea7f2-684b-11e4-a4c0-49f3db527158",
-              "ed15aefa-fcc1-11e3-a7f8-67b0e09869e8",
-              "9af12122-684b-11e4-beba-6177672c00bb",
-              "ae2bd476-684b-11e4-9b94-3ffbd1b68609",
-              "b7c72fbc-fcc1-11e3-96d3-4d625a366a02",
-              "195196b4-fcc2-11e3-a09c-4d631c8518ad",
-              "81dab554-6855-11e4-a180-638deb9c6a7e",
-              "de6a1cce-fcc1-11e3-83a4-1fe6893fcb19",
-              "8ba2d8a0-8983-11e5-b175-3972ea1033cb",
-              "afc71a16-fcc1-11e3-9b05-239baea6328a",
-              "b43b355a-fcc1-11e3-abb1-6f08c6350a6f",
-              "b741bd00-fcc1-11e3-983b-658ba48ba4eb",
-              "98e8e13a-684b-11e4-b2f6-0bde754c50c4",
-              "9227442c-684b-11e4-adda-755cdb3350d7",
-              "89e1d32c-684b-11e4-8116-05e676ee33f4",
-              "c3625202-fcc1-11e3-b6b6-49bbf3579e84",
-              "c4dff936-fcc1-11e3-91cc-0b20ec318e40",
-              "bafc5996-fcc1-11e3-85b4-3141e620340d",
-              "b4d3dbfc-fcc1-11e3-ac19-6def729b5fe9",
-              "26ca2a18-fcc2-11e3-a9d0-433f332ff1f4",
-              "aed876e0-fcc1-11e3-9b82-054d1d0b22cf",
-              "b8d9dbac-fcc1-11e3-913e-27e9003a16d3",
-              "b5402924-684b-11e4-a1bd-1bc4bc9b84c1",
-              "c223b6f6-fcc1-11e3-b6e2-11c1f34a39e5",
-              "b96e3a7c-fcc1-11e3-9f0b-7158a649eca9",
-              "c3b2e12c-fcc1-11e3-b155-055a64f2577a",
-              "c7c38bb8-fcc1-11e3-9912-590b2e0963d9",
-              "b64d4644-fcc1-11e3-84da-39e522209539",
-              "b516674c-fcc1-11e3-b0ed-43aa55c80e5d",
-              "8c10db16-684b-11e4-b754-39e9f7d59457",
-              "e5546738-fcc1-11e3-9e91-7fb3593c2c0c",
-              "06d51858-fcc2-11e3-8b8a-330fee932727",
-              "b7592b1a-fdd0-11e3-9de8-5b53207d7e66",
-              "cfa4687a-fcc1-11e3-ad81-0f1b256d0e1f",
-              "b68cc346-fcc1-11e3-aa9d-47687c774ae5",
-              "da216e7e-fcc1-11e3-85b8-6ffe9d54bc01",
-              "b1d6b7bc-fcc1-11e3-b74b-25ce811ec257",
-              "c935e478-fcc1-11e3-8a78-67a5ce6dd180",
-              "cc1c079e-fcc1-11e3-bd5f-21600cc074b1",
-              "95bbb046-684b-11e4-b5a8-5570b83c6f2f",
-              "97ce5e24-684b-11e4-b51b-031e2e29ecb7",
-              "b94131bc-fcc1-11e3-b113-6f8d36ea1fa9",
-              "84936b92-684b-11e4-b88e-216b1682b832",
-              "d02debb8-fcc1-11e3-a084-0d324e465594",
-              "b2c51b1e-fcc1-11e3-ac8d-019227f36ca2",
-              "8318ea94-684b-11e4-b323-53bd1efddd82",
-              "e6c017b6-fcc1-11e3-baa7-63340f6a25f9",
-              "ca6c5a5c-fcc1-11e3-907b-7198e813aa95",
-              "a7272d74-684b-11e4-b4c6-1190325bb4c5",
-              "ba58a42c-fcc1-11e3-a597-6f0fc74e7672",
-              "cb1b8400-fcc1-11e3-ac7f-71e6098c8cad",
-              "bf6f31e2-fcc1-11e3-aa6b-032ebddba129",
-              "b5bc7e84-fcc1-11e3-830d-4144294fd541",
-              "dd9c3160-684b-11e4-8a12-57164f7e9915",
-              "fc8cd57a-fcc1-11e3-99bb-5b7597c7c6b6",
-              "cd235f7a-fcc1-11e3-b634-5d4163321b6c",
-              "c424f76c-fcc1-11e3-acd3-0be729ac4a1f",
-              "d227e18a-fcc1-11e3-bb26-15f44a667594",
-              "bf84d07e-fcc1-11e3-b866-05f54290008e",
-              "ca149ace-fcc1-11e3-a713-019ef1d0553a",
-              "bdfa9ac2-fcc1-11e3-86b5-09917657b9e8",
-              "ad6b0eea-f5c6-11e4-9a52-0dc58840145c",
-              "975bad0c-684b-11e4-a0b9-5b5366e14264",
-              "bdf5310e-fcc1-11e3-bbdd-376488a78ac7",
-              "839e510c-684b-11e4-9fc5-013cfaf32583",
-              "9ff02960-fdcb-11e3-a8ff-39a7b3abceb6",
-              "b503dc80-fcc1-11e3-9f8d-636f9530fb7b",
-              "8f8bb9d2-684b-11e4-8eaa-177743e1449e",
-              "c10439c6-fcc1-11e3-b5a0-7b5eebe735e8",
-              "b35ae41e-fcc1-11e3-8106-33496fcf1329",
-              "984f5b28-684b-11e4-9b72-5fe655854b5e",
-              "b5c89304-fcc1-11e3-abf3-4345bd37db91",
-              "82ddcdb0-6855-11e4-b033-711feb2b5ef1",
-              "b995dce4-fcc1-11e3-b637-33c775cdb728",
-              "8d336ef0-684b-11e4-a648-2d6ac22c0f10",
-              "aea8e36c-fcc1-11e3-a405-273c9a6c6f23",
-              "9492d924-684b-11e4-a22b-19940514d197",
-              "283e7584-fcc2-11e3-a674-45215d5752d0",
-              "d39f0034-fcc1-11e3-aeb9-55b5b79b3340",
-              "f7ee32ca-fcc1-11e3-882e-5bab94f4e36a",
-              "c5feed26-fdd0-11e3-8a94-332ab3640e39",
-              "8588ae90-684b-11e4-beb9-3dd1fbfe26cf",
-              "c1cdcb42-fcc1-11e3-bf5f-01d93aa4133e",
-              "fdb97cfa-fcc1-11e3-98e6-73ec1fc1d8d5",
-              "c10f8e5c-fcc1-11e3-8f46-7d72651b20fc",
-              "b9b358be-684b-11e4-bed0-3ff2785d3e49",
-              "c40ed5b8-fcc1-11e3-af69-1ff84acd1fb5",
-              "a56255e0-684b-11e4-9539-3b6c20833f31",
-              "e0886312-fcc1-11e3-8663-0de8adb7ab68",
-              "dcf83592-fcc1-11e3-86d5-2159ea5d2e9e",
-              "d579d3f2-684b-11e4-986b-178573bbcc2f",
-              "8684a2ea-684b-11e4-8b76-5fee05ea47bf",
-              "f4ef3d2e-c358-47e7-aec8-306eaf655c49",
-              "bab538c2-fcc1-11e3-8138-657629cb6b5c",
-              "b1bff040-fcc1-11e3-9a13-639c6ece1fa6",
-              "aac193de-684b-11e4-b357-0ffd2fa26674",
-              "10f56980-5e50-44ff-b5fd-df5ed4c068cd",
-              "9baa1eca-684b-11e4-a5b6-099cdc304bd8",
-              "bf775c28-fcc1-11e3-9cb0-23f57beb2e88",
-              "9637a91c-684b-11e4-a478-437705e43e11",
-              "c817efa0-6850-11e4-926b-6d062e636d0f",
-              "f83051a0-fcc1-11e3-acb9-1b410ec730e9",
-              "9295cde8-684b-11e4-8aa6-7f1963786bb7",
-              "8c38d382-684b-11e4-84ef-2b829f0229fe",
-              "b12e39ac-fcc1-11e3-9065-4bdf0811bbc4",
-              "bf627146-684b-11e4-9182-3bcc9b336535",
-              "be048348-fcc1-11e3-9794-07c81a9f1779",
-              "e2093248-fcc1-11e3-917a-4127de0a8cf6",
-              "1519dbf2-ef7d-11e4-8031-63743bcd30f2",
-              "8dc009a0-684b-11e4-a7fa-0b1ada79a83f",
-              "b39bf7c4-fcc1-11e3-b8d6-7f3f805a20cd",
-              "a182e576-8a4a-11e5-aff4-0f80c9d74dfe",
-              "835a9408-684b-11e4-8c6a-333a05fbede7",
-              "8b7ce3e8-684b-11e4-b514-3f854edf0fa6",
-              "b8e12dc6-fcc1-11e3-aadd-4517ace956ea",
-              "c57d18e2-fcc1-11e3-bab8-6ff5f797627e",
-              "cd2ee980-fcc1-11e3-ac5f-27ba8650b7dd"
-            ]
+            "sic": "91e8284a-fdcb-11e3-abf8-15d5db2358a3",
+            "short_name": "HSBC Holdings plc (ADR)",
+            "logo_image": "https://logos.stockflare.com/91e8284a-fdcb-11e3-abf8-15d5db2358a3",
+            "ticker": "hsbc",
+            "ric": "hsbc.k",
+            "url": "https://stockflare.com/stock/hsbc.k"
+          },
+          {
+            "sic": "dfb024b9-e43d-4d66-a201-fb0a03c4c44f",
+            "short_name": "LVMH Moet Hennessy Louis Vuitton SE(ADR)",
+            "logo_image": "https://logos.stockflare.com/dfb024b9-e43d-4d66-a201-fb0a03c4c44f",
+            "ticker": "lvmuy",
+            "ric": "lvmuy.pk",
+            "url": "https://stockflare.com/stock/lvmuy.pk"
+          },
+          {
+            "sic": "da2d55f5-c99c-4f21-a8c8-a0c8a56a7753",
+            "short_name": "Itau Unibanco Holding SA (ADR)",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "itub",
+            "ric": "itub.k",
+            "url": "https://stockflare.com/stock/itub.k"
+          },
+          {
+            "sic": "8ecfcdfc-fdcb-11e3-8945-6f86300ca14e",
+            "short_name": "Banco Bradesco SA (ADR)",
+            "logo_image": "https://logos.stockflare.com/8ecfcdfc-fdcb-11e3-8945-6f86300ca14e",
+            "ticker": "bbd",
+            "ric": "bbd",
+            "url": "https://stockflare.com/stock/bbd"
+          },
+          {
+            "sic": "9f83cede-6854-11e4-bcb5-276db51eff76",
+            "short_name": "Petroleo Brasileiro SA Petrobras (ADR)",
+            "logo_image": "https://logos.stockflare.com/9f83cede-6854-11e4-bcb5-276db51eff76",
+            "ticker": "pbr",
+            "ric": "pbr",
+            "url": "https://stockflare.com/stock/pbr"
+          },
+          {
+            "sic": "a94de6a2-6854-11e4-8a5d-2323d678b9a0",
+            "short_name": "Banco Bilbao Vizcaya Argentaria SA (ADR)",
+            "logo_image": "https://logos.stockflare.com/a94de6a2-6854-11e4-8a5d-2323d678b9a0",
+            "ticker": "bbva",
+            "ric": "bbva.k",
+            "url": "https://stockflare.com/stock/bbva.k"
+          },
+          {
+            "sic": "bb542cba-fdd0-11e3-a1ad-77ac644a20ea",
+            "short_name": "EOG Resources Inc",
+            "logo_image": "https://logos.stockflare.com/bb542cba-fdd0-11e3-a1ad-77ac644a20ea",
+            "ticker": "eog",
+            "ric": "eog",
+            "url": "https://stockflare.com/stock/eog"
+          },
+          {
+            "sic": "6cc1db70-6855-11e4-bb65-2799534fd063",
+            "short_name": "Tesla Inc",
+            "logo_image": "https://logos.stockflare.com/6cc1db70-6855-11e4-bb65-2799534fd063",
+            "ticker": "tsla",
+            "ric": "tsla.o",
+            "url": "https://stockflare.com/stock/tsla.o"
+          },
+          {
+            "sic": "8c746ceb-ab51-4002-a094-ceb1571b44af",
+            "short_name": "Danone SA (ADR)",
+            "logo_image": "https://logos.stockflare.com/8c746ceb-ab51-4002-a094-ceb1571b44af",
+            "ticker": "danoy",
+            "ric": "danoy.pk",
+            "url": "https://stockflare.com/stock/danoy.pk"
+          },
+          {
+            "sic": "c42b46f8-fdcf-11e3-8a44-39b1c5399e64",
+            "short_name": "Regeneron Pharmaceuticals Inc",
+            "logo_image": "https://logos.stockflare.com/c42b46f8-fdcf-11e3-8a44-39b1c5399e64",
+            "ticker": "regn",
+            "ric": "regn.o",
+            "url": "https://stockflare.com/stock/regn.o"
+          },
+          {
+            "sic": "5805b5a5-6b8b-4a9b-96ca-29645221f63d",
+            "short_name": "Continental AG (ADR)",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "cttay",
+            "ric": "cttay.pk",
+            "url": "https://stockflare.com/stock/cttay.pk"
+          },
+          {
+            "sic": "ba4ae188-fdd0-11e3-ad2b-1df0a173b16d",
+            "short_name": "Occidental Petroleum Corporation",
+            "logo_image": "https://logos.stockflare.com/ba4ae188-fdd0-11e3-ad2b-1df0a173b16d",
+            "ticker": "oxy",
+            "ric": "oxy",
+            "url": "https://stockflare.com/stock/oxy"
+          },
+          {
+            "sic": "c58b5708-fdd0-11e3-8fa5-5de49068aa45",
+            "short_name": "Kinder Morgan Inc",
+            "logo_image": "https://logos.stockflare.com/c58b5708-fdd0-11e3-8fa5-5de49068aa45",
+            "ticker": "kmi",
+            "ric": "kmi",
+            "url": "https://stockflare.com/stock/kmi"
+          },
+          {
+            "sic": "acbc0d00-6854-11e4-b03f-3d1519bbf772",
+            "short_name": "Orange SA (ADR)",
+            "logo_image": "https://logos.stockflare.com/acbc0d00-6854-11e4-b03f-3d1519bbf772",
+            "ticker": "oran",
+            "ric": "oran.k",
+            "url": "https://stockflare.com/stock/oran.k"
+          },
+          {
+            "sic": "f6e4ddf6-fdd0-11e3-8592-15fa08a46529",
+            "short_name": "Williams Partners LP",
+            "logo_image": "https://logos.stockflare.com/f6e4ddf6-fdd0-11e3-8592-15fa08a46529",
+            "ticker": "wpz",
+            "ric": "wpz",
+            "url": "https://stockflare.com/stock/wpz"
+          },
+          {
+            "sic": "8d5a6a4a-fdcb-11e3-8f8c-5313f03721dc",
+            "short_name": "Nokia Oyj (ADR)",
+            "logo_image": "https://logos.stockflare.com/8d5a6a4a-fdcb-11e3-8f8c-5313f03721dc",
+            "ticker": "nok",
+            "ric": "nok",
+            "url": "https://stockflare.com/stock/nok"
+          },
+          {
+            "sic": "7be40826-5c56-11e5-a67d-018004a910ba",
+            "short_name": "Liberty Global LiLAC",
+            "logo_image": "https://logos.stockflare.com/7be40826-5c56-11e5-a67d-018004a910ba",
+            "ticker": "lila",
+            "ric": "lila.o",
+            "url": "https://stockflare.com/stock/lila.o"
+          },
+          {
+            "sic": "9c6097c6-fdcb-11e3-917b-07aa539c6657",
+            "short_name": "Koninklijke Philips NV (ADR)",
+            "logo_image": "https://logos.stockflare.com/9c6097c6-fdcb-11e3-917b-07aa539c6657",
+            "ticker": "phg",
+            "ric": "phg",
+            "url": "https://stockflare.com/stock/phg"
+          },
+          {
+            "sic": "8b33a304-6855-11e4-932c-613e1bc98d46",
+            "short_name": "McKesson Corporation",
+            "logo_image": "https://logos.stockflare.com/8b33a304-6855-11e4-932c-613e1bc98d46",
+            "ticker": "mck",
+            "ric": "mck",
+            "url": "https://stockflare.com/stock/mck"
+          },
+          {
+            "sic": "8bc0b05a-6855-11e4-abb5-23b713f2d847",
+            "short_name": "SYSCO Corporation",
+            "logo_image": "https://logos.stockflare.com/8bc0b05a-6855-11e4-abb5-23b713f2d847",
+            "ticker": "syy",
+            "ric": "syy",
+            "url": "https://stockflare.com/stock/syy"
+          },
+          {
+            "sic": "dcfb3908-fdd0-11e3-afb4-13913439dad4",
+            "short_name": "Zoetis Inc",
+            "logo_image": "https://logos.stockflare.com/dcfb3908-fdd0-11e3-afb4-13913439dad4",
+            "ticker": "zts",
+            "ric": "zts",
+            "url": "https://stockflare.com/stock/zts"
+          },
+          {
+            "sic": "bcf26794-fdd0-11e3-8d30-1315bbb596d2",
+            "short_name": "Pioneer Natural Resources",
+            "logo_image": "https://logos.stockflare.com/bcf26794-fdd0-11e3-8d30-1315bbb596d2",
+            "ticker": "pxd",
+            "ric": "pxd",
+            "url": "https://stockflare.com/stock/pxd"
+          },
+          {
+            "sic": "075a5ad9-c65a-44bd-a7f3-7ff35d29357b",
+            "short_name": "Snap Inc",
+            "logo_image": "https://logos.stockflare.com/075a5ad9-c65a-44bd-a7f3-7ff35d29357b",
+            "ticker": "snap",
+            "ric": "snap.k",
+            "url": "https://stockflare.com/stock/snap.k"
+          },
+          {
+            "sic": "78babb4a-6855-11e4-9638-310a49881485",
+            "short_name": "Marathon Petroleum Corp",
+            "logo_image": "https://logos.stockflare.com/78babb4a-6855-11e4-9638-310a49881485",
+            "ticker": "mpc",
+            "ric": "mpc",
+            "url": "https://stockflare.com/stock/mpc"
+          },
+          {
+            "sic": "7cf10b42-6855-11e4-98ed-0531e8e11e82",
+            "short_name": "Baker Hughes Incorporated",
+            "logo_image": "https://logos.stockflare.com/7cf10b42-6855-11e4-98ed-0531e8e11e82",
+            "ticker": "bhi",
+            "ric": "bhi",
+            "url": "https://stockflare.com/stock/bhi"
+          },
+          {
+            "sic": "bb74d7a8-fdd0-11e3-9d96-7999a9ad6ba3",
+            "short_name": "Williams Companies Inc",
+            "logo_image": "https://logos.stockflare.com/bb74d7a8-fdd0-11e3-9d96-7999a9ad6ba3",
+            "ticker": "wmb",
+            "ric": "wmb",
+            "url": "https://stockflare.com/stock/wmb"
+          },
+          {
+            "sic": "86aab976-6855-11e4-a04d-4773cc8e14ca",
+            "short_name": "Archer Daniels Midland Company",
+            "logo_image": "https://logos.stockflare.com/86aab976-6855-11e4-a04d-4773cc8e14ca",
+            "ticker": "adm",
+            "ric": "adm",
+            "url": "https://stockflare.com/stock/adm"
+          },
+          {
+            "sic": "3832084c-f2a2-442a-bc4e-1ba994026925",
+            "short_name": "Telenor ASA (ADR)",
+            "logo_image": "https://logos.stockflare.com/3832084c-f2a2-442a-bc4e-1ba994026925",
+            "ticker": "telny",
+            "ric": "telny.pk",
+            "url": "https://stockflare.com/stock/telny.pk"
+          },
+          {
+            "sic": "97f5d5fc-fdcb-11e3-af63-4d0cef41df1c",
+            "short_name": "Telefonica Brasil SA (ADR)",
+            "logo_image": "https://logos.stockflare.com/97f5d5fc-fdcb-11e3-af63-4d0cef41df1c",
+            "ticker": "viv",
+            "ric": "viv",
+            "url": "https://stockflare.com/stock/viv"
+          },
+          {
+            "sic": "deda88be-fdd0-11e3-8b8d-1d8bad951bed",
+            "short_name": "Level 3 Communications, Inc.",
+            "logo_image": "https://logos.stockflare.com/deda88be-fdd0-11e3-8b8d-1d8bad951bed",
+            "ticker": "lvlt",
+            "ric": "lvlt.k",
+            "url": "https://stockflare.com/stock/lvlt.k"
+          },
+          {
+            "sic": "d6c169bc-9b71-4f54-a47d-1c963504f4c4",
+            "short_name": "Sodexo SA (ADR)",
+            "logo_image": "https://logos.stockflare.com/d6c169bc-9b71-4f54-a47d-1c963504f4c4",
+            "ticker": "sdxay",
+            "ric": "sdxay.pk",
+            "url": "https://stockflare.com/stock/sdxay.pk"
+          },
+          {
+            "sic": "a423f5ca-fdcb-11e3-bebc-4126d1f1583d",
+            "short_name": "Sasol Limited (ADR)",
+            "logo_image": "https://logos.stockflare.com/a423f5ca-fdcb-11e3-bebc-4126d1f1583d",
+            "ticker": "ssl",
+            "ric": "ssl",
+            "url": "https://stockflare.com/stock/ssl"
+          },
+          {
+            "sic": "7ae3c36c-6855-11e4-89c9-39b7d8cba55b",
+            "short_name": "Devon Energy Corp",
+            "logo_image": "https://logos.stockflare.com/7ae3c36c-6855-11e4-89c9-39b7d8cba55b",
+            "ticker": "dvn",
+            "ric": "dvn",
+            "url": "https://stockflare.com/stock/dvn"
+          },
+          {
+            "sic": "acb70494-6855-11e4-b8dc-63cdc5a9acfc",
+            "short_name": "Willis Towers Watson PLC",
+            "logo_image": "https://logos.stockflare.com/acb70494-6855-11e4-b8dc-63cdc5a9acfc",
+            "ticker": "wltw",
+            "ric": "wltw.o",
+            "url": "https://stockflare.com/stock/wltw.o"
+          },
+          {
+            "sic": "bc599abe-fdcb-11e3-b073-7ded435774a8",
+            "short_name": "Telecom Italia SpA (ADR)",
+            "logo_image": "https://logos.stockflare.com/bc599abe-fdcb-11e3-b073-7ded435774a8",
+            "ticker": "ti",
+            "ric": "ti",
+            "url": "https://stockflare.com/stock/ti"
+          },
+          {
+            "sic": "d2029190-fdd0-11e3-b027-7b0cb55c164b",
+            "short_name": "Coca-Cola European Partners PLC",
+            "logo_image": "https://logos.stockflare.com/d2029190-fdd0-11e3-b027-7b0cb55c164b",
+            "ticker": "cce",
+            "ric": "cce",
+            "url": "https://stockflare.com/stock/cce"
+          },
+          {
+            "sic": "e2d50c1e-fdd0-11e3-a99b-0199a727cc53",
+            "short_name": "AmerisourceBergen Corp.",
+            "logo_image": "https://logos.stockflare.com/e2d50c1e-fdd0-11e3-a99b-0199a727cc53",
+            "ticker": "abc",
+            "ric": "abc",
+            "url": "https://stockflare.com/stock/abc"
+          },
+          {
+            "sic": "8ed7f5cf-4d31-4e7a-ad63-13563c0b5308",
+            "short_name": "Ecopetrol SA (ADR)",
+            "logo_image": "https://logos.stockflare.com/8ed7f5cf-4d31-4e7a-ad63-13563c0b5308",
+            "ticker": "ec",
+            "ric": "ec",
+            "url": "https://stockflare.com/stock/ec"
+          },
+          {
+            "sic": "fc29ff8a-fdd0-11e3-8df8-37b23e72496a",
+            "short_name": "Plains All American Pipeline, L.P.",
+            "logo_image": "https://logos.stockflare.com/fc29ff8a-fdd0-11e3-8df8-37b23e72496a",
+            "ticker": "paa",
+            "ric": "paa",
+            "url": "https://stockflare.com/stock/paa"
+          },
+          {
+            "sic": "db63e892-fdd0-11e3-9a2a-5fd8a64e1d49",
+            "short_name": "Energy Transfer Equity LP",
+            "logo_image": "https://logos.stockflare.com/db63e892-fdd0-11e3-9a2a-5fd8a64e1d49",
+            "ticker": "ete",
+            "ric": "ete",
+            "url": "https://stockflare.com/stock/ete"
+          },
+          {
+            "sic": "a499f2a4-6854-11e4-8520-0dced6b58c2b",
+            "short_name": "Tenaris SA  (ADR)",
+            "logo_image": "https://logos.stockflare.com/a499f2a4-6854-11e4-8520-0dced6b58c2b",
+            "ticker": "ts",
+            "ric": "ts",
+            "url": "https://stockflare.com/stock/ts"
+          },
+          {
+            "sic": "525efc6a-b456-11e5-bf8e-1191e9f50327",
+            "short_name": "Ferrari NV",
+            "logo_image": "https://logos.stockflare.com/525efc6a-b456-11e5-bf8e-1191e9f50327",
+            "ticker": "race",
+            "ric": "race.k",
+            "url": "https://stockflare.com/stock/race.k"
+          },
+          {
+            "sic": "69807878-9d60-11e4-86b0-37d88adf5f67",
+            "short_name": "Realty Income Corp",
+            "logo_image": "https://logos.stockflare.com/69807878-9d60-11e4-86b0-37d88adf5f67",
+            "ticker": "o",
+            "ric": "o",
+            "url": "https://stockflare.com/stock/o"
+          },
+          {
+            "sic": "0cb063b2-fdd1-11e3-bc10-273a72162967",
+            "short_name": "Ball Corporation",
+            "logo_image": "https://logos.stockflare.com/0cb063b2-fdd1-11e3-bc10-273a72162967",
+            "ticker": "bll",
+            "ric": "bll",
+            "url": "https://stockflare.com/stock/bll"
+          },
+          {
+            "sic": "88751896-6855-11e4-8258-5d5523ca4d77",
+            "short_name": "L Brands Inc",
+            "logo_image": "https://logos.stockflare.com/88751896-6855-11e4-8258-5d5523ca4d77",
+            "ticker": "lb",
+            "ric": "lb",
+            "url": "https://stockflare.com/stock/lb"
+          },
+          {
+            "sic": "0b1b0a0c-fdd1-11e3-bac1-431cf44f0417",
+            "short_name": "Oneok Partners LP",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "oks",
+            "ric": "oks",
+            "url": "https://stockflare.com/stock/oks"
+          },
+          {
+            "sic": "309561d8-fdd1-11e3-8316-49fdf0a562cb",
+            "short_name": "American Water Works Company Inc",
+            "logo_image": "https://logos.stockflare.com/309561d8-fdd1-11e3-8316-49fdf0a562cb",
+            "ticker": "awk",
+            "ric": "awk",
+            "url": "https://stockflare.com/stock/awk"
+          },
+          {
+            "sic": "a3e8b7ea-6855-11e4-b049-03d9137c618d",
+            "short_name": "Global Payments Inc",
+            "logo_image": "https://logos.stockflare.com/a3e8b7ea-6855-11e4-b049-03d9137c618d",
+            "ticker": "gpn",
+            "ric": "gpn",
+            "url": "https://stockflare.com/stock/gpn"
+          },
+          {
+            "sic": "db8635dc-fdd0-11e3-a9b8-4bc066908998",
+            "short_name": "Centurylink Inc",
+            "logo_image": "https://logos.stockflare.com/db8635dc-fdd0-11e3-a9b8-4bc066908998",
+            "ticker": "ctl",
+            "ric": "ctl",
+            "url": "https://stockflare.com/stock/ctl"
+          },
+          {
+            "sic": "61e9e569-8241-4237-88ae-fa2a94ef9e7a",
+            "short_name": "Commerzbank AG (ADR)",
+            "logo_image": "https://logos.stockflare.com/61e9e569-8241-4237-88ae-fa2a94ef9e7a",
+            "ticker": "crzby",
+            "ric": "crzby.pk",
+            "url": "https://stockflare.com/stock/crzby.pk"
+          },
+          {
+            "sic": "a42ec65e-6855-11e4-87e6-3905e7920ff6",
+            "short_name": "Church & Dwight Co., Inc.",
+            "logo_image": "https://logos.stockflare.com/a42ec65e-6855-11e4-87e6-3905e7920ff6",
+            "ticker": "chd",
+            "ric": "chd",
+            "url": "https://stockflare.com/stock/chd"
+          },
+          {
+            "sic": "911639c4-fdd1-11e3-9ab6-252528b9dd62",
+            "short_name": "MPLX LP",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "mplx",
+            "ric": "mplx.k",
+            "url": "https://stockflare.com/stock/mplx.k"
+          },
+          {
+            "sic": "16dec8d9-ada6-4fd8-a53c-fd905529678c",
+            "short_name": "EDP-Energias de Portugal, S.A (ADR)",
+            "logo_image": "https://logos.stockflare.com/16dec8d9-ada6-4fd8-a53c-fd905529678c",
+            "ticker": "edpfy",
+            "ric": "edpfy.pk",
+            "url": "https://stockflare.com/stock/edpfy.pk"
+          },
+          {
+            "sic": "a1d5960c-fdcb-11e3-8de5-1159a3c7dbd3",
+            "short_name": "Santander Mexico Fincl Gp SAB deCV (ADR)",
+            "logo_image": "https://logos.stockflare.com/a1d5960c-fdcb-11e3-8de5-1159a3c7dbd3",
+            "ticker": "bsmx",
+            "ric": "bsmx.k",
+            "url": "https://stockflare.com/stock/bsmx.k"
+          },
+          {
+            "sic": "c24800b4-fdd0-11e3-824c-71af6f5e1f17",
+            "short_name": "Marathon Oil Corporation",
+            "logo_image": "https://logos.stockflare.com/c24800b4-fdd0-11e3-824c-71af6f5e1f17",
+            "ticker": "mro",
+            "ric": "mro",
+            "url": "https://stockflare.com/stock/mro"
+          },
+          {
+            "sic": "0d711368-facf-4a5f-8c30-b417ff762d79",
+            "short_name": "Veolia Environnement SA (ADR)",
+            "logo_image": "https://logos.stockflare.com/0d711368-facf-4a5f-8c30-b417ff762d79",
+            "ticker": "veoey",
+            "ric": "veoey.pk",
+            "url": "https://stockflare.com/stock/veoey.pk"
+          },
+          {
+            "sic": "8918fff6-6855-11e4-a904-5b313bda9291",
+            "short_name": "Align Technology, Inc.",
+            "logo_image": "https://logos.stockflare.com/8918fff6-6855-11e4-a904-5b313bda9291",
+            "ticker": "algn",
+            "ric": "algn.o",
+            "url": "https://stockflare.com/stock/algn.o"
+          },
+          {
+            "sic": "c96ee510-fdd0-11e3-8534-772ac8b363aa",
+            "short_name": "Cabot Oil & Gas Corporation",
+            "logo_image": "https://logos.stockflare.com/c96ee510-fdd0-11e3-8534-772ac8b363aa",
+            "ticker": "cog",
+            "ric": "cog",
+            "url": "https://stockflare.com/stock/cog"
+          },
+          {
+            "sic": "41a56032-f7bc-11e4-8c88-4526b1d119fa",
+            "short_name": "Vedanta Ltd (ADR)",
+            "logo_image": "https://logos.stockflare.com/41a56032-f7bc-11e4-8c88-4526b1d119fa",
+            "ticker": "vedl",
+            "ric": "vedl.k",
+            "url": "https://stockflare.com/stock/vedl.k"
+          },
+          {
+            "sic": "436433ea-6855-11e4-8d36-4fe4f6370170",
+            "short_name": "Cheniere Energy Partners LP",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "cqp",
+            "ric": "cqp",
+            "url": "https://stockflare.com/stock/cqp"
+          },
+          {
+            "sic": "ea075924-fdd0-11e3-b321-6dd38d4cf168",
+            "short_name": "ONEOK, Inc.",
+            "logo_image": "https://logos.stockflare.com/ea075924-fdd0-11e3-b321-6dd38d4cf168",
+            "ticker": "oke",
+            "ric": "oke",
+            "url": "https://stockflare.com/stock/oke"
+          },
+          {
+            "sic": "81a30cc6-6855-11e4-8eb6-031c0c4a7cfc",
+            "short_name": "ANSYS, Inc.",
+            "logo_image": "https://logos.stockflare.com/81a30cc6-6855-11e4-8eb6-031c0c4a7cfc",
+            "ticker": "anss",
+            "ric": "anss.o",
+            "url": "https://stockflare.com/stock/anss.o"
+          },
+          {
+            "sic": "cd210030-fdd0-11e3-b2c2-13029d87dd86",
+            "short_name": "Targa Resources Corp",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "trgp",
+            "ric": "trgp.k",
+            "url": "https://stockflare.com/stock/trgp.k"
+          },
+          {
+            "sic": "ce7da1f0-fdcf-11e3-ba21-5f526b1ba990",
+            "short_name": "Diamondback Energy Inc",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "fang",
+            "ric": "fang.o",
+            "url": "https://stockflare.com/stock/fang.o"
+          },
+          {
+            "sic": "211682c8-fdd1-11e3-9a23-4777d1830ccd",
+            "short_name": "Huntington Ingalls Industries Inc",
+            "logo_image": "https://logos.stockflare.com/211682c8-fdd1-11e3-9a23-4777d1830ccd",
+            "ticker": "hii",
+            "ric": "hii",
+            "url": "https://stockflare.com/stock/hii"
+          },
+          {
+            "sic": "644d6e1a-9d60-11e4-8e00-4574fd37afea",
+            "short_name": "Vereit Inc",
+            "logo_image": "https://logos.stockflare.com/644d6e1a-9d60-11e4-8e00-4574fd37afea",
+            "ticker": "ver",
+            "ric": "ver",
+            "url": "https://stockflare.com/stock/ver"
+          },
+          {
+            "sic": "68fb0852-8f66-11e5-85d9-3753e2bb5d76",
+            "short_name": "Square Inc",
+            "logo_image": "https://logos.stockflare.com/68fb0852-8f66-11e5-85d9-3753e2bb5d76",
+            "ticker": "sq",
+            "ric": "sq",
+            "url": "https://stockflare.com/stock/sq"
+          },
+          {
+            "sic": "e925c0aa-fdcf-11e3-8db6-677dc55fd055",
+            "short_name": "Commscope Holding Company Inc",
+            "logo_image": "https://logos.stockflare.com/e925c0aa-fdcf-11e3-8db6-677dc55fd055",
+            "ticker": "comm",
+            "ric": "comm.o",
+            "url": "https://stockflare.com/stock/comm.o"
+          },
+          {
+            "sic": "d080cb2a-fdd0-11e3-b4c1-751cb933be8b",
+            "short_name": "Newfield Exploration Co.",
+            "logo_image": "https://logos.stockflare.com/d080cb2a-fdd0-11e3-b4c1-751cb933be8b",
+            "ticker": "nfx",
+            "ric": "nfx",
+            "url": "https://stockflare.com/stock/nfx"
+          },
+          {
+            "sic": "d7ee4748-fdd0-11e3-9bbf-03bb0d842150",
+            "short_name": "CF Industries Holdings, Inc.",
+            "logo_image": "https://logos.stockflare.com/d7ee4748-fdd0-11e3-9bbf-03bb0d842150",
+            "ticker": "cf",
+            "ric": "cf",
+            "url": "https://stockflare.com/stock/cf"
+          },
+          {
+            "sic": "ba9cd674-6855-11e4-94c5-4147c3a43b48",
+            "short_name": "Enbridge Energy Partners, L.P.",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "eep",
+            "ric": "eep",
+            "url": "https://stockflare.com/stock/eep"
+          },
+          {
+            "sic": "adc3c0d4-6855-11e4-998e-3774c0cd76c0",
+            "short_name": "XPO Logistics Inc",
+            "logo_image": "https://logos.stockflare.com/adc3c0d4-6855-11e4-998e-3774c0cd76c0",
+            "ticker": "xpo",
+            "ric": "xpo",
+            "url": "https://stockflare.com/stock/xpo"
+          },
+          {
+            "sic": "a82923b6-935e-4dad-ac60-aa5cc9908eaf",
+            "short_name": "Santos Ltd (ADR)",
+            "logo_image": "https://logos.stockflare.com/a82923b6-935e-4dad-ac60-aa5cc9908eaf",
+            "ticker": "sslty",
+            "ric": "sslty.pk",
+            "url": "https://stockflare.com/stock/sslty.pk"
+          },
+          {
+            "sic": "44d65a62-d918-11e4-8f8f-3d32831288d5",
+            "short_name": "Millicom International Cellular SA (USA)",
+            "logo_image": "https://logos.stockflare.com/44d65a62-d918-11e4-8f8f-3d32831288d5",
+            "ticker": "miicf",
+            "ric": "miicf.pk",
+            "url": "https://stockflare.com/stock/miicf.pk"
+          },
+          {
+            "sic": "2e513a6e-fdd1-11e3-ba39-417dd3182833",
+            "short_name": "MEDNAX Inc",
+            "logo_image": "https://logos.stockflare.com/2e513a6e-fdd1-11e3-ba39-417dd3182833",
+            "ticker": "md",
+            "ric": "md",
+            "url": "https://stockflare.com/stock/md"
+          },
+          {
+            "sic": "c81d05d0-fdcf-11e3-aca3-315884741226",
+            "short_name": "ARRIS International plc",
+            "logo_image": "https://logos.stockflare.com/c81d05d0-fdcf-11e3-aca3-315884741226",
+            "ticker": "arrs",
+            "ric": "arrs.o",
+            "url": "https://stockflare.com/stock/arrs.o"
+          },
+          {
+            "sic": "d3e8ca38-fdd0-11e3-a527-1f17ded823d5",
+            "short_name": "Weatherford International plc",
+            "logo_image": "https://logos.stockflare.com/d3e8ca38-fdd0-11e3-a527-1f17ded823d5",
+            "ticker": "wft",
+            "ric": "wft",
+            "url": "https://stockflare.com/stock/wft"
+          },
+          {
+            "sic": "c3c977ec-fdd0-11e3-b5b2-176cf6d14dfe",
+            "short_name": "Chesapeake Energy Corporation",
+            "logo_image": "https://logos.stockflare.com/c3c977ec-fdd0-11e3-b5b2-176cf6d14dfe",
+            "ticker": "chk",
+            "ric": "chk",
+            "url": "https://stockflare.com/stock/chk"
+          },
+          {
+            "sic": "e0d95d80-fdcf-11e3-9b84-3b67b2d4a877",
+            "short_name": "Masimo Corporation",
+            "logo_image": "https://logos.stockflare.com/e0d95d80-fdcf-11e3-9b84-3b67b2d4a877",
+            "ticker": "masi",
+            "ric": "masi.o",
+            "url": "https://stockflare.com/stock/masi.o"
+          },
+          {
+            "sic": "885ab33e-6855-11e4-b1cf-772b9737d7dc",
+            "short_name": "Tableau Software Inc",
+            "logo_image": "https://logos.stockflare.com/885ab33e-6855-11e4-b1cf-772b9737d7dc",
+            "ticker": "data",
+            "ric": "data.k",
+            "url": "https://stockflare.com/stock/data.k"
+          },
+          {
+            "sic": "547d21bc-fdd1-11e3-8757-1308a3d51b6c",
+            "short_name": "TreeHouse Foods Inc.",
+            "logo_image": "https://logos.stockflare.com/547d21bc-fdd1-11e3-8757-1308a3d51b6c",
+            "ticker": "ths",
+            "ric": "ths",
+            "url": "https://stockflare.com/stock/ths"
+          },
+          {
+            "sic": "fa136fb0-fdd0-11e3-98b6-11a8bd25f1fd",
+            "short_name": "WPX Energy Inc",
+            "logo_image": "https://logos.stockflare.com/fa136fb0-fdd0-11e3-98b6-11a8bd25f1fd",
+            "ticker": "wpx",
+            "ric": "wpx",
+            "url": "https://stockflare.com/stock/wpx"
+          },
+          {
+            "sic": "a654e03e-fdcb-11e3-a042-212f54e11386",
+            "short_name": "Nice Ltd (ADR)",
+            "logo_image": "https://logos.stockflare.com/a654e03e-fdcb-11e3-a042-212f54e11386",
+            "ticker": "nice",
+            "ric": "nice.o",
+            "url": "https://stockflare.com/stock/nice.o"
+          },
+          {
+            "sic": "7fa5a9be-fdd0-11e3-88c9-7b0c87cfd9e9",
+            "short_name": "National Beverage Corp.",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "fizz",
+            "ric": "fizz.o",
+            "url": "https://stockflare.com/stock/fizz.o"
+          },
+          {
+            "sic": "8b1b2bda-6855-11e4-b164-13440c860dbc",
+            "short_name": "bluebird bio Inc",
+            "logo_image": "https://logos.stockflare.com/8b1b2bda-6855-11e4-b164-13440c860dbc",
+            "ticker": "blue",
+            "ric": "blue.o",
+            "url": "https://stockflare.com/stock/blue.o"
+          },
+          {
+            "sic": "46e819d0-fdd1-11e3-828d-37707e904d5c",
+            "short_name": "RPC, Inc.",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "res",
+            "ric": "res",
+            "url": "https://stockflare.com/stock/res"
+          },
+          {
+            "sic": "97242c14-fdcb-11e3-a01d-1d9d2637357e",
+            "short_name": "Cia Energetica de Minas Gerais CEMIG-ADR",
+            "logo_image": "https://logos.stockflare.com/97242c14-fdcb-11e3-a01d-1d9d2637357e",
+            "ticker": "cig",
+            "ric": "cig",
+            "url": "https://stockflare.com/stock/cig"
+          },
+          {
+            "sic": "63570152-6fc4-11e4-8c09-11f4bde63bd3",
+            "short_name": "Store Capital Corp",
+            "logo_image": "https://logos.stockflare.com/63570152-6fc4-11e4-8c09-11f4bde63bd3",
+            "ticker": "stor",
+            "ric": "stor.k",
+            "url": "https://stockflare.com/stock/stor.k"
+          },
+          {
+            "sic": "ab5761aa-9d81-11e4-ae1e-498df09d5789",
+            "short_name": "DDR Corp",
+            "logo_image": "https://logos.stockflare.com/ab5761aa-9d81-11e4-ae1e-498df09d5789",
+            "ticker": "ddr",
+            "ric": "ddr",
+            "url": "https://stockflare.com/stock/ddr"
+          },
+          {
+            "sic": "d6c2cdc5-8bde-46e2-ac2e-c75a66f42b18",
+            "short_name": "Hilton Grand Vacations Inc",
+            "logo_image": "https://logos.stockflare.com/d6c2cdc5-8bde-46e2-ac2e-c75a66f42b18",
+            "ticker": "hgv",
+            "ric": "hgv",
+            "url": "https://stockflare.com/stock/hgv"
+          },
+          {
+            "sic": "e471e6be-fdd0-11e3-911a-4958085fae85",
+            "short_name": "CONSOL Energy Inc.",
+            "logo_image": "https://logos.stockflare.com/e471e6be-fdd0-11e3-911a-4958085fae85",
+            "ticker": "cnx",
+            "ric": "cnx",
+            "url": "https://stockflare.com/stock/cnx"
+          },
+          {
+            "sic": "cb4a89a8-6855-11e4-aaec-1d9dc0ad3f1e",
+            "short_name": "Marriott Vacations Worldwide Corp",
+            "logo_image": "https://logos.stockflare.com/cb4a89a8-6855-11e4-aaec-1d9dc0ad3f1e",
+            "ticker": "vac",
+            "ric": "vac",
+            "url": "https://stockflare.com/stock/vac"
+          },
+          {
+            "sic": "6f05217e-fdd1-11e3-ab6a-7d0cbbcb7d8e",
+            "short_name": "OneMain Holdings Inc",
+            "logo_image": "https://logos.stockflare.com/6f05217e-fdd1-11e3-ab6a-7d0cbbcb7d8e",
+            "ticker": "omf",
+            "ric": "omf",
+            "url": "https://stockflare.com/stock/omf"
+          },
+          {
+            "sic": "ab5a36be-9d81-11e4-8e86-335cd2f2a0d3",
+            "short_name": "Spirit Realty Capital Inc",
+            "logo_image": "https://logos.stockflare.com/ab5a36be-9d81-11e4-8e86-335cd2f2a0d3",
+            "ticker": "src",
+            "ric": "src",
+            "url": "https://stockflare.com/stock/src"
+          },
+          {
+            "sic": "537f7ce4-7156-11e4-bd0b-2fd31c462566",
+            "short_name": "Outfront Media Inc",
+            "logo_image": "https://logos.stockflare.com/537f7ce4-7156-11e4-bd0b-2fd31c462566",
+            "ticker": "out",
+            "ric": "out",
+            "url": "https://stockflare.com/stock/out"
+          },
+          {
+            "sic": "8ddab91c-6855-11e4-ac29-214ca6866870",
+            "short_name": "Nabors Industries Ltd.",
+            "logo_image": "https://logos.stockflare.com/8ddab91c-6855-11e4-ac29-214ca6866870",
+            "ticker": "nbr",
+            "ric": "nbr",
+            "url": "https://stockflare.com/stock/nbr"
+          },
+          {
+            "sic": "68026ba4-6855-11e4-9267-4b4937c1b9b4",
+            "short_name": "Federal National Mortgage Association",
+            "logo_image": "https://logos.stockflare.com/68026ba4-6855-11e4-9267-4b4937c1b9b4",
+            "ticker": "fnma",
+            "ric": "fnma.pk",
+            "url": "https://stockflare.com/stock/fnma.pk"
+          },
+          {
+            "sic": "51d02914-fdd1-11e3-8320-1d6564ab32b2",
+            "short_name": "CACI International Inc",
+            "logo_image": "https://logos.stockflare.com/51d02914-fdd1-11e3-8320-1d6564ab32b2",
+            "ticker": "caci",
+            "ric": "caci.k",
+            "url": "https://stockflare.com/stock/caci.k"
+          },
+          {
+            "sic": "cb5f140e-6855-11e4-9fa5-715e2a020b0c",
+            "short_name": "Globus Medical Inc",
+            "logo_image": "https://logos.stockflare.com/cb5f140e-6855-11e4-9fa5-715e2a020b0c",
+            "ticker": "gmed",
+            "ric": "gmed.k",
+            "url": "https://stockflare.com/stock/gmed.k"
+          },
+          {
+            "sic": "9cbc5a20-fdcb-11e3-8dd9-4308845aa9b1",
+            "short_name": "Companhia Siderurgica Nacional (ADR)",
+            "logo_image": "https://logos.stockflare.com/9cbc5a20-fdcb-11e3-8dd9-4308845aa9b1",
+            "ticker": "sid",
+            "ric": "sid",
+            "url": "https://stockflare.com/stock/sid"
+          },
+          {
+            "sic": "81385ef8-6855-11e4-b840-3de48af7bd07",
+            "short_name": "Cheesecake Factory Inc",
+            "logo_image": "https://logos.stockflare.com/81385ef8-6855-11e4-b840-3de48af7bd07",
+            "ticker": "cake",
+            "ric": "cake.o",
+            "url": "https://stockflare.com/stock/cake.o"
+          },
+          {
+            "sic": "186a18a2-fdd0-11e3-a453-514d34943e20",
+            "short_name": "NetScout Systems, Inc.",
+            "logo_image": "https://logos.stockflare.com/186a18a2-fdd0-11e3-a453-514d34943e20",
+            "ticker": "ntct",
+            "ric": "ntct.o",
+            "url": "https://stockflare.com/stock/ntct.o"
+          },
+          {
+            "sic": "3ccf192c-fdd0-11e3-af93-1504704c639b",
+            "short_name": "Wright Medical Group NV",
+            "logo_image": "https://logos.stockflare.com/3ccf192c-fdd0-11e3-af93-1504704c639b",
+            "ticker": "wmgi",
+            "ric": "wmgi.o",
+            "url": "https://stockflare.com/stock/wmgi.o"
+          },
+          {
+            "sic": "d410076c-3ce3-11e5-8542-73741ee2788d",
+            "short_name": "Lumentum Holdings Inc",
+            "logo_image": "https://logos.stockflare.com/d410076c-3ce3-11e5-8542-73741ee2788d",
+            "ticker": "lite",
+            "ric": "lite.o",
+            "url": "https://stockflare.com/stock/lite.o"
+          },
+          {
+            "sic": "87272bfa-6855-11e4-b0a6-0ba42e34d70d",
+            "short_name": "Whiting Petroleum Corp",
+            "logo_image": "https://logos.stockflare.com/87272bfa-6855-11e4-b0a6-0ba42e34d70d",
+            "ticker": "wll",
+            "ric": "wll",
+            "url": "https://stockflare.com/stock/wll"
+          },
+          {
+            "sic": "fde24594-fdd0-11e3-871f-39e6ba952a2f",
+            "short_name": "Laredo Petroleum Inc",
+            "logo_image": "https://logos.stockflare.com/fde24594-fdd0-11e3-871f-39e6ba952a2f",
+            "ticker": "lpi",
+            "ric": "lpi",
+            "url": "https://stockflare.com/stock/lpi"
+          },
+          {
+            "sic": "ea99b558-fdd0-11e3-b821-1dd01dacbddd",
+            "short_name": "Oasis Petroleum Inc.",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "oas",
+            "ric": "oas",
+            "url": "https://stockflare.com/stock/oas"
+          },
+          {
+            "sic": "10b4a08e-926d-42e8-b09c-0b88b83b63c6",
+            "short_name": "Air France KLM SA (ADR)",
+            "logo_image": "https://logos.stockflare.com/10b4a08e-926d-42e8-b09c-0b88b83b63c6",
+            "ticker": "aflyy",
+            "ric": "aflyy.pk",
+            "url": "https://stockflare.com/stock/aflyy.pk"
+          },
+          {
+            "sic": "e66b2034-fdd0-11e3-ab65-2be9d24b8a88",
+            "short_name": "PBF Energy Inc",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "pbf",
+            "ric": "pbf",
+            "url": "https://stockflare.com/stock/pbf"
+          },
+          {
+            "sic": "e3810c08-fdd0-11e3-8b89-57c42e58433d",
+            "short_name": "Peabody Energy Corporation",
+            "logo_image": "https://logos.stockflare.com/e3810c08-fdd0-11e3-8b89-57c42e58433d",
+            "ticker": "btu",
+            "ric": "btu",
+            "url": "https://stockflare.com/stock/btu"
+          },
+          {
+            "sic": "f3bffe94-fdd0-11e3-b566-095756bb24d4",
+            "short_name": "SM Energy Co",
+            "logo_image": "https://logos.stockflare.com/f3bffe94-fdd0-11e3-b566-095756bb24d4",
+            "ticker": "sm",
+            "ric": "sm",
+            "url": "https://stockflare.com/stock/sm"
+          },
+          {
+            "sic": "0396883e-fdd0-11e3-bb92-652d158f8090",
+            "short_name": "TiVo Corp",
+            "logo_image": "https://logos.stockflare.com/0396883e-fdd0-11e3-bb92-652d158f8090",
+            "ticker": "tivo",
+            "ric": "tivo.o",
+            "url": "https://stockflare.com/stock/tivo.o"
+          },
+          {
+            "sic": "4e8728e4-fdd0-11e3-b10e-1d4da874b919",
+            "short_name": "Capital Bank Financial Corp",
+            "logo_image": "https://logos.stockflare.com/4e8728e4-fdd0-11e3-b10e-1d4da874b919",
+            "ticker": "cbf",
+            "ric": "cbf.o",
+            "url": "https://stockflare.com/stock/cbf.o"
+          },
+          {
+            "sic": "d02a0d22-6855-11e4-9051-29933ff32c8a",
+            "short_name": "Tronox Ltd",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "trox",
+            "ric": "trox.k",
+            "url": "https://stockflare.com/stock/trox.k"
+          },
+          {
+            "sic": "142474a0-a2e3-11e4-87c2-1f3d978df127",
+            "short_name": "NOW Inc",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "dnow",
+            "ric": "dnow.k",
+            "url": "https://stockflare.com/stock/dnow.k"
+          },
+          {
+            "sic": "1b6e4202-fdd1-11e3-a4f0-1fecbdd5174e",
+            "short_name": "NGL Energy Partners LP",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "ngl",
+            "ric": "ngl",
+            "url": "https://stockflare.com/stock/ngl"
+          },
+          {
+            "sic": "56ea5492-fdd1-11e3-8af0-6d0f20ea4554",
+            "short_name": "C&J Energy Services Inc",
+            "logo_image": "https://logos.stockflare.com/56ea5492-fdd1-11e3-8af0-6d0f20ea4554",
+            "ticker": "cj",
+            "ric": "cj",
+            "url": "https://stockflare.com/stock/cj"
+          },
+          {
+            "sic": "d9a29da0-fdcb-11e3-bb89-5134f5619ee3",
+            "short_name": "Grupo Simec SAB de CV (ADR)",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "sim",
+            "ric": "sim",
+            "url": "https://stockflare.com/stock/sim"
+          },
+          {
+            "sic": "06ae216c-fdd0-11e3-bf35-67a0c0e4fa2d",
+            "short_name": "Cardtronics PLC",
+            "logo_image": "https://logos.stockflare.com/06ae216c-fdd0-11e3-bf35-67a0c0e4fa2d",
+            "ticker": "catm",
+            "ric": "catm.o",
+            "url": "https://stockflare.com/stock/catm.o"
+          },
+          {
+            "sic": "67f68b68-6855-11e4-ad54-5927437305c6",
+            "short_name": "Federal Home Loan Mortgage Corp",
+            "logo_image": "https://logos.stockflare.com/67f68b68-6855-11e4-ad54-5927437305c6",
+            "ticker": "fmcc",
+            "ric": "fmcc.pk",
+            "url": "https://stockflare.com/stock/fmcc.pk"
+          },
+          {
+            "sic": "da6c3b8e-6855-11e4-986f-7bc04762e00d",
+            "short_name": "Crestwood Equity Partners LP",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "ceqp",
+            "ric": "ceqp.k",
+            "url": "https://stockflare.com/stock/ceqp.k"
+          },
+          {
+            "sic": "22903e92-fdd0-11e3-89ec-3b73cd221656",
+            "short_name": "Insight Enterprises, Inc.",
+            "logo_image": "https://logos.stockflare.com/22903e92-fdd0-11e3-89ec-3b73cd221656",
+            "ticker": "nsit",
+            "ric": "nsit.o",
+            "url": "https://stockflare.com/stock/nsit.o"
+          },
+          {
+            "sic": "ec5ccf2a-fdcf-11e3-9ffa-5fb6e778f56c",
+            "short_name": "Houghton Mifflin Harcourt Co",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "hmhc",
+            "ric": "hmhc.o",
+            "url": "https://stockflare.com/stock/hmhc.o"
+          },
+          {
+            "sic": "93e2410e-6855-11e4-b042-4dbdb644daa3",
+            "short_name": "Superior Energy Services, Inc.",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "spn",
+            "ric": "spn",
+            "url": "https://stockflare.com/stock/spn"
+          },
+          {
+            "sic": "03945e14-fdd1-11e3-a38c-257287873ad3",
+            "short_name": "Avon Products, Inc.",
+            "logo_image": "https://logos.stockflare.com/03945e14-fdd1-11e3-a38c-257287873ad3",
+            "ticker": "avp",
+            "ric": "avp",
+            "url": "https://stockflare.com/stock/avp"
+          },
+          {
+            "sic": "ddb0550a-fdcf-11e3-9989-7536514a8922",
+            "short_name": "Carrizo Oil & Gas Inc",
+            "logo_image": "https://logos.stockflare.com/ddb0550a-fdcf-11e3-9989-7536514a8922",
+            "ticker": "crzo",
+            "ric": "crzo.o",
+            "url": "https://stockflare.com/stock/crzo.o"
+          },
+          {
+            "sic": "593e896c-fdd0-11e3-b671-5db9e67d5a7c",
+            "short_name": "Mantech International Corp",
+            "logo_image": "https://logos.stockflare.com/593e896c-fdd0-11e3-b671-5db9e67d5a7c",
+            "ticker": "mant",
+            "ric": "mant.o",
+            "url": "https://stockflare.com/stock/mant.o"
+          },
+          {
+            "sic": "e2904176-a215-11e4-8216-35e9c3306c9d",
+            "short_name": "Washington Prime Group Inc",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "wpg",
+            "ric": "wpg",
+            "url": "https://stockflare.com/stock/wpg"
+          },
+          {
+            "sic": "48cef59a-6855-11e4-a148-230688e00af5",
+            "short_name": "Accelerate Diagnostics Inc",
+            "logo_image": "https://logos.stockflare.com/48cef59a-6855-11e4-a148-230688e00af5",
+            "ticker": "axdx",
+            "ric": "axdx.o",
+            "url": "https://stockflare.com/stock/axdx.o"
+          },
+          {
+            "sic": "327b1d0e-fdd0-11e3-8e50-4d2108d9a2a2",
+            "short_name": "Omnicell, Inc.",
+            "logo_image": "https://logos.stockflare.com/327b1d0e-fdd0-11e3-8e50-4d2108d9a2a2",
+            "ticker": "omcl",
+            "ric": "omcl.o",
+            "url": "https://stockflare.com/stock/omcl.o"
+          },
+          {
+            "sic": "42938708-1be3-11e5-8a3d-21c6013e8f0b",
+            "short_name": "Glaukos Corp",
+            "logo_image": "https://logos.stockflare.com/42938708-1be3-11e5-8a3d-21c6013e8f0b",
+            "ticker": "gkos",
+            "ric": "gkos.k",
+            "url": "https://stockflare.com/stock/gkos.k"
+          },
+          {
+            "sic": "39c1abc6-1663-11e5-9d65-732a07253099",
+            "short_name": "Fitbit Inc",
+            "logo_image": "https://logos.stockflare.com/39c1abc6-1663-11e5-9d65-732a07253099",
+            "ticker": "fit",
+            "ric": "fit",
+            "url": "https://stockflare.com/stock/fit"
+          },
+          {
+            "sic": "6afae44a-9d60-11e4-925b-199cd1b58a49",
+            "short_name": "CBL & Associates Properties, Inc.",
+            "logo_image": "https://logos.stockflare.com/6afae44a-9d60-11e4-925b-199cd1b58a49",
+            "ticker": "cbl",
+            "ric": "cbl",
+            "url": "https://stockflare.com/stock/cbl"
+          },
+          {
+            "sic": "daac4b98-6855-11e4-b366-03f44e9566b9",
+            "short_name": "Enbridge Energy Management, L.L.C.",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "eeq",
+            "ric": "eeq",
+            "url": "https://stockflare.com/stock/eeq"
+          },
+          {
+            "sic": "2f2c5d2e-fdd1-11e3-83af-076024894a75",
+            "short_name": "Forum Energy Technologies Inc",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "fet",
+            "ric": "fet",
+            "url": "https://stockflare.com/stock/fet"
+          },
+          {
+            "sic": "d84ec682-6855-11e4-8165-1df23cdc73c4",
+            "short_name": "Matson Inc",
+            "logo_image": "https://logos.stockflare.com/d84ec682-6855-11e4-8165-1df23cdc73c4",
+            "ticker": "matx",
+            "ric": "matx.k",
+            "url": "https://stockflare.com/stock/matx.k"
+          },
+          {
+            "sic": "4d8645e2-fdd0-11e3-a87b-43443d3cdece",
+            "short_name": "CSG Systems International, Inc.",
+            "logo_image": "https://logos.stockflare.com/4d8645e2-fdd0-11e3-a87b-43443d3cdece",
+            "ticker": "csgs",
+            "ric": "csgs.o",
+            "url": "https://stockflare.com/stock/csgs.o"
+          },
+          {
+            "sic": "6dda494c-fdd0-11e3-9a5b-3516f4a2f7ad",
+            "short_name": "Air Transport Services Group Inc.",
+            "logo_image": "https://logos.stockflare.com/6dda494c-fdd0-11e3-9a5b-3516f4a2f7ad",
+            "ticker": "atsg",
+            "ric": "atsg.o",
+            "url": "https://stockflare.com/stock/atsg.o"
+          },
+          {
+            "sic": "0da8f10e-fdd0-11e3-9254-7bd43c363450",
+            "short_name": "Repligen Corporation",
+            "logo_image": "https://logos.stockflare.com/0da8f10e-fdd0-11e3-9254-7bd43c363450",
+            "ticker": "rgen",
+            "ric": "rgen.o",
+            "url": "https://stockflare.com/stock/rgen.o"
+          },
+          {
+            "sic": "c1e1f061-5004-4f2d-a1b4-61e940ee1821",
+            "short_name": "Keane Group Inc",
+            "logo_image": "https://logos.stockflare.com/c1e1f061-5004-4f2d-a1b4-61e940ee1821",
+            "ticker": "frac",
+            "ric": "frac.k",
+            "url": "https://stockflare.com/stock/frac.k"
+          },
+          {
+            "sic": "c7341b80-7afb-49cf-a46d-45ecc4dafcad",
+            "short_name": "Gran Tierra Energy Inc",
+            "logo_image": "https://logos.stockflare.com/c7341b80-7afb-49cf-a46d-45ecc4dafcad",
+            "ticker": "gte",
+            "ric": "gte.to",
+            "url": "https://stockflare.com/stock/gte.to"
+          },
+          {
+            "sic": "856bcca8-6855-11e4-8311-75e1bbf079cf",
+            "short_name": "Hertz Global Holdings Inc",
+            "logo_image": "https://logos.stockflare.com/856bcca8-6855-11e4-8311-75e1bbf079cf",
+            "ticker": "htz",
+            "ric": "htz",
+            "url": "https://stockflare.com/stock/htz"
+          },
+          {
+            "sic": "7518adde-fdd0-11e3-abcd-0f2854712c02",
+            "short_name": "Fox Factory Holding Corp",
+            "logo_image": "https://logos.stockflare.com/7518adde-fdd0-11e3-abcd-0f2854712c02",
+            "ticker": "foxf",
+            "ric": "foxf.o",
+            "url": "https://stockflare.com/stock/foxf.o"
+          },
+          {
+            "sic": "c0ae1d34-6855-11e4-9679-05a3e5293102",
+            "short_name": "Patrick Industries, Inc.",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "patk",
+            "ric": "patk.o",
+            "url": "https://stockflare.com/stock/patk.o"
+          },
+          {
+            "sic": "647a8d16-fdd1-11e3-b3b1-1960bb4833e5",
+            "short_name": "Evertec Inc",
+            "logo_image": "https://logos.stockflare.com/647a8d16-fdd1-11e3-b3b1-1960bb4833e5",
+            "ticker": "evtc",
+            "ric": "evtc.k",
+            "url": "https://stockflare.com/stock/evtc.k"
+          },
+          {
+            "sic": "ff0afda5-4174-4481-95a4-cbb8df57caf3",
+            "short_name": "Five9 Inc",
+            "logo_image": "https://logos.stockflare.com/ff0afda5-4174-4481-95a4-cbb8df57caf3",
+            "ticker": "fivn",
+            "ric": "fivn.o",
+            "url": "https://stockflare.com/stock/fivn.o"
+          },
+          {
+            "sic": "2f9225c4-fdd0-11e3-80a9-2f604b89a720",
+            "short_name": "Century Aluminum Co",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "cenx",
+            "ric": "cenx.o",
+            "url": "https://stockflare.com/stock/cenx.o"
+          },
+          {
+            "sic": "48834e6a-6855-11e4-beb7-43224fa0f7e7",
+            "short_name": "US Concrete Inc",
+            "logo_image": "https://logos.stockflare.com/48834e6a-6855-11e4-beb7-43224fa0f7e7",
+            "ticker": "uscr",
+            "ric": "uscr.o",
+            "url": "https://stockflare.com/stock/uscr.o"
+          },
+          {
+            "sic": "66eda3bc-fdd1-11e3-b163-5971401a9395",
+            "short_name": "Hercules Capital Inc",
+            "logo_image": "https://logos.stockflare.com/66eda3bc-fdd1-11e3-b163-5971401a9395",
+            "ticker": "htgc",
+            "ric": "htgc.k",
+            "url": "https://stockflare.com/stock/htgc.k"
+          },
+          {
+            "sic": "82d6f32c-fdd0-11e3-a23e-7f8cd4ec2faf",
+            "short_name": "LHC Group, Inc.",
+            "logo_image": "https://logos.stockflare.com/82d6f32c-fdd0-11e3-a23e-7f8cd4ec2faf",
+            "ticker": "lhcg",
+            "ric": "lhcg.o",
+            "url": "https://stockflare.com/stock/lhcg.o"
+          },
+          {
+            "sic": "e3c0969e-6855-11e4-a560-3f2af41e2593",
+            "short_name": "NuStar GP Holdings, LLC",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "nsh",
+            "ric": "nsh",
+            "url": "https://stockflare.com/stock/nsh"
+          },
+          {
+            "sic": "bebd132c-6855-11e4-8bf0-79b6dd44cec2",
+            "short_name": "EP Energy Corp",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "epe",
+            "ric": "epe",
+            "url": "https://stockflare.com/stock/epe"
+          },
+          {
+            "sic": "e32c3714-fdd0-11e3-ba55-5becb8e4372b",
+            "short_name": "Noble Corporation PLC",
+            "logo_image": "https://logos.stockflare.com/e32c3714-fdd0-11e3-ba55-5becb8e4372b",
+            "ticker": "ne",
+            "ric": "ne",
+            "url": "https://stockflare.com/stock/ne"
+          },
+          {
+            "sic": "6f17bf94-9d60-11e4-95a3-2bdcbf172403",
+            "short_name": "istar Inc",
+            "logo_image": "https://logos.stockflare.com/6f17bf94-9d60-11e4-95a3-2bdcbf172403",
+            "ticker": "star",
+            "ric": "star.k",
+            "url": "https://stockflare.com/stock/star.k"
+          },
+          {
+            "sic": "64af25d5-42d0-40c9-a42c-80510e41a28d",
+            "short_name": "Alteryx Inc",
+            "logo_image": "https://logos.stockflare.com/64af25d5-42d0-40c9-a42c-80510e41a28d",
+            "ticker": "ayx",
+            "ric": "ayx",
+            "url": "https://stockflare.com/stock/ayx"
+          },
+          {
+            "sic": "862e5ae8-fdcf-11e3-a992-49a422a1c755",
+            "short_name": "Amicus Therapeutics, Inc.",
+            "logo_image": "https://logos.stockflare.com/862e5ae8-fdcf-11e3-a992-49a422a1c755",
+            "ticker": "fold",
+            "ric": "fold.o",
+            "url": "https://stockflare.com/stock/fold.o"
+          },
+          {
+            "sic": "78718ae3-1b02-4a7e-bb7f-a1168173aa72",
+            "short_name": "Propetro Holding Corp",
+            "logo_image": "https://logos.stockflare.com/78718ae3-1b02-4a7e-bb7f-a1168173aa72",
+            "ticker": "pump",
+            "ric": "pump.k",
+            "url": "https://stockflare.com/stock/pump.k"
           }
         ],
-        "count": 14,
-        "hidden": 0,
-        "tickers": "TREI.NS PLNG.NS WCKH.NS IDEA.NS BPCL.NS",
+        "lost_instruments": [
+          {
+            "sic": "004c7e8d-c981-44fa-b7d9-976e28998378",
+            "short_name": "United Overseas Bank Ltd (ADR)",
+            "logo_image": "https://logos.stockflare.com/004c7e8d-c981-44fa-b7d9-976e28998378",
+            "ticker": "uovey",
+            "ric": "uovey.pk",
+            "url": "https://stockflare.com/stock/uovey.pk"
+          },
+          {
+            "sic": "0219369a-fdd1-11e3-b288-6fabf6f092b4",
+            "short_name": "Gannett Co Inc",
+            "logo_image": "https://logos.stockflare.com/0219369a-fdd1-11e3-b288-6fabf6f092b4",
+            "ticker": "gci",
+            "ric": "gci",
+            "url": "https://stockflare.com/stock/gci"
+          },
+          {
+            "sic": "025ad5ba-fdd0-11e3-adad-7922846f6274",
+            "short_name": "MakeMyTrip Limited",
+            "logo_image": "https://logos.stockflare.com/025ad5ba-fdd0-11e3-adad-7922846f6274",
+            "ticker": "mmyt",
+            "ric": "mmyt.o",
+            "url": "https://stockflare.com/stock/mmyt.o"
+          },
+          {
+            "sic": "02e5cbc4-fdd1-11e3-b9fc-71c4cfeb1686",
+            "short_name": "Davita Inc",
+            "logo_image": "https://logos.stockflare.com/02e5cbc4-fdd1-11e3-b9fc-71c4cfeb1686",
+            "ticker": "dva",
+            "ric": "dva",
+            "url": "https://stockflare.com/stock/dva"
+          },
+          {
+            "sic": "03078574-eec0-4c52-8cec-91d41f682f6b",
+            "short_name": "Cotiviti Holdings Inc",
+            "logo_image": "https://logos.stockflare.com/03078574-eec0-4c52-8cec-91d41f682f6b",
+            "ticker": "cotv",
+            "ric": "cotv.k",
+            "url": "https://stockflare.com/stock/cotv.k"
+          },
+          {
+            "sic": "04161071-a93a-45e6-b13a-1aac87f77cd7",
+            "short_name": "Norsk Hydro ASA (ADR)",
+            "logo_image": "https://logos.stockflare.com/04161071-a93a-45e6-b13a-1aac87f77cd7",
+            "ticker": "nhydy",
+            "ric": "nhydy.pk",
+            "url": "https://stockflare.com/stock/nhydy.pk"
+          },
+          {
+            "sic": "0949cac4-fdd1-11e3-8eae-356d4c9f85ee",
+            "short_name": "Bunge Ltd",
+            "logo_image": "https://logos.stockflare.com/0949cac4-fdd1-11e3-8eae-356d4c9f85ee",
+            "ticker": "bg",
+            "ric": "bg",
+            "url": "https://stockflare.com/stock/bg"
+          },
+          {
+            "sic": "0c270e46-fdd1-11e3-be11-1f8cfe0449c3",
+            "short_name": "Allegheny Technologies Incorporated",
+            "logo_image": "https://logos.stockflare.com/0c270e46-fdd1-11e3-be11-1f8cfe0449c3",
+            "ticker": "ati",
+            "ric": "ati",
+            "url": "https://stockflare.com/stock/ati"
+          },
+          {
+            "sic": "118f1316-fdd0-11e3-b4fa-29a8289555a3",
+            "short_name": "Atlas Air Worldwide Holdings, Inc.",
+            "logo_image": "https://logos.stockflare.com/118f1316-fdd0-11e3-b4fa-29a8289555a3",
+            "ticker": "aaww",
+            "ric": "aaww.o",
+            "url": "https://stockflare.com/stock/aaww.o"
+          },
+          {
+            "sic": "143b0bce-7ee8-4790-b569-f8d5d9447dd4",
+            "short_name": "Southern Copper Corp",
+            "logo_image": "https://logos.stockflare.com/143b0bce-7ee8-4790-b569-f8d5d9447dd4",
+            "ticker": "spc",
+            "ric": "spc.lm",
+            "url": "https://stockflare.com/stock/spc.lm"
+          },
+          {
+            "sic": "15cc0a1e-fdd1-11e3-9b6d-537667a04a30",
+            "short_name": "Brookdale Senior Living, Inc.",
+            "logo_image": "https://logos.stockflare.com/15cc0a1e-fdd1-11e3-9b6d-537667a04a30",
+            "ticker": "bkd",
+            "ric": "bkd",
+            "url": "https://stockflare.com/stock/bkd"
+          },
+          {
+            "sic": "1a4898a0-fdd1-11e3-88f2-77fc7f1e3373",
+            "short_name": "Spirit AeroSystems Holdings, Inc.",
+            "logo_image": "https://logos.stockflare.com/1a4898a0-fdd1-11e3-88f2-77fc7f1e3373",
+            "ticker": "spr",
+            "ric": "spr",
+            "url": "https://stockflare.com/stock/spr"
+          },
+          {
+            "sic": "1d3fbf3e-fdd1-11e3-9402-27814dbafecc",
+            "short_name": "Assurant, Inc.",
+            "logo_image": "https://logos.stockflare.com/1d3fbf3e-fdd1-11e3-9402-27814dbafecc",
+            "ticker": "aiz",
+            "ric": "aiz",
+            "url": "https://stockflare.com/stock/aiz"
+          },
+          {
+            "sic": "230fb84e-9d61-11e4-9a8d-759171affc6b",
+            "short_name": "Liberty Ventures",
+            "logo_image": "https://logos.stockflare.com/230fb84e-9d61-11e4-9a8d-759171affc6b",
+            "ticker": "lvnta",
+            "ric": "lvnta.o",
+            "url": "https://stockflare.com/stock/lvnta.o"
+          },
+          {
+            "sic": "24fdbcbc-6730-41fa-94c8-4078656a80ce",
+            "short_name": "Twilio Inc",
+            "logo_image": "https://logos.stockflare.com/24fdbcbc-6730-41fa-94c8-4078656a80ce",
+            "ticker": "twlo",
+            "ric": "twlo.k",
+            "url": "https://stockflare.com/stock/twlo.k"
+          },
+          {
+            "sic": "259901ac-e4e1-11e4-a8a8-1bdbcbc752d2",
+            "short_name": "Etsy Inc",
+            "logo_image": "https://logos.stockflare.com/259901ac-e4e1-11e4-a8a8-1bdbcbc752d2",
+            "ticker": "etsy",
+            "ric": "etsy.o",
+            "url": "https://stockflare.com/stock/etsy.o"
+          },
+          {
+            "sic": "2d0a60ea-fdd1-11e3-94de-395962980e00",
+            "short_name": "Berry Global Group Inc",
+            "logo_image": "https://logos.stockflare.com/2d0a60ea-fdd1-11e3-94de-395962980e00",
+            "ticker": "bery",
+            "ric": "bery.k",
+            "url": "https://stockflare.com/stock/bery.k"
+          },
+          {
+            "sic": "2d5e57b0-fdcf-11e3-86a1-55cee129d488",
+            "short_name": "Corcept Therapeutics Incorporated",
+            "logo_image": "https://logos.stockflare.com/2d5e57b0-fdcf-11e3-86a1-55cee129d488",
+            "ticker": "cort",
+            "ric": "cort.o",
+            "url": "https://stockflare.com/stock/cort.o"
+          },
+          {
+            "sic": "30be95b2-fdd1-11e3-b1f0-07d4c4d856b9",
+            "short_name": "Molina Healthcare, Inc.",
+            "logo_image": "https://logos.stockflare.com/30be95b2-fdd1-11e3-b1f0-07d4c4d856b9",
+            "ticker": "moh",
+            "ric": "moh",
+            "url": "https://stockflare.com/stock/moh"
+          },
+          {
+            "sic": "314ea60d-fab2-452a-bc36-df0e3d40fb92",
+            "short_name": "Amcor Limited (ADR)",
+            "logo_image": "https://logos.stockflare.com/314ea60d-fab2-452a-bc36-df0e3d40fb92",
+            "ticker": "amcry",
+            "ric": "amcry.pk",
+            "url": "https://stockflare.com/stock/amcry.pk"
+          },
+          {
+            "sic": "369814dc-fdd0-11e3-bc46-779c493c259d",
+            "short_name": "Strayer Education Inc",
+            "logo_image": "https://logos.stockflare.com/369814dc-fdd0-11e3-bc46-779c493c259d",
+            "ticker": "stra",
+            "ric": "stra.o",
+            "url": "https://stockflare.com/stock/stra.o"
+          },
+          {
+            "sic": "3b7d5066-fdd0-11e3-9326-23f7279264c7",
+            "short_name": "NxStage Medical, Inc.",
+            "logo_image": "https://logos.stockflare.com/3b7d5066-fdd0-11e3-9326-23f7279264c7",
+            "ticker": "nxtm",
+            "ric": "nxtm.o",
+            "url": "https://stockflare.com/stock/nxtm.o"
+          },
+          {
+            "sic": "3c71963e-fdd1-11e3-a75b-47375bc0cb50",
+            "short_name": "Belden Inc.",
+            "logo_image": "https://logos.stockflare.com/3c71963e-fdd1-11e3-a75b-47375bc0cb50",
+            "ticker": "bdc",
+            "ric": "bdc",
+            "url": "https://stockflare.com/stock/bdc"
+          },
+          {
+            "sic": "46ec4bba-6855-11e4-9fbc-37c5d65c2573",
+            "short_name": "Aerie Pharmaceuticals Inc",
+            "logo_image": "https://logos.stockflare.com/46ec4bba-6855-11e4-9fbc-37c5d65c2573",
+            "ticker": "aeri",
+            "ric": "aeri.o",
+            "url": "https://stockflare.com/stock/aeri.o"
+          },
+          {
+            "sic": "48f32665-6f59-4a17-86d0-0e7906f6a235",
+            "short_name": "Extraction Oil & Gas Inc",
+            "logo_image": "https://logos.stockflare.com/48f32665-6f59-4a17-86d0-0e7906f6a235",
+            "ticker": "xog",
+            "ric": "xog.o",
+            "url": "https://stockflare.com/stock/xog.o"
+          },
+          {
+            "sic": "496e28c2-6855-11e4-8f90-75a584088024",
+            "short_name": "Array Biopharma Inc",
+            "logo_image": "https://logos.stockflare.com/496e28c2-6855-11e4-8f90-75a584088024",
+            "ticker": "arry",
+            "ric": "arry.o",
+            "url": "https://stockflare.com/stock/arry.o"
+          },
+          {
+            "sic": "4d2badbd-364d-4859-876a-e7e169259079",
+            "short_name": "Australia and New Zealand Banking (ADR)",
+            "logo_image": "https://logos.stockflare.com/4d2badbd-364d-4859-876a-e7e169259079",
+            "ticker": "anzby",
+            "ric": "anzby.pk",
+            "url": "https://stockflare.com/stock/anzby.pk"
+          },
+          {
+            "sic": "529096a6-6855-11e4-8241-1930538f5e9b",
+            "short_name": "Tellurian Inc",
+            "logo_image": "https://logos.stockflare.com/529096a6-6855-11e4-8241-1930538f5e9b",
+            "ticker": "tell",
+            "ric": "tell.o",
+            "url": "https://stockflare.com/stock/tell.o"
+          },
+          {
+            "sic": "52fc934a-fdd1-11e3-9f28-6f1f0b80e6a8",
+            "short_name": "Owens & Minor, Inc.",
+            "logo_image": "https://logos.stockflare.com/52fc934a-fdd1-11e3-9f28-6f1f0b80e6a8",
+            "ticker": "omi",
+            "ric": "omi",
+            "url": "https://stockflare.com/stock/omi"
+          },
+          {
+            "sic": "545a690c-fdd0-11e3-87a1-49e173d7c3f7",
+            "short_name": "Central Garden & Pet Co",
+            "logo_image": "https://logos.stockflare.com/545a690c-fdd0-11e3-87a1-49e173d7c3f7",
+            "ticker": "cent",
+            "ric": "cent.o",
+            "url": "https://stockflare.com/stock/cent.o"
+          },
+          {
+            "sic": "584a7800-504f-11e4-a7e7-439ab0beb69d",
+            "short_name": "HubSpot Inc",
+            "logo_image": "https://logos.stockflare.com/584a7800-504f-11e4-a7e7-439ab0beb69d",
+            "ticker": "hubs",
+            "ric": "hubs.k",
+            "url": "https://stockflare.com/stock/hubs.k"
+          },
+          {
+            "sic": "59dbe8fc-66d4-11e4-a383-1354dcf2899a",
+            "short_name": "Liberty Broadband Corp",
+            "logo_image": "https://logos.stockflare.com/59dbe8fc-66d4-11e4-a383-1354dcf2899a",
+            "ticker": "lbrda",
+            "ric": "lbrda.o",
+            "url": "https://stockflare.com/stock/lbrda.o"
+          },
+          {
+            "sic": "6008395e-fdd1-11e3-b233-1d9d08d14a09",
+            "short_name": "TriNet Group Inc",
+            "logo_image": "https://logos.stockflare.com/6008395e-fdd1-11e3-b233-1d9d08d14a09",
+            "ticker": "tnet",
+            "ric": "tnet.k",
+            "url": "https://stockflare.com/stock/tnet.k"
+          },
+          {
+            "sic": "622e8d8c-fdd1-11e3-87fd-7fb8dc3dbc9d",
+            "short_name": "Quotient Technology Inc",
+            "logo_image": "https://logos.stockflare.com/622e8d8c-fdd1-11e3-87fd-7fb8dc3dbc9d",
+            "ticker": "quot",
+            "ric": "quot.k",
+            "url": "https://stockflare.com/stock/quot.k"
+          },
+          {
+            "sic": "702cc07c-6855-11e4-8ea1-6356e27a9c56",
+            "short_name": "Groupon Inc",
+            "logo_image": "https://logos.stockflare.com/702cc07c-6855-11e4-8ea1-6356e27a9c56",
+            "ticker": "grpn",
+            "ric": "grpn.o",
+            "url": "https://stockflare.com/stock/grpn.o"
+          },
+          {
+            "sic": "7066fd32-681d-11e5-892b-4be546e77d46",
+            "short_name": "Harsco Corporation",
+            "logo_image": "https://logos.stockflare.com/7066fd32-681d-11e5-892b-4be546e77d46",
+            "ticker": "hsc",
+            "ric": "hsc",
+            "url": "https://stockflare.com/stock/hsc"
+          },
+          {
+            "sic": "73ace6e7-1a66-4ac1-baf6-5687c217f0bf",
+            "short_name": "Liberty Braves Group",
+            "logo_image": "https://logos.stockflare.com/73ace6e7-1a66-4ac1-baf6-5687c217f0bf",
+            "ticker": "batra",
+            "ric": "batra.o",
+            "url": "https://stockflare.com/stock/batra.o"
+          },
+          {
+            "sic": "78e2dd6c-fdd1-11e3-a2f2-05ceb8764561",
+            "short_name": "USANA Health Sciences, Inc.",
+            "logo_image": "https://logos.stockflare.com/78e2dd6c-fdd1-11e3-a2f2-05ceb8764561",
+            "ticker": "usna",
+            "ric": "usna.k",
+            "url": "https://stockflare.com/stock/usna.k"
+          },
+          {
+            "sic": "7b524d92-3441-4336-a23c-d199e0fafb2f",
+            "short_name": "J Sainsbury plc (ADR)",
+            "logo_image": "https://logos.stockflare.com/7b524d92-3441-4336-a23c-d199e0fafb2f",
+            "ticker": "jsaiy",
+            "ric": "jsaiy.pk",
+            "url": "https://stockflare.com/stock/jsaiy.pk"
+          },
+          {
+            "sic": "7c86d826-6855-11e4-86af-1b6a9c6e1bdc",
+            "short_name": "PDC Energy Inc",
+            "logo_image": "https://logos.stockflare.com/7c86d826-6855-11e4-86af-1b6a9c6e1bdc",
+            "ticker": "pdce",
+            "ric": "pdce.o",
+            "url": "https://stockflare.com/stock/pdce.o"
+          },
+          {
+            "sic": "7f2f4ce8-6855-11e4-be04-19c506fc9a3f",
+            "short_name": "Sprint Corp",
+            "logo_image": "https://logos.stockflare.com/7f2f4ce8-6855-11e4-be04-19c506fc9a3f",
+            "ticker": "s",
+            "ric": "s",
+            "url": "https://stockflare.com/stock/s"
+          },
+          {
+            "sic": "82832c16-6855-11e4-ac50-3f959c65003e",
+            "short_name": "Aspen Technology, Inc.",
+            "logo_image": "https://logos.stockflare.com/82832c16-6855-11e4-ac50-3f959c65003e",
+            "ticker": "azpn",
+            "ric": "azpn.o",
+            "url": "https://stockflare.com/stock/azpn.o"
+          },
+          {
+            "sic": "832704ba-fdd1-11e3-bcf1-31e01a9cfc13",
+            "short_name": "Arcos Dorados Holding Inc",
+            "logo_image": "https://logos.stockflare.com/832704ba-fdd1-11e3-bcf1-31e01a9cfc13",
+            "ticker": "arco",
+            "ric": "arco.k",
+            "url": "https://stockflare.com/stock/arco.k"
+          },
+          {
+            "sic": "836c2c20-4f68-4250-aa1d-53280c7c1d53",
+            "short_name": "Tesco PLC (ADR)",
+            "logo_image": "https://logos.stockflare.com/836c2c20-4f68-4250-aa1d-53280c7c1d53",
+            "ticker": "tscdy",
+            "ric": "tscdy.pk",
+            "url": "https://stockflare.com/stock/tscdy.pk"
+          },
+          {
+            "sic": "84954c46-6855-11e4-8b5b-65a5b7919d33",
+            "short_name": "Noble Energy, Inc.",
+            "logo_image": "https://logos.stockflare.com/84954c46-6855-11e4-8b5b-65a5b7919d33",
+            "ticker": "nbl",
+            "ric": "nbl",
+            "url": "https://stockflare.com/stock/nbl"
+          },
+          {
+            "sic": "85f71312-6855-11e4-877f-6313e8a17b34",
+            "short_name": "Myriad Genetics, Inc.",
+            "logo_image": "https://logos.stockflare.com/85f71312-6855-11e4-877f-6313e8a17b34",
+            "ticker": "mygn",
+            "ric": "mygn.o",
+            "url": "https://stockflare.com/stock/mygn.o"
+          },
+          {
+            "sic": "864ba94e-fdcb-11e3-8b0b-4f3d76bd0392",
+            "short_name": "Teva Pharmaceutical Industries Ltd (ADR)",
+            "logo_image": "https://logos.stockflare.com/864ba94e-fdcb-11e3-8b0b-4f3d76bd0392",
+            "ticker": "teva",
+            "ric": "teva.k",
+            "url": "https://stockflare.com/stock/teva.k"
+          },
+          {
+            "sic": "89ec7480-6855-11e4-abd2-13b2a4d7ae0b",
+            "short_name": "Allstate Corp",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "all",
+            "ric": "all",
+            "url": "https://stockflare.com/stock/all"
+          },
+          {
+            "sic": "8c31a934-fdd1-11e3-a56c-35ac0f892996",
+            "short_name": "Fabrinet",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "fn",
+            "ric": "fn",
+            "url": "https://stockflare.com/stock/fn"
+          },
+          {
+            "sic": "8d643ba2-6855-11e4-b281-19caa2abc0cc",
+            "short_name": "Molson Coors Brewing Co",
+            "logo_image": "https://logos.stockflare.com/8d643ba2-6855-11e4-b281-19caa2abc0cc",
+            "ticker": "tap",
+            "ric": "tap",
+            "url": "https://stockflare.com/stock/tap"
+          },
+          {
+            "sic": "8d708096-fdcb-11e3-a4e5-69d35a823f05",
+            "short_name": "Rio Tinto plc (ADR)",
+            "logo_image": "https://logos.stockflare.com/8d708096-fdcb-11e3-a4e5-69d35a823f05",
+            "ticker": "rio",
+            "ric": "rio",
+            "url": "https://stockflare.com/stock/rio"
+          },
+          {
+            "sic": "8d8252b2-fdcb-11e3-a3ec-776d22dea9c9",
+            "short_name": "BHP Billiton Limited (ADR)",
+            "logo_image": "https://logos.stockflare.com/8d8252b2-fdcb-11e3-a3ec-776d22dea9c9",
+            "ticker": "bhp",
+            "ric": "bhp",
+            "url": "https://stockflare.com/stock/bhp"
+          },
+          {
+            "sic": "8ff1a92a-fdd1-11e3-af41-575d4899ea0e",
+            "short_name": "Navigant Consulting, Inc.",
+            "logo_image": "https://logos.stockflare.com/8ff1a92a-fdd1-11e3-af41-575d4899ea0e",
+            "ticker": "nci",
+            "ric": "nci",
+            "url": "https://stockflare.com/stock/nci"
+          },
+          {
+            "sic": "9076a960-6855-11e4-8b8e-2d2997e25dd5",
+            "short_name": "Spectranetics Corp",
+            "logo_image": "https://logos.stockflare.com/9076a960-6855-11e4-8b8e-2d2997e25dd5",
+            "ticker": "spnc",
+            "ric": "spnc.o",
+            "url": "https://stockflare.com/stock/spnc.o"
+          },
+          {
+            "sic": "919b8180-6855-11e4-935e-07889f07c204",
+            "short_name": "GGP Inc",
+            "logo_image": "https://logos.stockflare.com/919b8180-6855-11e4-935e-07889f07c204",
+            "ticker": "ggp",
+            "ric": "ggp",
+            "url": "https://stockflare.com/stock/ggp"
+          },
+          {
+            "sic": "9242495c-6855-11e4-a0ea-71b2efcdca75",
+            "short_name": "Mosaic Co",
+            "logo_image": "https://logos.stockflare.com/9242495c-6855-11e4-a0ea-71b2efcdca75",
+            "ticker": "mos",
+            "ric": "mos",
+            "url": "https://stockflare.com/stock/mos"
+          },
+          {
+            "sic": "93f60b26-6855-11e4-ad70-75322fa69230",
+            "short_name": "Quintiles IMS Holdings Inc",
+            "logo_image": "https://logos.stockflare.com/93f60b26-6855-11e4-ad70-75322fa69230",
+            "ticker": "q",
+            "ric": "q",
+            "url": "https://stockflare.com/stock/q"
+          },
+          {
+            "sic": "94e96072-fdcb-11e3-ab30-458c3ef3f301",
+            "short_name": "Novo Nordisk A/S (ADR)",
+            "logo_image": "https://logos.stockflare.com/94e96072-fdcb-11e3-ab30-458c3ef3f301",
+            "ticker": "nvo",
+            "ric": "nvo",
+            "url": "https://stockflare.com/stock/nvo"
+          },
+          {
+            "sic": "95d4d5d0-6855-11e4-be58-29b4a54cb205",
+            "short_name": "Littelfuse, Inc.",
+            "logo_image": "https://logos.stockflare.com/95d4d5d0-6855-11e4-be58-29b4a54cb205",
+            "ticker": "lfus",
+            "ric": "lfus.o",
+            "url": "https://stockflare.com/stock/lfus.o"
+          },
+          {
+            "sic": "96497675-a58e-4152-b1c7-39c7ddb6e28e",
+            "short_name": "National Australia Bank Ltd. (ADR)",
+            "logo_image": "https://logos.stockflare.com/96497675-a58e-4152-b1c7-39c7ddb6e28e",
+            "ticker": "nabzy",
+            "ric": "nabzy.pk",
+            "url": "https://stockflare.com/stock/nabzy.pk"
+          },
+          {
+            "sic": "98ac9a62-fdcb-11e3-995c-7fd8490b79ad",
+            "short_name": "BHP Billiton plc (ADR)",
+            "logo_image": "https://logos.stockflare.com/98ac9a62-fdcb-11e3-995c-7fd8490b79ad",
+            "ticker": "bbl",
+            "ric": "bbl",
+            "url": "https://stockflare.com/stock/bbl"
+          },
+          {
+            "sic": "9ba52734-fdcb-11e3-ac85-353a08fd88ae",
+            "short_name": "Gerdau SA (ADR)",
+            "logo_image": "https://logos.stockflare.com/9ba52734-fdcb-11e3-ac85-353a08fd88ae",
+            "ticker": "ggb",
+            "ric": "ggb",
+            "url": "https://stockflare.com/stock/ggb"
+          },
+          {
+            "sic": "9f6aa56a-fdcb-11e3-bc2d-61185f508b10",
+            "short_name": "POSCO (ADR)",
+            "logo_image": "https://logos.stockflare.com/9f6aa56a-fdcb-11e3-bc2d-61185f508b10",
+            "ticker": "pkx",
+            "ric": "pkx",
+            "url": "https://stockflare.com/stock/pkx"
+          },
+          {
+            "sic": "9ff5d8fa-fdd1-11e3-b0f9-116e0beb8228",
+            "short_name": "Quad/Graphics, Inc.",
+            "logo_image": "https://logos.stockflare.com/9ff5d8fa-fdd1-11e3-b0f9-116e0beb8228",
+            "ticker": "quad",
+            "ric": "quad.k",
+            "url": "https://stockflare.com/stock/quad.k"
+          },
+          {
+            "sic": "a0e581f8-fdcb-11e3-917e-494c995753a8",
+            "short_name": "Ryanair Holdings plc (ADR)",
+            "logo_image": "https://logos.stockflare.com/a0e581f8-fdcb-11e3-917e-494c995753a8",
+            "ticker": "ryaay",
+            "ric": "ryaay.o",
+            "url": "https://stockflare.com/stock/ryaay.o"
+          },
+          {
+            "sic": "a18eedc8-fdd1-11e3-9d75-15d252180426",
+            "short_name": "Inphi Corporation",
+            "logo_image": "https://logos.stockflare.com/a18eedc8-fdd1-11e3-9d75-15d252180426",
+            "ticker": "iphi",
+            "ric": "iphi.k",
+            "url": "https://stockflare.com/stock/iphi.k"
+          },
+          {
+            "sic": "a43f0966-6854-11e4-b887-49367cdb6256",
+            "short_name": "ArcelorMittal SA (ADR)",
+            "logo_image": "https://logos.stockflare.com/a43f0966-6854-11e4-b887-49367cdb6256",
+            "ticker": "mt",
+            "ric": "mt",
+            "url": "https://stockflare.com/stock/mt"
+          },
+          {
+            "sic": "a4776eb4-6854-11e4-9ce4-7dcf7e761938",
+            "short_name": "Cemex SAB de CV (ADR)",
+            "logo_image": "https://logos.stockflare.com/a4776eb4-6854-11e4-9ce4-7dcf7e761938",
+            "ticker": "cx",
+            "ric": "cx",
+            "url": "https://stockflare.com/stock/cx"
+          },
+          {
+            "sic": "a9459998-6854-11e4-80a9-3712a3cc7a84",
+            "short_name": "Mobil'nye Telesistemy PAO (ADR)",
+            "logo_image": "https://logos.stockflare.com/a9459998-6854-11e4-80a9-3712a3cc7a84",
+            "ticker": "mbt",
+            "ric": "mbt",
+            "url": "https://stockflare.com/stock/mbt"
+          },
+          {
+            "sic": "b03eeff4-fdcb-11e3-bc8f-5d92fb65277b",
+            "short_name": "Turkcell Iletisim Hizmetleri A.S. (ADR)",
+            "logo_image": "https://logos.stockflare.com/b03eeff4-fdcb-11e3-bc8f-5d92fb65277b",
+            "ticker": "tkc",
+            "ric": "tkc",
+            "url": "https://stockflare.com/stock/tkc"
+          },
+          {
+            "sic": "b13d35b0-6855-11e4-a93f-59fcf889d8e2",
+            "short_name": "VWR Corp",
+            "logo_image": "https://logos.stockflare.com/b13d35b0-6855-11e4-a93f-59fcf889d8e2",
+            "ticker": "vwr",
+            "ric": "vwr.o",
+            "url": "https://stockflare.com/stock/vwr.o"
+          },
+          {
+            "sic": "b1d068e8-fdcb-11e3-bcef-6b5f73ee878f",
+            "short_name": "Westpac Banking Corp (ADR)",
+            "logo_image": "https://logos.stockflare.com/b1d068e8-fdcb-11e3-bcef-6b5f73ee878f",
+            "ticker": "wbk",
+            "ric": "wbk",
+            "url": "https://stockflare.com/stock/wbk"
+          },
+          {
+            "sic": "b4786b30-fdd1-11e3-8bf3-2d88780e2109",
+            "short_name": "OneBeacon Insurance Group, Ltd.",
+            "logo_image": "https://logos.stockflare.com/b4786b30-fdd1-11e3-8bf3-2d88780e2109",
+            "ticker": "ob",
+            "ric": "ob",
+            "url": "https://stockflare.com/stock/ob"
+          },
+          {
+            "sic": "b5d3fffe-fdd0-11e3-b00c-69d4f497d7f2",
+            "short_name": "CBS Corporation",
+            "logo_image": "https://logos.stockflare.com/b5d3fffe-fdd0-11e3-b00c-69d4f497d7f2",
+            "ticker": "cbs",
+            "ric": "cbs",
+            "url": "https://stockflare.com/stock/cbs"
+          },
+          {
+            "sic": "bf1e1a9a-fdd0-11e3-bcca-3bcaac61db4d",
+            "short_name": "Anadarko Petroleum Corporation",
+            "logo_image": "https://logos.stockflare.com/bf1e1a9a-fdd0-11e3-bcca-3bcaac61db4d",
+            "ticker": "apc",
+            "ric": "apc",
+            "url": "https://stockflare.com/stock/apc"
+          },
+          {
+            "sic": "bff487b6-6855-11e4-aade-55cd9ba6605b",
+            "short_name": "Boyd Gaming Corporation",
+            "logo_image": "https://logos.stockflare.com/bff487b6-6855-11e4-aade-55cd9ba6605b",
+            "ticker": "byd",
+            "ric": "byd",
+            "url": "https://stockflare.com/stock/byd"
+          },
+          {
+            "sic": "c3f90cb0-fdcf-11e3-833b-05b4146c8eea",
+            "short_name": "Twenty-First Century Fox Inc",
+            "logo_image": "https://logos.stockflare.com/c3f90cb0-fdcf-11e3-833b-05b4146c8eea",
+            "ticker": "foxa",
+            "ric": "foxa.o",
+            "url": "https://stockflare.com/stock/foxa.o"
+          },
+          {
+            "sic": "c6814fd8-fdcf-11e3-888e-55af8be87803",
+            "short_name": "Mondelez International Inc",
+            "logo_image": "https://logos.stockflare.com/c6814fd8-fdcf-11e3-888e-55af8be87803",
+            "ticker": "mdlz",
+            "ric": "mdlz.o",
+            "url": "https://stockflare.com/stock/mdlz.o"
+          },
+          {
+            "sic": "c6fc2f8c-fdcf-11e3-9ad8-15c6c93e0564",
+            "short_name": "First Solar, Inc.",
+            "logo_image": "https://logos.stockflare.com/c6fc2f8c-fdcf-11e3-9ad8-15c6c93e0564",
+            "ticker": "fslr",
+            "ric": "fslr.o",
+            "url": "https://stockflare.com/stock/fslr.o"
+          },
+          {
+            "sic": "c838d07a-06d5-4f6d-bc5b-4053b01f6f01",
+            "short_name": "Floor & Decor Holdings Inc",
+            "logo_image": "https://logos.stockflare.com/c838d07a-06d5-4f6d-bc5b-4053b01f6f01",
+            "ticker": "fnd",
+            "ric": "fnd",
+            "url": "https://stockflare.com/stock/fnd"
+          },
+          {
+            "sic": "c8a385ec-fdcf-11e3-80ce-4deb4941ed64",
+            "short_name": "FireEye Inc",
+            "logo_image": "https://logos.stockflare.com/c8a385ec-fdcf-11e3-80ce-4deb4941ed64",
+            "ticker": "feye",
+            "ric": "feye.o",
+            "url": "https://stockflare.com/stock/feye.o"
+          },
+          {
+            "sic": "c8e768fc-fdcf-11e3-b4e9-570d04a42b44",
+            "short_name": "Citrix Systems, Inc.",
+            "logo_image": "https://logos.stockflare.com/c8e768fc-fdcf-11e3-b4e9-570d04a42b44",
+            "ticker": "ctxs",
+            "ric": "ctxs.o",
+            "url": "https://stockflare.com/stock/ctxs.o"
+          },
+          {
+            "sic": "c9eefae4-fdcf-11e3-9a75-37f556d9bc0f",
+            "short_name": "Liberty Global PLC",
+            "logo_image": "https://logos.stockflare.com/c9eefae4-fdcf-11e3-9a75-37f556d9bc0f",
+            "ticker": "lbtya",
+            "ric": "lbtya.o",
+            "url": "https://stockflare.com/stock/lbtya.o"
+          },
+          {
+            "sic": "ca7e29c6-fdcf-11e3-88f6-791d964756ad",
+            "short_name": "DISH Network Corp",
+            "logo_image": "https://logos.stockflare.com/ca7e29c6-fdcf-11e3-88f6-791d964756ad",
+            "ticker": "dish",
+            "ric": "dish.o",
+            "url": "https://stockflare.com/stock/dish.o"
+          },
+          {
+            "sic": "ca95e322-6855-11e4-be0c-275b989e9735",
+            "short_name": "Franks International NV",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "fi",
+            "ric": "fi",
+            "url": "https://stockflare.com/stock/fi"
+          },
+          {
+            "sic": "caeedb62-fdcf-11e3-9c4d-790f7904bfee",
+            "short_name": "Mylan NV",
+            "logo_image": "https://logos.stockflare.com/caeedb62-fdcf-11e3-9c4d-790f7904bfee",
+            "ticker": "myl",
+            "ric": "myl.o",
+            "url": "https://stockflare.com/stock/myl.o"
+          },
+          {
+            "sic": "cb963848-fdd0-11e3-aa14-196508fdbb96",
+            "short_name": "Yum! Brands, Inc.",
+            "logo_image": "https://logos.stockflare.com/cb963848-fdd0-11e3-aa14-196508fdbb96",
+            "ticker": "yum",
+            "ric": "yum",
+            "url": "https://stockflare.com/stock/yum"
+          },
+          {
+            "sic": "cbe1b4a8-fdd0-11e3-b912-450be7d845d1",
+            "short_name": "Delphi Automotive PLC",
+            "logo_image": "https://logos.stockflare.com/cbe1b4a8-fdd0-11e3-b912-450be7d845d1",
+            "ticker": "dlph",
+            "ric": "dlph.k",
+            "url": "https://stockflare.com/stock/dlph.k"
+          },
+          {
+            "sic": "ceef8a9a-fdcf-11e3-8d76-016fb0fb8a07",
+            "short_name": "Charter Communications Inc",
+            "logo_image": "https://logos.stockflare.com/ceef8a9a-fdcf-11e3-8d76-016fb0fb8a07",
+            "ticker": "chtr",
+            "ric": "chtr.o",
+            "url": "https://stockflare.com/stock/chtr.o"
+          },
+          {
+            "sic": "cffb3f92-6855-11e4-ab73-79cf00b856d3",
+            "short_name": "New York Times Co",
+            "logo_image": "https://logos.stockflare.com/cffb3f92-6855-11e4-ab73-79cf00b856d3",
+            "ticker": "nyt",
+            "ric": "nyt",
+            "url": "https://stockflare.com/stock/nyt"
+          },
+          {
+            "sic": "d01cd0b2-fdcf-11e3-8ffb-1ddef7b3821d",
+            "short_name": "Discovery Communications Inc.",
+            "logo_image": "https://logos.stockflare.com/d01cd0b2-fdcf-11e3-8ffb-1ddef7b3821d",
+            "ticker": "disca",
+            "ric": "disca.o",
+            "url": "https://stockflare.com/stock/disca.o"
+          },
+          {
+            "sic": "d0314f4c-fdcf-11e3-bc28-052ac0e13449",
+            "short_name": "Endo International PLC",
+            "logo_image": "https://logos.stockflare.com/d0314f4c-fdcf-11e3-bc28-052ac0e13449",
+            "ticker": "endp",
+            "ric": "endp.o",
+            "url": "https://stockflare.com/stock/endp.o"
+          },
+          {
+            "sic": "d0a501a8-fdcf-11e3-9330-313311ad6a29",
+            "short_name": "Automatic Data Processing",
+            "logo_image": "https://logos.stockflare.com/d0a501a8-fdcf-11e3-9330-313311ad6a29",
+            "ticker": "adp",
+            "ric": "adp.o",
+            "url": "https://stockflare.com/stock/adp.o"
+          },
+          {
+            "sic": "d10e3726-fdd0-11e3-8da0-15c1f100e10b",
+            "short_name": "RH",
+            "logo_image": "https://logos.stockflare.com/d10e3726-fdd0-11e3-8da0-15c1f100e10b",
+            "ticker": "rh",
+            "ric": "rh",
+            "url": "https://stockflare.com/stock/rh"
+          },
+          {
+            "sic": "d2801648-fdcf-11e3-a1eb-713ecdc0b308",
+            "short_name": "Akamai Technologies, Inc.",
+            "logo_image": "https://logos.stockflare.com/d2801648-fdcf-11e3-a1eb-713ecdc0b308",
+            "ticker": "akam",
+            "ric": "akam.o",
+            "url": "https://stockflare.com/stock/akam.o"
+          },
+          {
+            "sic": "d3879560-fdd0-11e3-96c2-23167db09491",
+            "short_name": "Perrigo Company PLC",
+            "logo_image": "https://logos.stockflare.com/d3879560-fdd0-11e3-96c2-23167db09491",
+            "ticker": "prgo",
+            "ric": "prgo.k",
+            "url": "https://stockflare.com/stock/prgo.k"
+          },
+          {
+            "sic": "d4f55b3a-fdd0-11e3-9a9a-335951f7e55d",
+            "short_name": "NRG Energy Inc",
+            "logo_image": "https://logos.stockflare.com/d4f55b3a-fdd0-11e3-9a9a-335951f7e55d",
+            "ticker": "nrg",
+            "ric": "nrg",
+            "url": "https://stockflare.com/stock/nrg"
+          },
+          {
+            "sic": "d5bc66f4-6855-11e4-bcb1-65ccf40de7b8",
+            "short_name": "Methode Electronics Inc.",
+            "logo_image": "https://logos.stockflare.com/d5bc66f4-6855-11e4-bcb1-65ccf40de7b8",
+            "ticker": "mei",
+            "ric": "mei",
+            "url": "https://stockflare.com/stock/mei"
+          },
+          {
+            "sic": "d901dad2-fdd0-11e3-b445-57726c144568",
+            "short_name": "Palo Alto Networks Inc",
+            "logo_image": "https://logos.stockflare.com/d901dad2-fdd0-11e3-b445-57726c144568",
+            "ticker": "panw",
+            "ric": "panw.k",
+            "url": "https://stockflare.com/stock/panw.k"
+          },
+          {
+            "sic": "da76a7b8-fdcf-11e3-8d52-19decc7b26d3",
+            "short_name": "AMC Networks Inc",
+            "logo_image": "https://logos.stockflare.com/da76a7b8-fdcf-11e3-8d52-19decc7b26d3",
+            "ticker": "amcx",
+            "ric": "amcx.o",
+            "url": "https://stockflare.com/stock/amcx.o"
+          },
+          {
+            "sic": "dac779da-fdd0-11e3-bf7e-0307599ace5a",
+            "short_name": "Hanesbrands Inc.",
+            "logo_image": "https://logos.stockflare.com/dac779da-fdd0-11e3-bf7e-0307599ace5a",
+            "ticker": "hbi",
+            "ric": "hbi",
+            "url": "https://stockflare.com/stock/hbi"
+          },
+          {
+            "sic": "dece563e-fdd0-11e3-a0a7-55ddcb19f938",
+            "short_name": "Estee Lauder Companies Inc",
+            "logo_image": "https://logos.stockflare.com/dece563e-fdd0-11e3-a0a7-55ddcb19f938",
+            "ticker": "el",
+            "ric": "el",
+            "url": "https://stockflare.com/stock/el"
+          },
+          {
+            "sic": "e0810719-c9d7-4e8d-ba35-4c5733bac7c9",
+            "short_name": "UBM Plc",
+            "logo_image": "https://logos.stockflare.com/e0810719-c9d7-4e8d-ba35-4c5733bac7c9",
+            "ticker": "ubmpy",
+            "ric": "ubmpy.pk",
+            "url": "https://stockflare.com/stock/ubmpy.pk"
+          },
+          {
+            "sic": "e143bfcc-fdcf-11e3-8f92-49d39c9a309d",
+            "short_name": "Verisk Analytics, Inc.",
+            "logo_image": "https://logos.stockflare.com/e143bfcc-fdcf-11e3-8f92-49d39c9a309d",
+            "ticker": "vrsk",
+            "ric": "vrsk.o",
+            "url": "https://stockflare.com/stock/vrsk.o"
+          },
+          {
+            "sic": "e2af11d6-6855-11e4-a6bb-4d51cfffe641",
+            "short_name": "Gigamon Inc",
+            "logo_image": "https://logos.stockflare.com/e2af11d6-6855-11e4-a6bb-4d51cfffe641",
+            "ticker": "gimo",
+            "ric": "gimo.k",
+            "url": "https://stockflare.com/stock/gimo.k"
+          },
+          {
+            "sic": "e9f6eed2-6855-11e4-8725-4b1dd743222d",
+            "short_name": "INC Research Holdings Inc",
+            "logo_image": "https://logos.stockflare.com/e9f6eed2-6855-11e4-8725-4b1dd743222d",
+            "ticker": "incr",
+            "ric": "incr.o",
+            "url": "https://stockflare.com/stock/incr.o"
+          },
+          {
+            "sic": "eb0b1fa4-fdd0-11e3-8f7d-41754ff6d1e2",
+            "short_name": "FleetCor Technologies, Inc.",
+            "logo_image": "https://logos.stockflare.com/eb0b1fa4-fdd0-11e3-8f7d-41754ff6d1e2",
+            "ticker": "flt",
+            "ric": "flt",
+            "url": "https://stockflare.com/stock/flt"
+          },
+          {
+            "sic": "f02c1308-fdd0-11e3-b831-21b10c827962",
+            "short_name": "Community Health Systems",
+            "logo_image": "https://logos.stockflare.com/f02c1308-fdd0-11e3-b831-21b10c827962",
+            "ticker": "cyh",
+            "ric": "cyh",
+            "url": "https://stockflare.com/stock/cyh"
+          },
+          {
+            "sic": "f10c1a26-6855-11e4-81f7-657c55d6cbbc",
+            "short_name": "Trinseo S.A.",
+            "logo_image": "https://logos.stockflare.com/f10c1a26-6855-11e4-81f7-657c55d6cbbc",
+            "ticker": "tse",
+            "ric": "tse",
+            "url": "https://stockflare.com/stock/tse"
+          },
+          {
+            "sic": "f10d2d52-fdd0-11e3-9324-49323aacb2c9",
+            "short_name": "Cliffs Natural Resources Inc",
+            "logo_image": "https://logos.stockflare.com/f10d2d52-fdd0-11e3-9324-49323aacb2c9",
+            "ticker": "clf",
+            "ric": "clf",
+            "url": "https://stockflare.com/stock/clf"
+          },
+          {
+            "sic": "f2495f66-fdcf-11e3-a98d-517bcd914c55",
+            "short_name": "DexCom, Inc.",
+            "logo_image": "https://logos.stockflare.com/f2495f66-fdcf-11e3-a98d-517bcd914c55",
+            "ticker": "dxcm",
+            "ric": "dxcm.o",
+            "url": "https://stockflare.com/stock/dxcm.o"
+          },
+          {
+            "sic": "f373257e-fdd0-11e3-b3be-5f06e4bf5ae7",
+            "short_name": "Tenet Healthcare Corp",
+            "logo_image": "https://logos.stockflare.com/f373257e-fdd0-11e3-b3be-5f06e4bf5ae7",
+            "ticker": "thc",
+            "ric": "thc",
+            "url": "https://stockflare.com/stock/thc"
+          },
+          {
+            "sic": "f43613b4-fdcf-11e3-a09b-61bd533a3451",
+            "short_name": "ACADIA Pharmaceuticals Inc.",
+            "logo_image": "https://logos.stockflare.com/f43613b4-fdcf-11e3-a09b-61bd533a3451",
+            "ticker": "acad",
+            "ric": "acad.o",
+            "url": "https://stockflare.com/stock/acad.o"
+          },
+          {
+            "sic": "f46cfc26-fdcf-11e3-b76a-693a92c287c2",
+            "short_name": "Insulet Corporation",
+            "logo_image": "https://logos.stockflare.com/f46cfc26-fdcf-11e3-b76a-693a92c287c2",
+            "ticker": "podd",
+            "ric": "podd.o",
+            "url": "https://stockflare.com/stock/podd.o"
+          },
+          {
+            "sic": "f8a79abd-e61c-4c12-b7a3-dcbc3b4d2e4f",
+            "short_name": "Cloudera Inc",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "cldr",
+            "ric": "cldr.k",
+            "url": "https://stockflare.com/stock/cldr.k"
+          },
+          {
+            "sic": "f8f5c1ac-fdce-11e3-91a7-01c40a531357",
+            "short_name": "SRC Energy Inc",
+            "logo_image": "https://public.stockflare.com/assets/alerts/alerts_missing_logo.png",
+            "ticker": "srci",
+            "ric": "srci.k",
+            "url": "https://stockflare.com/stock/srci.k"
+          },
+          {
+            "sic": "fbb31a5c-fdce-11e3-ba0e-137665688f35",
+            "short_name": "Straight Path Communications Inc",
+            "logo_image": "https://logos.stockflare.com/fbb31a5c-fdce-11e3-ba0e-137665688f35",
+            "ticker": "strp",
+            "ric": "strp.k",
+            "url": "https://stockflare.com/stock/strp.k"
+          },
+          {
+            "sic": "fcf2ede2-fdcf-11e3-825d-2d086ad6f01a",
+            "short_name": "CommVault Systems, Inc.",
+            "logo_image": "https://logos.stockflare.com/fcf2ede2-fdcf-11e3-825d-2d086ad6f01a",
+            "ticker": "cvlt",
+            "ric": "cvlt.o",
+            "url": "https://stockflare.com/stock/cvlt.o"
+          }
+        ],
         "language": "en",
-        "unsubscribe_token": "367cc3b3-fa22-425d-8f7d-3efefdf591ee",
-        "subscribed": true,
-        "subject": "14 alerts inc. TREI.NS PLNG.NS WCKH.NS IDEA.NS BPCL.NS",
-        "heading": "You have 14 unread alerts.",
-        "description": "We trigger alerts for stocks that you have in your watchlist and portfolio.",
-        "weekly": true,
-        "visit_alerts": "Visit Alerts",
-        "gift_text": "Gift a friend 14 days of free Stockflare Plus and get",
-        "gift_link": "1 month free",
-        "subscribed_message": "Thank you for subscribing to Stockflare Plus.",
-        "alert_settings": "Alert Settings",
-        "footer_more_details": "Stockflare Limited. For more details on Stockflare Plus visit",
-        "footer_here": "here",
-        "footer_contact": "Contact us at:",
-        "update_prefs": "Update your preferences at the",
-        "footer_settings": "settings page",
-        "footer_click": "or please click",
-        "footer_unsubscribe": "here to unsubscribe."
+        "email_address": "phigotpho@yahoo.com",
+        "has_new": true,
+        "has_lost": true,
+        "new_heading": "The following stocks are now in Movers & Shakers",
+        "lost_heading": "The follwing stocks are no longer in Movers & Shakers",
+        "view_category": "View Movers & Shakers",
+        "unsubscribe_text": "Click here to unsubscribe",
+        "unsubscribe_link": "Unsubscribe",
+        "unsubscribe_url": "https://stockflare.com/explore_history/unsubscribe?token=0af0e4ee-7c56-406c-8099-1efc83b49d74"
       }
     },
     "Payload": {
